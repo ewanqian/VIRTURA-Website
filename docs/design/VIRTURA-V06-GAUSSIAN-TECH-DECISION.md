@@ -5,6 +5,21 @@
 **Proof of concept:** [design/timer-gaussian-fullscreen-poc.html](../../design/timer-gaussian-fullscreen-poc.html). The PoC uses a known public SuperSplat iframe and explicitly **does not claim scene-ready load status**.  
 **Critical stop:** `design/space-v05-preview.html` is rejected as the production user experience. The separate branch `deploy/space-v05-as-public-entry-20261108` must not be merged without a completely new review.
 
+## Product priority correction — Navigation first, Gaussian optional
+
+**Owner clarification (2026-11-08): Space map / navigation architecture is the primary product. Gaussian rendering is not the primary architecture.** A spectacular TIMER scene without an understandable way to choose, locate, enter and return from worlds does not pass acceptance.
+
+Required first implementation:
+1. **Spatial topology and navigation model:** a coherent set of destinations with world ID, readable name/category (e.g. Balloon = 视听展演空间), route, parent region, position or explicit grouping, actual availability, entry type, return route and versioned credits.
+2. **First-screen selection/inspect/enter/return:** one high-quality, appropriately authored overview (2D, 2.5D or 3D) where visitors recognize the port, see selectable destinations, inspect just one selected node and enter a real published route. No 4×3 grid mandate and no information-essay overlays.
+3. **One real end-to-end route:** SpacePort → Balloon programme/archive (or another verified destination) → Back. Show what actually opens; never label a GitHub README as an interactive 3D world.
+4. **Visual and content contract:** source-derived world cover/camera angles, shared site navigation, restrained labels, consistent hover/focus/loading/error, mobile and keyboard path; preserve existing Studio works and credits.
+5. **Gaussian as a replaceable rendering layer:** TIMER SuperSplat can serve a featured artwork or optional ambiance scene, provided the portal still operates with a static poster. It must not delay or dictate navigation data, interactions, route design or the above acceptance gates.
+
+**Engineering implication:** Build a small `worlds.json` or typed route registry, navigation state and DOM inspector first. Then choose among static imagery, SVG/Canvas map, Three.js / R3F or PlayCanvas per world as warranted. Use a single shared UI layer; don't introduce R3F as a prerequisite for the map, nor require 3DGS export before the map can ship.
+
+**Priority order:** (1) usable map/routes and one real destination, (2) accepted world visual system, (3) real device/browser QA, (4) optional Gaussian runtime and enhancement, (5) account/subscriptions/commercial services. A Gaussian background passing its own load test without a working destination map is **NOT DONE**.
+
 ## 1. Verified source reality (do not infer data)
 
 The user's personal Portfolio contains `archive/gaussian-scenes/scenes.json`, `scenes-source.json`, `assets/gaussian-scenes/timer-gaussian-0531.webp`, and `works/timer.html` with this public iframe.
@@ -92,19 +107,19 @@ Infrastructure: existing GitHub + Cloudflare Pages can host frontend, static thu
 
 ## 6. Priority ranking across R01–R10
 
-| First | Task | Why / gate |
+| Order | Task | Gate |
 |---|---|---|
-| 0 | **R01/R02 editor-close** | Already merged evidence needs editorial closure; preserve deploy baseline and known mobile overflow/locale issues |
-| 1 | **R03 + R04 one approved screen** | Freeze visual system and world map composition before copying any code into `/apps/` |
-| 2 | **R05 TIMER asset export/provenance** | Obtain actual SOG and camera path, confirm image and source rights; frame 16:9 source |
-| 3 | **TIMER Gaussian proof + benchmark** | Build validated full-screen path; first-frame, fallback, mobile GPU and real action |
-| 4 | **R06 edition credits** | Keep collaborative original and individual spatial study distinct |
-| 5 | **R07 two playable routes** | At least SpacePort → real station and SceneForge → actually usable preview |
-| 6 | **R08 world/IP map and asset graph** | Geography authored, not generic arrows/icons |
-| 7 | **R09 shareable manifest/state** | Work/version/space/deep links; avoid premature login/SDK sprawl |
-| 8 | **R10 content channel/commerce** | Only after a real Green Belt/Balloon finished episode and operation owner |
+| 0 | **R01/R02 editor-close** | Close baseline/evidence review and preserve existing route QA |
+| 1 | **R03 spatial route system** | Define the port's places, categories, edges, URLs, statuses and back navigation; require one usable map interaction |
+| 2 | **R04 navigation-first VI** | Approve selected world presentation and short labels, avoiding 4×3 rigidity or documentation-like layouts |
+| 3 | **R07 one real route** | SpacePort → verified destination (e.g. Balloon) → Back, desktop/mobile/bilingual acceptance |
+| 4 | **R05 source/cover mapping** | Real world assets, art direction, accurate provenance and image fallbacks |
+| 5 | **R06 credits and publication truth** | Edition-specific credits and no misleading claims about available apps |
+| 6 | **Optional TIMER Gaussian study** | Separate PlayCanvas/iframe benchmark after navigation works; real SOG export and first-frame proof before production background |
+| 7 | **R08 IP / world content graph** | World Bible, navigable regions, story/archival links, independent URL conventions |
+| 8 | **R09 SDK/account, R10 monetization** | Only after useful routes, measured engagement and operation owner |
 
-**WIP limit:** one graphics prototype plus one data/QA task, not five simultaneous pages. Existing Studio homepage and services should remain unchanged until the first Space route passes visual acceptance.
+**Stop rule:** no visual, WebGL, Gaussian or framework upgrade is eligible to ship if it does not preserve the primary navigation contract. The iframe PoC belongs to an optional graphics experiment, not the product's critical path.
 
 ## 7. Hard acceptance gates before changing `/apps/`
 
