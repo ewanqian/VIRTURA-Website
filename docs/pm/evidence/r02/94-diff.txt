@@ -1,0 +1,735 @@
+diff --git a/NOW.md b/NOW.md
+index 2bc85e24..76023e37 100644
+--- a/NOW.md
++++ b/NOW.md
+@@ -1,17 +1,30 @@
+ # NOW / Current Practice
+ 
+-Last updated: 2026-10-25
++Last updated: 2026-10-29
+ 
+ This page is the public-safe working layer between finished portfolio projects and research that is still changing.
+ 
+ It is intentionally **not** the homepage Selected Works list.
+ 
++## PM Focus / 2026-10-29
++
++The current portfolio-management decision is to stop expanding the system sideways and concentrate on **two P0 gates**:
++
++1. **ENTROPY / FIELD INDEX** — convert the completed 2026-09-05 performance into a finished case study by reconciling what actually shipped, selecting final documentation, confirming credits and extracting one readable system diagram.
++2. **Stage Casting 04 — Spatial Performance Instrument** — prove one real Apple Vision Pro / WebXR → control → OSC / Ableton / Max-Jitter → audiovisual performance path before the 2026-12-04 target, including a failure fallback and a documented rehearsal artifact.
++
++**P1:** consolidate REACTOR 2026 credits/media and close the 2026 Rolling CV evidence gaps.  
++**HOLD:** new Spatial Media Systems framework branches, ReStage / OPS expansion, and additional No Further Input Required prototypes until their current proof gates are met.
++
++Portfolio Gatekeeper: Issue #93.  
++Detailed review: `docs/portfolio-maintenance-os/reviews/2026-10-29-pm-review.md`.
++
+ ## 1. Stage Casting 04 — Spatial Performance Instrument
+ 
+-**Status:** active research  
++**Status:** active research · **PM: P0**  
+ **Focus:** Apple Vision Pro / WebXR spatial input → performance state → OSC / Ableton / Max-Jitter / realtime audiovisual output  
+ **Current evidence:** the repository already contains the `Spatial Playground` WebXR branch and performance-control research scaffold.  
+-**Next gate:** real-device and stage-network verification, plus one documented end-to-end performance path.  
++**Next gate:** one real-device end-to-end rehearsal with documented connection/latency observations and a fallback path.  
+ **Homepage:** no — research remains in the research/archive layer until there is a finished public outcome.
+ 
+ Relevant source:
+@@ -19,55 +32,55 @@ Relevant source:
+ 
+ ## 2. Spatial Media Systems
+ 
+-**Status:** long-term practice framework  
++**Status:** long-term practice framework · **PM: HOLD**  
+ **Focus:** `CAPTURE → WORLD → LIVE → SPACE → ARCHIVE → REUSE`  
+ **Role:** consolidate spatial capture, realtime worlds, venue delivery, Vision Pro / web preview, documentation and reusable archive methods without turning the artist site into a product dashboard.  
+-**Next gate:** prove the same pipeline across multiple real projects.
++**Next gate:** package another real case study through the existing pipeline before creating new framework branches.
+ 
+ Tracking: Issue #74.
+ 
+ ## 3. ENTROPY / FIELD INDEX
+ 
+-**Status:** performance completed; case-study packaging active  
++**Status:** performance completed; case-study packaging active · **PM: P0**  
+ **Public event:** ENTROPY, 2026-09-05, GWANTSI XR Studio, Shanghai  
+ **Ewan role:** realtime visual / spatial image / live visual system  
+ **Working system:** FIELD INDEX — SRE Live Visual System  
+-**Next gate:** post-show documentation, system diagram, selected live images/video, and a concise case study that distinguishes finished performance evidence from pre-show R&D.
++**Next gate:** select final live documentation, confirm final credits, extract one readable system diagram, and separate what actually shipped from pre-show ideas / unchecked production TODOs; then review for `case-study-ready`.
+ 
+ Tracking: Issue #70.
+ 
+ ## 4. REACTOR 2026 / Live Visual Systems
+ 
+-**Status:** live practice completed in multiple 2026 nodes; portfolio packaging still incomplete  
++**Status:** live practice completed in multiple 2026 nodes; portfolio packaging still incomplete · **PM: P1**  
+ **Focus:** high-resolution live visual systems, spatial screen composition, machine/infrastructure visual language and reusable live-set structure.  
+-**Next gate:** consolidate the 2026 live nodes into one canonical case-study record with confirmed credits, dates, selected media and a clear distinction between project, event and system lineage.  
++**Next gate:** consolidate exact event/date/venue/artist credit/Ewan role plus 3–8 public-safe media items, then decide whether REACTOR is a standalone case study, archive line or supporting evidence inside Live System 2026.  
+ **Homepage:** no automatic promotion while packaging remains incomplete.
+ 
+ Related portfolio planning: Issues #35 / #36.
+ 
+ ## 5. Performance Control Model / Personal A/V Instrument
+ 
+-**Status:** long-term research + workshop line  
++**Status:** long-term research + workshop line · **PM: P1**  
+ **Focus:** low-dimensional input, state, phrase, shared structure, safe complexity and playable audiovisual systems.  
+ **Evidence:** research documentation, browser experiments and the 2026-08-29 workshop archive exist in the repository.  
+-**Next gate:** keep workshop evidence, research claims and future teaching plans separated; only validated public outcomes graduate into CV / Works.
++**Next gate:** use the model to support the Stage Casting real-device proof; keep completed workshop evidence separate from future research plans.
+ 
+ Tracking: Issues #15 / #59.
+ 
+ ## 6. No Further Input Required / 无需进一步输入
+ 
+-**Status:** active artwork R&D  
++**Status:** active artwork R&D · **PM: HOLD**  
+ **Format direction:** single-channel audiovisual artwork / exhibition runtime  
+ **Focus:** input history, accumulation, residue, recall and continued system behaviour after direct input is reduced.  
+-**Next gate:** finished artwork evidence rather than expanding prototype count.
++**Next gate:** a finished runtime, exhibition proof, screening or submission-ready artifact — not another prototype-count milestone.
+ 
+ Tracking: Issues #24 / #56.
+ 
+ ## 7. ReStage / Open Performance Scene
+ 
+-**Status:** long-term research  
++**Status:** long-term research · **PM: HOLD**  
+ **Focus:** reconstructing and re-executing live audiovisual performance spaces across Web, Unity and spatial computing, with explicit provenance for measured / simulated / designed information.  
+-**Next gate:** one small end-to-end OPS v0.1 proof before expanding into a platform.
++**Next gate:** one small real-room OPS v0.1 proof from one canonical data package before expanding the research checklist or platform scope.
+ 
+ Tracking: Issue #76.
+ 
+diff --git a/database/active_practice.json b/database/active_practice.json
+index a307072b..15b1e5b6 100644
+--- a/database/active_practice.json
++++ b/database/active_practice.json
+@@ -1,7 +1,16 @@
+ {
+-  "schemaVersion": 1,
+-  "updatedAt": "2026-10-25",
++  "schemaVersion": 2,
++  "updatedAt": "2026-10-29",
+   "purpose": "Track active personal practice without automatically promoting unfinished work to public Selected Works.",
++  "portfolioManager": {
++    "role": "Portfolio Project Manager / Gatekeeper",
++    "issue": 93,
++    "lastReviewAt": "2026-10-29",
++    "nextReviewAt": "2026-11-05",
++    "maxP0": 2,
++    "priorityRule": "portfolio value × urgency × evidence readiness",
++    "stopRule": "freeze sideways expansion that does not improve a concrete public outcome"
++  },
+   "lifecycle": [
+     "active-research",
+     "documented",
+@@ -15,13 +24,22 @@
+       "title": "Stage Casting 04 — Spatial Performance Instrument",
+       "type": "research",
+       "status": "active-research",
++      "pmPriority": "P0",
++      "pmDecision": "Prove one real-device end-to-end performance path before the target event; do not optimize for prototype count.",
+       "publicVisibility": "research-repo",
+       "homepageEligible": false,
+       "targetDate": "2026-12-04",
+       "practiceLine": "Realtime Systems & Creative Tools",
+       "summary": "Apple Vision Pro / WebXR spatial input research connected to performance state, OSC, Ableton, Max/Jitter and realtime audiovisual output.",
+       "evidenceStatus": "research scaffold exists; real-device and stage-network verification incomplete",
+-      "nextGate": "Document one verified end-to-end Vision Pro/WebXR → control → audio/visual performance path on real hardware.",
++      "blockers": [
++        "real Vision Pro / WebXR end-to-end device proof not yet recorded",
++        "stage-network and failure fallback not yet documented",
++        "no rehearsal artifact proving the full control chain"
++      ],
++      "nextGate": "Document one verified end-to-end Vision Pro/WebXR → control → OSC/Ableton/Max-Jitter → audio/visual performance path on real hardware, including one failure fallback and one rehearsal artifact.",
++      "stopDoing": "Do not expand demo count or write the 2026-12-04 target as a completed public credit before it happens.",
++      "lastReviewedAt": "2026-10-29",
+       "sourceRefs": [
+         "research/performance-control-model/experiments/spatial-playground-webxr/README.md",
+         "research/performance-control-model/experiments/spatial-playground-webxr/TASKBOOK.md"
+@@ -32,12 +50,19 @@
+       "title": "Spatial Media Systems",
+       "type": "practice-framework",
+       "status": "active-research",
++      "pmPriority": "HOLD",
++      "pmDecision": "Keep the framework but freeze new architecture branches until another real project is packaged through the existing pipeline.",
+       "publicVisibility": "research-repo",
+       "homepageEligible": false,
+       "practiceLine": "Spatial Image & Scanning",
+       "summary": "Long-term framework linking capture, world building, live control, spatial output, archive and reuse.",
+       "evidenceStatus": "mother issue exists; proof distributed across multiple projects",
+-      "nextGate": "Show the same Capture → World → Live → Space → Archive pipeline surviving across at least three real case studies.",
++      "blockers": [
++        "framework breadth exceeds the amount of fully packaged cross-project evidence"
++      ],
++      "nextGate": "Package another real case study through the existing Capture → World → Live → Space → Archive pipeline before expanding the framework.",
++      "stopDoing": "Do not add another transport/platform/framework branch merely because it is technically adjacent.",
++      "lastReviewedAt": "2026-10-29",
+       "issue": 74
+     },
+     {
+@@ -45,6 +70,8 @@
+       "title": "ENTROPY / FIELD INDEX",
+       "type": "live-performance-system",
+       "status": "documented",
++      "pmPriority": "P0",
++      "pmDecision": "Convert the completed performance from a production-plan record into a finished public case study.",
+       "publicVisibility": "public-safe",
+       "homepageEligible": false,
+       "date": "2026-09-05",
+@@ -52,8 +79,15 @@
+       "practiceLine": "Live Audiovisual",
+       "role": "Realtime visual / spatial image / live visual system",
+       "summary": "FIELD INDEX / SRE live visual production developed for the ENTROPY immersive audiovisual performance.",
+-      "evidenceStatus": "production issue exists; post-show case-study packaging still needed",
+-      "nextGate": "Add selected live documentation, system diagram, concise credits and post-show notes, then review for case-study-ready status.",
++      "evidenceStatus": "event/role are documented and production architecture is extensive; final post-show media selection and shipped-vs-planned reconciliation remain incomplete",
++      "blockers": [
++        "final live documentation selection not recorded in the portfolio system",
++        "pre-show production TODOs are not separated from what actually shipped",
++        "no concise final case-study package yet"
++      ],
++      "nextGate": "Select final live documentation, write concise bilingual summary and credits, extract one readable system diagram, and reconcile shipped performance elements against pre-show plans; then review for case-study-ready status.",
++      "stopDoing": "Do not add new FIELD INDEX subsystems unless they preserve or explain what actually shipped in ENTROPY.",
++      "lastReviewedAt": "2026-10-29",
+       "issue": 70
+     },
+     {
+@@ -61,12 +95,21 @@
+       "title": "REACTOR 2026 / Live Visual Systems",
+       "type": "live-practice-line",
+       "status": "documented",
++      "pmPriority": "P1",
++      "pmDecision": "Consolidate existing live evidence into one canonical record before doing any additional portfolio presentation work.",
+       "publicVisibility": "archive-until-packaged",
+       "homepageEligible": false,
+       "practiceLine": "Live Audiovisual",
+       "summary": "2026 live visual practice extending machine, infrastructure, signal and large-format spatial-screen language into reusable live-set systems.",
+       "evidenceStatus": "multiple live nodes are known; one canonical portfolio case-study record is still missing",
+-      "nextGate": "Consolidate confirmed dates, events, credits, selected images/video and system lineage into one canonical case-study record.",
++      "blockers": [
++        "exact event/date/venue/artist-credit records are fragmented",
++        "selected public-safe media set not consolidated",
++        "standalone-case-study vs broader Live System role is unresolved"
++      ],
++      "nextGate": "Consolidate confirmed dates, events, credits, Ewan role and 3–8 selected public-safe media items, then decide standalone case study vs archive line vs evidence inside the broader 2026 Live System narrative.",
++      "stopDoing": "Do not create another REACTOR umbrella or duplicate event page before the canonical record is resolved.",
++      "lastReviewedAt": "2026-10-29",
+       "sourceRefs": ["issues/35", "issues/36"]
+     },
+     {
+@@ -74,12 +117,19 @@
+       "title": "Performance Control Model / Personal A/V Instrument",
+       "type": "research-workshop",
+       "status": "documented",
++      "pmPriority": "P1",
++      "pmDecision": "Support Stage Casting and finished workshop evidence; avoid growing the model as an abstract taxonomy without a live proof.",
+       "publicVisibility": "research-and-workshop",
+       "homepageEligible": false,
+       "practiceLine": "Realtime Systems & Creative Tools",
+       "summary": "Long-term research into playable audiovisual systems based on state, phrase, shared structure, safe complexity and low-bandwidth performer input.",
+       "evidenceStatus": "research documents, browser experiments and 2026-08-29 workshop archive exist",
+-      "nextGate": "Separate validated workshop evidence from future plans and promote only stable research outputs or completed sessions.",
++      "blockers": [
++        "research outputs and teaching outputs are not always separated from future plans"
++      ],
++      "nextGate": "Use the model to support one verified Stage Casting performance path and keep completed workshop evidence distinct from speculative research claims.",
++      "stopDoing": "Do not add model layers that are not required by a current experiment, performance or public explanation.",
++      "lastReviewedAt": "2026-10-29",
+       "issues": [15, 59]
+     },
+     {
+@@ -87,12 +137,19 @@
+       "title": "No Further Input Required / 无需进一步输入",
+       "type": "artwork",
+       "status": "active-research",
++      "pmPriority": "HOLD",
++      "pmDecision": "Freeze prototype-count expansion; the next accepted action must produce a finished-artwork proof.",
+       "publicVisibility": "artwork-rd",
+       "homepageEligible": false,
+       "practiceLine": "Media Art",
+       "summary": "Single-channel audiovisual artwork research around input history, accumulation, residue, recall and continued system behaviour after direct input is reduced.",
+       "evidenceStatus": "artwork and native-runtime R&D issues exist; finished exhibition evidence remains the promotion gate",
+-      "nextGate": "Lock and document a finished artwork runtime / exhibition outcome instead of expanding prototype count.",
++      "blockers": [
++        "finished runtime / exhibition / screening evidence is not yet the dominant artifact"
++      ],
++      "nextGate": "Produce and document a finished runtime, exhibition proof, screening or submission-ready artifact.",
++      "stopDoing": "Do not increase prototype count as a substitute for finishing the artwork.",
++      "lastReviewedAt": "2026-10-29",
+       "issues": [24, 56]
+     },
+     {
+@@ -100,12 +157,20 @@
+       "title": "ReStage — Re-executable Performance Space / OPS",
+       "type": "research",
+       "status": "active-research",
++      "pmPriority": "HOLD",
++      "pmDecision": "Freeze checklist expansion until one small real-room OPS v0.1 proof exists or a concrete project requires the research.",
+       "publicVisibility": "research-repo",
+       "homepageEligible": false,
+       "practiceLine": "Spatial Media Systems",
+       "summary": "Research into reconstructing and re-executing live audiovisual performance spaces across Web, Unity and spatial computing with explicit provenance.",
+-      "evidenceStatus": "research brief and long-term issue exist",
+-      "nextGate": "Complete one small OPS v0.1 end-to-end proof before platform expansion.",
++      "evidenceStatus": "research brief and long-term issue exist; Demo 0.1 acceptance path remains unproven",
++      "blockers": [
++        "OPS v0.1 real-room end-to-end proof not yet demonstrated",
++        "scope is much larger than the smallest acceptance test"
++      ],
++      "nextGate": "Complete one small real-room OPS v0.1 proof that loads from one canonical data package before resuming platform-scale research.",
++      "stopDoing": "Do not add more AI/acoustics/platform research tasks before Demo 0.1 proves the core path.",
++      "lastReviewedAt": "2026-10-29",
+       "issue": 76
+     }
+   ]
+diff --git a/docs/portfolio-maintenance-os/PROJECT-MANAGER.md b/docs/portfolio-maintenance-os/PROJECT-MANAGER.md
+new file mode 100644
+index 00000000..e813c24a
+--- /dev/null
++++ b/docs/portfolio-maintenance-os/PROJECT-MANAGER.md
+@@ -0,0 +1,251 @@
++# Portfolio Project Manager / Gatekeeper
++
++Last updated: 2026-10-29
++
++## Role
++
++The Portfolio Project Manager exists to convert ongoing practice into finished public outcomes without allowing the repository, website or research program to expand sideways indefinitely.
++
++This role is deliberately conservative.
++
++It does **not** reward activity, prototype count, novelty or tool complexity by themselves.
++
++It rewards:
++
++- verified public outcomes;
++- clear authorship and credits;
++- strong documentation;
++- finished case studies;
++- reusable evidence;
++- projects that materially improve the public portfolio.
++
++Long-running tracker: **Issue #93**.
++
++## Core PM questions
++
++Every review must answer:
++
++1. What actually changed since the previous review?
++2. Which line has the highest combination of public value, urgency and evidence readiness?
++3. What is the single next gate for each active line?
++4. What is blocking that gate?
++5. What should be frozen because it expands scope without improving a deliverable?
++6. Did any project earn promotion from research → documented → public-safe → case-study-ready → selected-work?
++7. Did any project need demotion because a target slipped, evidence disappeared or assumptions proved false?
++
++## Priority classes
++
++### P0 — ship / prove now
++
++Only use P0 when one of these is true:
++
++- a hard public date is approaching;
++- a completed project is one small packaging step away from becoming a strong case study;
++- a blocked evidence gap is preventing CV / application / public use.
++
++Maximum recommended P0 lines at one time: **2**.
++
++### P1 — prepare next
++
++Important, but should not interrupt P0.
++
++Typical work:
++
++- consolidate credits;
++- collect media;
++- normalize naming;
++- prepare archive structure;
++- reduce ambiguity before packaging.
++
++### HOLD — intentionally frozen
++
++A valid project can be HOLD without being abandoned.
++
++Use HOLD when:
++
++- the next action is another prototype with no public proof;
++- the project is expanding architecture before its current version is validated;
++- a better project currently has higher urgency / evidence readiness;
++- required hardware, venue, collaborator or source material is missing.
++
++HOLD exists to protect focus.
++
++## Current portfolio review — 2026-10-29
++
++### P0 — ENTROPY / FIELD INDEX
++
++**Decision:** convert completed performance into a finished case study.
++
++Why now:
++
++- public event is complete;
++- role and event context are already documented;
++- the production system is substantial;
++- the current source issue still reads mainly as a pre-show production plan.
++
++Next gate:
++
++1. choose final live documentation;
++2. write concise bilingual summary + credits;
++3. extract one clear system diagram;
++4. distinguish shipped performance elements from pre-show ideas / unchecked tasks;
++5. review for `case-study-ready`.
++
++Stop doing:
++
++- no new FIELD INDEX subsystem unless needed to explain or preserve what actually shipped;
++- no more pre-show feature accumulation.
++
++### P0 — Stage Casting 04 — Spatial Performance Instrument
++
++**Decision:** prove one real-device end-to-end path before 2026-12-04.
++
++Next gate:
++
++```text
++Apple Vision Pro / WebXR input
++→ performance state
++→ OSC / control bridge
++→ Ableton / Max-Jitter / realtime audiovisual output
++→ documented rehearsal result
++```
++
++Required alongside the main path:
++
++- one network/device failure fallback;
++- one real-hardware rehearsal artifact;
++- explicit latency / connection observations sufficient for the next iteration.
++
++Stop doing:
++
++- do not increase the demo count merely to hit a prototype quota;
++- do not mark the future performance as completed CV evidence before it happens.
++
++### P1 — REACTOR 2026 / Live Visual Systems
++
++**Decision:** consolidate, do not expand.
++
++Next gate:
++
++- exact event title(s);
++- date(s);
++- venue(s);
++- artist / collaborator credit;
++- Ewan role;
++- 3–8 public-safe media items;
++- one decision: standalone case study vs archive line vs evidence inside the broader 2026 Live System narrative.
++
++### P1 — 2026 Rolling CV evidence queue
++
++**Decision:** resolve existing evidence gaps before adding more CV rows.
++
++Priority gaps:
++
++- DigitalFUTURES 2026 Ending — Urban Image Live;
++- WAVES CROSS VOL.3 / BeatLink: Wandering in City;
++- REACTOR 2026 event records.
++
++### HOLD — Spatial Media Systems expansion
++
++Keep the framework. Freeze new framework branches until another real project is packaged through the existing architecture.
++
++The mother issue already says “Stop expanding sideways.” The PM should enforce that sentence.
++
++### HOLD — ReStage / OPS expansion
++
++No additional research checklist expansion.
++
++Resume only after:
++
++- one small real-room OPS v0.1 proof; or
++- a concrete project creates a direct requirement for it.
++
++### HOLD — No Further Input Required prototype expansion
++
++The next meaningful step must create a finished runtime, exhibition proof, screening, submission-ready artifact or equivalent public evidence.
++
++Prototype count is no longer a success metric.
++
++## Homepage rule
++
++The PM does not add a work to Selected Works because it is recent.
++
++A new Selected Work must:
++
++- be case-study-ready;
++- have stronger public evidence than research-only material;
++- have a clear reason to displace an existing selected work;
++- improve the total homepage narrative rather than merely increase quantity.
++
++Current decision on 2026-10-29: **no homepage change**.
++
++## Weekly review format
++
++Use this exact compact format in Issue #93 or a dated review file:
++
++```text
++DATE
++
++P0
++- project — next gate
++
++P1
++- project — next gate
++
++HOLD
++- project — why frozen
++
++WHAT CHANGED
++- only verified changes
++
++BLOCKERS
++- concrete missing evidence / dependency
++
++PROMOTION / DEMOTION
++- lifecycle changes, if any
++
++STOP DOING
++- scope to explicitly reject this cycle
++```
++
++## Promotion policy
++
++Lifecycle remains:
++
++```text
++active-research
++→ documented
++→ public-safe
++→ case-study-ready
++→ selected-work
++```
++
++The PM may recommend promotion only when the evidence for the next state is present.
++
++No silent promotion based on memory, intention or assumed completion.
++
++## PM anti-patterns
++
++Reject these patterns:
++
++- creating a new umbrella project because two existing projects feel related;
++- adding another tool / platform before a current real-world test is complete;
++- writing future work as past achievement;
++- producing large research checklists without a small acceptance test;
++- keeping stale pre-show TODOs as if they are current tasks after the event;
++- treating every collaboration or VJ appearance as a flagship work;
++- adding homepage cards because the archive feels visually empty;
++- opening duplicate policy issues when the rule is already documented.
++
++## Definition of a good PM cycle
++
++A PM cycle is successful if at least one of these happens:
++
++- a blocker is removed;
++- a project reaches the next lifecycle state;
++- a stale plan is corrected to reflect reality;
++- a completed event becomes usable portfolio evidence;
++- a low-value branch is explicitly frozen;
++- the number of simultaneous active priorities decreases.
++
++The PM is not judged by the number of new tasks created.
+diff --git a/docs/portfolio-maintenance-os/reviews/2026-10-29-pm-review.md b/docs/portfolio-maintenance-os/reviews/2026-10-29-pm-review.md
+new file mode 100644
+index 00000000..04c23611
+--- /dev/null
++++ b/docs/portfolio-maintenance-os/reviews/2026-10-29-pm-review.md
+@@ -0,0 +1,183 @@
++# PM Review — 2026-10-29
++
++## Executive decision
++
++The portfolio does **not** need another architecture layer.
++
++The maintenance system created on 2026-10-25 is sufficient. The current bottleneck is conversion:
++
++```text
++existing work
++→ verified evidence
++→ concise package
++→ public case study
++```
++
++No portfolio pull request has landed after the continuous-update-system merge. That is not a problem by itself, but it confirms that the next useful work is not another policy document or homepage redesign.
++
++## Priority board
++
++| Priority | Line | PM decision | Next gate |
++|---|---|---|---|
++| P0 | ENTROPY / FIELD INDEX | Finish the case study | Final documentation + shipped-vs-planned reconciliation + bilingual summary + system diagram |
++| P0 | Stage Casting 04 | Prove the performance chain | Real Vision Pro/WebXR → control → OSC/Ableton/Max-Jitter → AV output rehearsal with fallback |
++| P1 | REACTOR 2026 | Consolidate | Canonical event/credit/media record and narrative role decision |
++| P1 | 2026 Rolling CV | Close evidence gaps | DigitalFUTURES / WAVES CROSS / REACTOR stable records |
++| P1 | Performance Control Model | Serve current proof | Support Stage Casting rather than expanding the taxonomy |
++| HOLD | Spatial Media Systems | Freeze framework expansion | Another real project packaged through the existing pipeline |
++| HOLD | ReStage / OPS | Freeze research expansion | One small real-room OPS v0.1 proof |
++| HOLD | No Further Input Required | Freeze prototype expansion | Finished runtime / exhibition / screening / submission artifact |
++
++## Finding 1 — ENTROPY is the fastest portfolio upgrade
++
++The existing production issue already contains a substantial architecture, screen context, state/phrase language and live-system design. The problem is that it is still structured mainly as a **pre-show production plan**, including many unchecked tasks.
++
++The event itself is already complete and the basic event/role facts are stable.
++
++Therefore the next work is editorial and evidentiary, not feature development.
++
++### Required conversion
++
++Create one post-show package with:
++
++- event title / date / venue;
++- final credits;
++- Ewan role;
++- 3–8 selected live documentation items;
++- one system diagram showing the actual live chain;
++- one short “what shipped” section;
++- one short “what changed after rehearsal / onsite” section;
++- 150–250 word Chinese summary;
++- 100–180 word English summary.
++
++### PM rejection
++
++Do not use the unfinished production checklist as the public case study structure.
++
++Do not add new FIELD INDEX features to make the old checklist look complete.
++
++## Finding 2 — Stage Casting has the only hard near-term deadline
++
++Target date remains 2026-12-04.
++
++The project should now be judged by one question:
++
++> Can one spatial input reliably drive a coherent performance chain on real hardware?
++
++### Acceptance test
++
++```text
++Vision Pro / WebXR input
++→ semantic state / gesture
++→ transport / bridge
++→ OSC / control
++→ Ableton / Max-Jitter / visual system
++→ visible + audible performance response
++```
++
++Pass requires:
++
++- real hardware;
++- observed connection / latency behaviour;
++- one fallback if network or device input fails;
++- one rehearsal recording / log sufficient to reproduce the path.
++
++### PM rejection
++
++- no quota-driven demo expansion;
++- no new control vocabulary until the existing path survives real use;
++- no completed CV claim before 2026-12-04 actually occurs.
++
++## Finding 3 — REACTOR is an information problem, not a design problem
++
++The portfolio already knows REACTOR / C.PARK / VJ live nodes exist, but records remain fragmented and partly `needs-check` in older content-planning issues.
++
++The next step is not a new REACTOR page design.
++
++The next step is one canonical evidence sheet:
++
++```text
++EVENT
++DATE
++VENUE
++ARTIST / CONTEXT
++EWAN ROLE
++PUBLIC SOURCE
++MEDIA
++RIGHTS STATUS
++RELATION TO LIVE SYSTEM 2026
++```
++
++Only after that sheet exists should the portfolio decide whether REACTOR becomes:
++
++1. a standalone case study;
++2. an archive / performance node;
++3. supporting evidence inside the 2026 Live System narrative.
++
++## Finding 4 — the research program is over-expanded relative to proof
++
++Spatial Media Systems and ReStage are both valid long-term directions. Their current issues already describe broad architectures and large research checklists.
++
++The management risk is continuing to reward conceptual expansion.
++
++### Freeze rule
++
++No additional umbrella layer, platform concept, transport concept or research checklist should be created unless it is required by:
++
++- Stage Casting real-device proof;
++- ENTROPY case-study packaging;
++- a real client / venue / exhibition requirement;
++- OPS Demo 0.1.
++
++## Finding 5 — homepage curation remains correct
++
++No evidence in this review justifies changing the current Selected Works set.
++
++The correct action is to improve the candidate pool below the homepage rather than weaken the homepage gate.
++
++## Work order
++
++### Work package A — ENTROPY closeout
++
++Definition of done:
++
++- post-show source-of-truth note exists;
++- selected media list exists;
++- final credits exist;
++- actual live architecture is described;
++- pre-show-only ideas are marked as such;
++- lifecycle decision is made: remain `documented` or promote to `case-study-ready`.
++
++### Work package B — Stage Casting device proof
++
++Definition of done:
++
++- one real-device end-to-end rehearsal;
++- fallback documented;
++- latency / connection notes captured;
++- one public-safe diagram or screenshot set can later explain the system.
++
++### Work package C — REACTOR evidence sheet
++
++Definition of done:
++
++- no ambiguous event naming remains in the canonical record;
++- public role / credits are explicit;
++- selected media and rights status are known;
++- narrative role is decided.
++
++## Stop-doing list for this cycle
++
++- no new homepage redesign;
++- no new umbrella practice category;
++- no new ReStage research branch;
++- no arbitrary prototype-count targets;
++- no additional portfolio policy issue unless #93 cannot contain the decision;
++- no unverified 2026 event promoted to canonical CV;
++- no purchase/tool research treated as portfolio progress.
++
++## Next PM review
++
++Target review date: **2026-11-05**, or earlier if one P0 gate is completed.
++
++Review owner / tracker: Issue #93.

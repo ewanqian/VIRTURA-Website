@@ -79,7 +79,7 @@
       "title": "Portfolio QA knowledge transfer",
       "priority": "P0",
       "route": "LOCAL_DEEPSEEK",
-      "status": "READY",
+      "status": "IN_REVIEW",
       "dependencies": [],
       "effort": "S",
       "brief": "Review portfolio PR #130 #132 #134 #121 #94 and convert only proven process into team gates.",
@@ -97,8 +97,12 @@
         "Matrix: source PR → mechanism → team adaptation → unsafe-to-copy assumptions → owner decision"
       ],
       "humanSignoff": false,
-      "evidenceLinks": [],
-      "prUrl": null,
+      "evidenceLinks": [
+        "docs/pm/evidence/R02-portfolio-transfer.md",
+        "docs/pm/evidence/r02/manifest.json",
+        "docs/pm/evidence/r02/validator-probe-results.json"
+      ],
+      "prUrl": "https://github.com/ewanqian/VIRTURA-Website/pull/6",
       "completedAt": null,
       "blocker": null
     },

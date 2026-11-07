@@ -1,0 +1,50 @@
+# R02 — Portfolio QA knowledge transfer
+
+Audit date: 2026-11-08 Asia/Shanghai. Scope: five actual PR diffs; proposals only. No website, media, credit, design or deployment workflow changes. Status: IN_REVIEW, not DONE.
+
+## Source and method
+
+Retrieved with authenticated local `gh pr view N --repo ewanqian/portfolio --json url,title,state,mergeCommit,baseRefOid,headRefOid,files,body` and `gh pr diff N --repo ewanqian/portfolio` for 130, 132, 134, 121, 94. Full snapshots in [r02](r02/); [manifest](r02/manifest.json) records immutable head SHA, merge SHA, byte count and SHA256. File/line references below refer to those saved diffs, including diff headers. They prove implementation or written policy, not successful historic execution. No historical CI success is claimed or required to identify the mechanism.
+
+DeepSeek via local OpenCode was attempted but rejected: requested model does not support Coding Plan. Cloud Coding Plan separately reported expired subscription. Analysis below is direct source review by Codex; no DeepSeek conclusion is treated as evidence. See [tool limitation](r02/tool-limitations.md).
+
+## Transfer matrix
+
+| Source PR / exact diff evidence | Mechanism and why | Team adaptation / how to prove | Unsafe assumptions / owner decision |
+|---|---|---|---|
+| [#130](https://github.com/ewanqian/portfolio/pull/130), [130-diff.txt](r02/130-diff.txt), `.github/workflows/homepage-nine-qa.yml` and `scripts/qa-home-nine.mjs`, added lines 1–76 | CI launches actual Chromium, waits for local server, reads image decode/natural sizes, card count, columns, horizontal overflow; saves screenshots/report and uploads artifacts even on failure. Missing Chrome exits nonzero. Why: screenshots and image evidence survive failed checks. | Proposal P0: static Python HTTP server + browser capture at 375/768/1440, zh/en where supported; check protected anchor IDs, decode, overflow, errors. Preserve JSON and screenshots on any failure. Prove with intentional missing-image fixture and missing-browser run before adopting workflow. R01 supplies current baseline, not completed regression automation. | Nine cards, 3/2 columns, React preview, BPM/profile expectations are personal-site contracts; do not copy. Browser PASS cannot approve aesthetics/rights. Technical owner proposes assertions; editor approves visual baseline. |
+| [#132](https://github.com/ewanqian/portfolio/pull/132), [132-diff.txt](r02/132-diff.txt), `react/src/data/siteDisplay.js` hunk `@@ -10,7 +10,7 @@` | One `drop-flow` override changes `hangzhou-video-cover.webp` to `hero-dropflow-ufo-2025.webp`. Why: explicit work-to-asset mapping makes selection auditable. This diff alone does **not** establish photo rights, real-event identity or correct edition. | Proposal P0 editorial gate: work + edition + path + dimensions/hash + rights source + approved role. Prove decode and compare exact asset to edition-specific source with human review before card promotion. No media is transferred in R02. | Do not copy this image or interpret filename/PR title as rights evidence. R05 can collect ledger; R06/editor must decide edition, collaborator and permission. |
+| [#134](https://github.com/ewanqian/portfolio/pull/134), [134-diff.txt](r02/134-diff.txt), archive/backlog renames; `Writing.jsx`; `build-content.js`; `validate-writing-publications.mjs` | Keeps legacy JSON in subfolders; index filters published vs research draft; build calls validator. Validator checks id/filename, duplicate slug, allowed status, summary, article path containment/existence, body size/headings, and excludes internal PM docs as published. Why: metadata alone cannot silently become public publication. | Proposal P1: validate team registry IDs, explicit lifecycle and evidence/source fields; distinguish curated entry from proven runnable experience. Test duplicate ID, missing evidence path, unavailable runtime, and research-only item. Preserve old routes with explicit mapping/HTTP evidence; archive records without destroying source. | No evidence this PR implements redirects. Word-count thresholds and React grouping are article-specific; do not apply to app cards. Validator cannot certify truth/rights. Technical owner defines schema after R07/R09 evidence; editor decides public/archive status. |
+| [#121](https://github.com/ewanqian/portfolio/pull/121), [121-diff.txt](r02/121-diff.txt), `publish-portfolio-root.yml` lines 1–87 and `react/index.html` | Builds canonical Vite source, copies compiled root/portfolio entrypoints and hashed bundles, checks assets; workflow serializes publishing and guards bot loop. Why: identifies actual build-to-public entrypoint chain. | Proposal P0 deployment gate: record main/PR head, provider check SHA, immutable deployment URL, per-route status/body comparison and browser evidence. Verify public endpoint separately after review/merge. R01 records current chain and remaining provider-access gap. | Workflow grants contents:write and pushes HEAD:main; forbidden here. Do not copy React build, root overwrite or bot push. Static HTML stays canonical. Deployment owner must verify Cloudflare project/branch/output and authorize any rollback. |
+| [#94](https://github.com/ewanqian/portfolio/pull/94), [94-diff.txt](r02/94-diff.txt), `NOW.md`, `database/active_practice.json`, `PROJECT-MANAGER.md` and review | Explicit maximum two P0 lines; per-line nextGate, blockers, stopDoing; HOLD for missing proof; promotion from research to public-safe is evidence-dependent. Why: limits expansion without public proof. | Reuse existing tasks.json WIP and states; each PR links evidence, unresolved blockers, next human gate and rollback. Prove task diff changes only selected task, no DONE before review, no R03–R10 launch. No duplicate tracker. | Policy text does not prove it was enforced. Personal deadlines, authorship and completed performances do not become team claims. PM/editor controls task promotion and review outcome. |
+
+## At most three automation candidates — none implemented here
+
+1. **P0 browser/media baseline gate** (#130): static server, screenshots, image decode/dimensions, anchors, bilingual controls, overflow; JSON + artifacts even on failure. Owner: local technical executor; visual pass: editor.
+2. **P0 deployment identity gate** (#121): provider check SHA → immutable URL → real response and browser checks → production route verification. Never auto-push main. Owner: deployment owner; needs provider access and reviewed rollback target.
+3. **P1 registry admission gate** (#134, informed by #132/#94): unique IDs, evidence paths, lifecycle, version/rights references; no invented runnability. Owner: registry maintainer plus editor; defer implementation until R07/R09 approval.
+
+## Actual validation and limits
+
+Five `gh pr diff` retrievals and five metadata retrievals succeeded. Source integrity is reproducible via manifest hashes. Reviewed changed mechanisms, not just PR titles; immutable source revisions are in manifest. Did not execute Portfolio workflows, build React, verify rights, test XR, or migrate any personal content. Proposed gates remain unimplemented and unaccepted. Current R01 evidence is separate; no R02 dependency on merging R01.
+
+Rollback: close this documentation-only PR before merge. If later merged and rollback authorized, `git revert <R02-squash-SHA>` via new reviewed PR; preserve independent R01 task state when resolving tasks.json. No runtime asset or homepage change exists to undo.
+
+Next gate: review this matrix and choose automation owners. R03/R05 may be considered in a later authorized wave; no follow-on task started. R04 visual direction and R06 credit decisions require editor signoff.
+
+Task-file merge note: both independent PRs start from main. Resolve tasks.json field-by-field, preserving R01 IN_REVIEW/evidence/PR and R02 IN_REVIEW/evidence/PR; do not replace whole file with either branch. Source validation: `python3 docs/pm/evidence/r02/verify-sources.py`; saved output [verification.txt](r02/verification.txt). `git diff --check` passed; website-source comparison to main unchanged.
+
+## Continued source-mechanism execution — 2026-11-08
+
+Executed actual `validateWritingCatalog` source from immutable Portfolio #134 head `d346ffbf48db3be8caa7a0d445d6a7b538e3ae23` against five temporary synthetic fixtures. **5/5 expected outcomes**: valid article accepted; missing body, duplicate slug, featured draft, internal PM publication each rejected. [Probe script](r02/validator-probe.mjs), [raw outcomes](r02/validator-probe-results.json). Downloaded source SHA256 `77335930bdf2d09ae2c3baaaf87acdf16f4c1778169a4e2e47e48ba9da259e3f`. This verifies those five mechanism behaviors only; not historic Portfolio CI success, current team integration, factual quality or rights. No validator installed into team website.
+
+Reproduce from repository root:
+
+```sh
+gh api 'repos/ewanqian/portfolio/contents/scripts/validate-writing-publications.mjs?ref=d346ffbf48db3be8caa7a0d445d6a7b538e3ae23' -H 'Accept: application/vnd.github.raw+json' > /tmp/vsp-validator.mjs
+node docs/pm/evidence/r02/validator-probe.mjs /tmp/vsp-validator.mjs
+```
+
+Automatic Codex review of f15ae92 completed without findings; human reviews remain empty. This does not approve editorial ownership or authorize merging. R02 stays IN_REVIEW.
+
+R01 access correction: existing local VIRTURA Cloudflare token allowed authenticated production settings/log/history audit; PR #5 now IN_REVIEW. Preserve its latest state and evidence when combining independent task-file changes. No credential is contained in this source-transfer PR.
