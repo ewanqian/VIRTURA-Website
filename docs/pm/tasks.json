@@ -65,7 +65,7 @@
         "docs/pm/evidence/r01/runtime.json",
         "docs/pm/evidence/r01/github-main-checks.json"
       ],
-      "prUrl": null,
+      "prUrl": "https://github.com/ewanqian/VIRTURA-Website/pull/5",
       "completedAt": null,
       "blocker": "Cloudflare authenticated project settings/full build logs and previous known-good rollback deployment not accessible/confirmed. HTTP and browser baseline complete; editor signoff pending."
     },
