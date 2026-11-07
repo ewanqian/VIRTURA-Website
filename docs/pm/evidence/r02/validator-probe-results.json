@@ -1,0 +1,41 @@
+{
+  "sourceSHA": "d346ffbf48db3be8caa7a0d445d6a7b538e3ae23",
+  "scope": "actual historical validator with synthetic fixtures; not Portfolio data or CI",
+  "records": [
+    {
+      "mode": "valid",
+      "expectedAccepted": true,
+      "accepted": true,
+      "error": null,
+      "pass": true
+    },
+    {
+      "mode": "missing-body",
+      "expectedAccepted": false,
+      "accepted": false,
+      "error": "Writing publication gate failed:\n- one.json: articlePath is outside repository or missing: absent.md",
+      "pass": true
+    },
+    {
+      "mode": "duplicate-slug",
+      "expectedAccepted": false,
+      "accepted": false,
+      "error": "Writing publication gate failed:\n- two.json: missing/duplicate slug",
+      "pass": true
+    },
+    {
+      "mode": "featured-draft",
+      "expectedAccepted": false,
+      "accepted": false,
+      "error": "Writing publication gate failed:\n- one.json: featured is only allowed for published work",
+      "pass": true
+    },
+    {
+      "mode": "internal-pm",
+      "expectedAccepted": false,
+      "accepted": false,
+      "error": "Writing publication gate failed:\n- one.json: internal project-management document cannot be a Published Writing article",
+      "pass": true
+    }
+  ]
+}

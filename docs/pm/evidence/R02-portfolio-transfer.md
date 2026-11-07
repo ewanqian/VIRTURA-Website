@@ -33,3 +33,16 @@ Rollback: close this documentation-only PR before merge. If later merged and rol
 Next gate: review this matrix and choose automation owners. R03/R05 may be considered in a later authorized wave; no follow-on task started. R04 visual direction and R06 credit decisions require editor signoff.
 
 Task-file merge note: both independent PRs start from main. Resolve tasks.json field-by-field, preserving R01 BLOCKED/evidence/PR and R02 IN_REVIEW/evidence/PR; do not replace whole file with either branch. Source validation: `python3 docs/pm/evidence/r02/verify-sources.py`; saved output [verification.txt](r02/verification.txt). `git diff --check` passed; website-source comparison to main unchanged.
+
+## Continued source-mechanism execution — 2026-11-08
+
+Executed actual `validateWritingCatalog` source from immutable Portfolio #134 head `d346ffbf48db3be8caa7a0d445d6a7b538e3ae23` against five temporary synthetic fixtures. **5/5 expected outcomes**: valid article accepted; missing body, duplicate slug, featured draft, internal PM publication each rejected. [Probe script](r02/validator-probe.mjs), [raw outcomes](r02/validator-probe-results.json). Downloaded source SHA256 `77335930bdf2d09ae2c3baaaf87acdf16f4c1778169a4e2e47e48ba9da259e3f`. This verifies those five mechanism behaviors only; not historic Portfolio CI success, current team integration, factual quality or rights. No validator installed into team website.
+
+Reproduce from repository root:
+
+```sh
+gh api 'repos/ewanqian/portfolio/contents/scripts/validate-writing-publications.mjs?ref=d346ffbf48db3be8caa7a0d445d6a7b538e3ae23' -H 'Accept: application/vnd.github.raw+json' > /tmp/vsp-validator.mjs
+node docs/pm/evidence/r02/validator-probe.mjs /tmp/vsp-validator.mjs
+```
+
+Automatic Codex review of f15ae92 completed without findings; human reviews remain empty. This does not approve editorial ownership or authorize merging. R02 stays IN_REVIEW.

@@ -90,7 +90,8 @@
       "humanSignoff": false,
       "evidenceLinks": [
         "docs/pm/evidence/R02-portfolio-transfer.md",
-        "docs/pm/evidence/r02/manifest.json"
+        "docs/pm/evidence/r02/manifest.json",
+        "docs/pm/evidence/r02/validator-probe-results.json"
       ],
       "prUrl": "https://github.com/ewanqian/VIRTURA-Website/pull/6",
       "completedAt": null,
