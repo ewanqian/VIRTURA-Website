@@ -146,14 +146,16 @@
         "R03"
       ],
       "effort": "L",
-      "brief": "Protect root homepage hero, 7 works cards, people, inquiry and existing routes. Propose image-driven layout system before any root rewrite.",
+      "brief": "Protect root homepage hero, 7 works cards, people, inquiry and existing routes. Propose image-driven layout system before any root rewrite. VI v05 draft replaces the legacy global green palette with monochrome studio-derived shell and distinctive project imagery. Prototype must be reviewed before production work.",
       "inputs": [
         "index.html",
         "brand-spec.md",
         "apps/index.html",
         "apps/store.html",
         "apps/my-space.html",
-        "apps/catalog.html"
+        "apps/catalog.html",
+        "docs/design/VIRTURA-VI-v05-2026.md",
+        "design/space-v05-preview.html"
       ],
       "outputs": [
         "docs/pm/evidence/R04-visual-QA.md"
@@ -265,11 +267,12 @@
         "R05"
       ],
       "effort": "L",
-      "brief": "Turn existing worlds and archives into a real navigable port/world itinerary; no invented playable IP; fictional banking distinct from financial services.",
+      "brief": "Turn existing worlds and archives into a real navigable port/world itinerary; no invented playable IP; fictional banking distinct from financial services. Treat each verified world as a recurring media channel with distinct maps, art direction, releases and creator credits; avoid creating empty accounts.",
       "inputs": [
         "https://github.com/ewanqian/VIRTURA-SpacePort",
         "https://github.com/ewanqian/VIRTURA2114",
-        "https://github.com/ewanqian/Senia-Digital-Resort"
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "docs/design/SPACE-CHANNEL-IP-OPERATING-MODEL.md"
       ],
       "outputs": [
         "docs/pm/evidence/R08-spaces-map.md"
@@ -325,11 +328,12 @@
         "R07"
       ],
       "effort": "M",
-      "brief": "Choose 3 productizable services rooted in actual work and consented media, separate studio client services from fictional world IP, avoid empty store.",
+      "brief": "Choose 3 productizable services rooted in actual work and consented media, separate studio client services from fictional world IP, avoid empty store. Evaluate world-specific original ambience/music/video publications and creator economics only after a finished release pilot and valid rights.",
       "inputs": [
         "docs/site-upgrade/SPACES-ASSET-AUDIT-2026-11-07.md",
         "docs/site-upgrade/SPACES-STORE-SDK-ACCOUNT-DESIGN-2026.md",
-        "https://github.com/ewanqian/SceneForge"
+        "https://github.com/ewanqian/SceneForge",
+        "docs/design/SPACE-CHANNEL-IP-OPERATING-MODEL.md"
       ],
       "outputs": [
         "docs/pm/evidence/R10-service-packages.md"
