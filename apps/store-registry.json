@@ -1,0 +1,263 @@
+{
+  "schemaVersion": "1.0.0",
+  "updated": "2026-11-07",
+  "notice": "Catalog links derived from project READMEs/repository paths. No live browser/device checks were completed. Saved items are local-only, not user accounts.",
+  "apps": [
+    {
+      "id": "sceneforge",
+      "kind": "tool",
+      "title": "SceneForge / 场景铸造",
+      "mark": "SF",
+      "badge": "Browser Tool",
+      "summary": "浏览器舞台预演：选择场地、镜头、媒体映射和 cue。示范场地为展示几何，非施工测量模型。",
+      "action": "打开预演器",
+      "url": "https://ewanqian.github.io/SceneForge/",
+      "tags": [
+        "stage",
+        "preview",
+        "webxr",
+        "工具",
+        "scene"
+      ],
+      "repo": "ewanqian/SceneForge",
+      "status": "published-source",
+      "rights": "MIT source; venue/media must be checked",
+      "deviceVerified": false
+    },
+    {
+      "id": "sceneforge-workshop",
+      "kind": "workshop",
+      "title": "场景铸造 / 课程地图",
+      "mark": "02",
+      "badge": "Workshop",
+      "summary": "从空白舞台走到 30 秒 Opening：课程地图、课前准备、Stage Plot 与 Starter。",
+      "action": "进入课程",
+      "url": "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+      "tags": [
+        "workshop",
+        "opening",
+        "stage",
+        "教学"
+      ],
+      "repo": "ewanqian/SceneForge",
+      "status": "published-source",
+      "rights": "Workshop media/attendee consent required",
+      "deviceVerified": false
+    },
+    {
+      "id": "sceneforge-replica",
+      "kind": "tool",
+      "title": "Stage Replica",
+      "mark": "3D",
+      "badge": "Browser Demo",
+      "summary": "独立舞台复刻、多个案例子集与作者编辑模式；以验证浏览器操作为目标。",
+      "action": "打开舞台",
+      "url": "https://ewanqian.github.io/SceneForge/stage-replica/",
+      "tags": [
+        "replay",
+        "stage",
+        "editor",
+        "舞台"
+      ],
+      "repo": "ewanqian/SceneForge",
+      "status": "source-present",
+      "rights": "Shared source / sample media to check",
+      "deviceVerified": false
+    },
+    {
+      "id": "entropy-stage",
+      "kind": "tool",
+      "title": "ENTROPY / Stage",
+      "mark": "E",
+      "badge": "Stage Lab",
+      "summary": "ENTROPY 的双屏映射与舞台测试页面；是场景实验，不代表完整演出播控系统。",
+      "action": "查看舞台实验",
+      "url": "https://ewanqian.github.io/SceneForge/entropy-stage/",
+      "tags": [
+        "ENTROPY",
+        "realtime",
+        "mapping",
+        "stage",
+        "演出"
+      ],
+      "repo": "ewanqian/SceneForge",
+      "status": "source-present",
+      "rights": "Performance media clearance before commercial repackaging",
+      "deviceVerified": false
+    },
+    {
+      "id": "needle-room",
+      "kind": "tool",
+      "title": "Needle / XR Room",
+      "mark": "XR",
+      "badge": "XR Lab",
+      "summary": "WebXR 空间屏幕与远程媒体实验；真实 Vision Pro / Quest 验收尚未完成。",
+      "action": "查看 XR 实验",
+      "url": "https://ewanqian.github.io/SceneForge/needle-room/",
+      "tags": [
+        "XR",
+        "screen",
+        "live media"
+      ],
+      "repo": "ewanqian/SceneForge",
+      "status": "source-present",
+      "rights": "Source demo / no live device certification",
+      "deviceVerified": false
+    },
+    {
+      "id": "cng-archive",
+      "kind": "archive",
+      "title": "CNG Spatial Archive",
+      "mark": "◈",
+      "badge": "Public Archive",
+      "summary": "公开空间全景与展项视点，部分生产场景未公开；适合作为企业空间档案示范。",
+      "action": "进入空间档案",
+      "url": "https://ewanqian.github.io/cng-design-archive/",
+      "tags": [
+        "panorama",
+        "archive",
+        "空间"
+      ],
+      "repo": "ewanqian/cng-design-archive",
+      "status": "published-source",
+      "rights": "Third-party / client display restrictions",
+      "deviceVerified": false
+    },
+    {
+      "id": "shanhai",
+      "kind": "experience",
+      "title": "山海浮生 III · 炁 QI",
+      "mark": "QI",
+      "badge": "Spatial Preview",
+      "summary": "网页视听空间预览与选择性 VR/MR 入口，导演与出品机构独立署名。",
+      "action": "进入预览",
+      "url": "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+      "tags": [
+        "VR",
+        "MR",
+        "webxr",
+        "空间叙事"
+      ],
+      "repo": "ewanqian/shanhaifusheng-2026",
+      "status": "published-source",
+      "rights": "SET / Yuyang Cheng credits, media clearance",
+      "deviceVerified": false
+    },
+    {
+      "id": "greenhouse",
+      "kind": "experience",
+      "title": "Greenhouse in Transit",
+      "mark": "G",
+      "badge": "Web Story",
+      "summary": "手提箱、温室档案和塞尼亚岛叙事的网页入口，头显效果单独研究。",
+      "action": "打开故事",
+      "url": "https://ewanqian.github.io/Greenhouse-in-Transit/",
+      "tags": [
+        "greenhouse",
+        "Senia",
+        "植物园"
+      ],
+      "repo": "ewanqian/Greenhouse-in-Transit",
+      "status": "published-source",
+      "rights": "Project / collaboration media verification",
+      "deviceVerified": false
+    },
+    {
+      "id": "time-simulator",
+      "kind": "experience",
+      "title": "新媒体艺术家模拟器",
+      "mark": "SIM",
+      "badge": "Source Preview",
+      "summary": "AI 时代的艺术生涯与职业路径模拟器；完整游戏回合仍需产品验收。",
+      "action": "打开工程",
+      "url": "https://github.com/ewanqian/new-media-artist-simulator",
+      "tags": [
+        "game",
+        "simulation",
+        "narrative"
+      ],
+      "repo": "ewanqian/new-media-artist-simulator",
+      "status": "source-present",
+      "rights": "Individual original research / no purchase claim",
+      "deviceVerified": false
+    },
+    {
+      "id": "performable-music",
+      "kind": "tool",
+      "title": "Performable Music",
+      "mark": "PM",
+      "badge": "Music Lab",
+      "summary": "可演奏音乐练习与声音预设，部分音频样本依赖外部服务。",
+      "action": "进入声音实验",
+      "url": "https://ewanqian.github.io/performable-music/",
+      "tags": [
+        "music",
+        "strudel",
+        "web audio"
+      ],
+      "repo": "ewanqian/performable-music",
+      "status": "published-source",
+      "rights": "Preset sample providers need separate licenses",
+      "deviceVerified": false
+    },
+    {
+      "id": "nine",
+      "kind": "tool",
+      "title": "NINE / Visual Runtime",
+      "mark": "9",
+      "badge": "Visual Lab",
+      "summary": "四种叙事状态的视觉交互与事件记录实验，尚未等同完整舞台演出系统。",
+      "action": "进入视觉实验",
+      "url": "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+      "tags": [
+        "visual",
+        "runtime",
+        "stage"
+      ],
+      "repo": "ewanqian/performable-music",
+      "status": "published-source",
+      "rights": "Original prototype / external assets verify",
+      "deviceVerified": false
+    },
+    {
+      "id": "hyperflow",
+      "kind": "dev",
+      "title": "HyperFlow-SHM",
+      "mark": "HF",
+      "badge": "Native Tool",
+      "summary": "GStreamer + Python 的本地共享内存媒体传输工程；不是浏览器 Web App，须本机安装并测试。",
+      "action": "查看源码与安装",
+      "url": "https://github.com/ewanqian/HyperFlow-SHM",
+      "tags": [
+        "GStreamer",
+        "Python",
+        "video",
+        "native",
+        "SDK"
+      ],
+      "repo": "ewanqian/HyperFlow-SHM",
+      "status": "source-present",
+      "rights": "Check dependencies/licenses and actual latency claims",
+      "deviceVerified": false
+    },
+    {
+      "id": "entropy-liveset",
+      "kind": "dev",
+      "title": "ATMOSPHERIC ESCAPE",
+      "mark": "AE",
+      "badge": "Live Archive",
+      "summary": "ENTROPY 演出的飞船、星图、能量场多个独立视觉版本源码；部分版本有表演反馈问题。",
+      "action": "查看演出工程",
+      "url": "https://github.com/ewanqian/atmospheric-escape-liveset",
+      "tags": [
+        "ENTROPY",
+        "WebGL",
+        "show control"
+      ],
+      "repo": "ewanqian/atmospheric-escape-liveset",
+      "status": "source-present",
+      "rights": "Live show archive / requires rights check",
+      "deviceVerified": false
+    }
+  ]
+}
