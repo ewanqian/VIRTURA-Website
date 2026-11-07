@@ -1,0 +1,982 @@
+diff --git a/content/writings/_archive/README.md b/content/writings/_archive/README.md
+new file mode 100644
+index 00000000..b8320a2c
+--- /dev/null
++++ b/content/writings/_archive/README.md
+@@ -0,0 +1,3 @@
++# Superseded Writing metadata
++
++Internal archive of previous titles/abstracts, duplicate notes and internal architecture concepts. No source works or research files were deleted. These JSON files are not read by the active publication builder. See docs/portfolio-maintenance-os/writing-catalog-audit-2026-11-05.md.
+diff --git a/content/writings/archive-redesign.json b/content/writings/_archive/archive-redesign.json
+similarity index 64%
+rename from content/writings/archive-redesign.json
+rename to content/writings/_archive/archive-redesign.json
+index b43727d9..2850eca5 100644
+--- a/content/writings/archive-redesign.json
++++ b/content/writings/_archive/archive-redesign.json
+@@ -7,7 +7,12 @@
+   "summary": "关于 archive、viewer、内容协议与作品长期组织方式的一篇研究笔记。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "published",
+-  "featured": true,
+-  "order": 1
++  "status": "archived",
++  "featured": false,
++  "order": 1,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/archive-vs-public-node.json b/content/writings/_archive/archive-vs-public-node.json
+similarity index 69%
+rename from content/writings/archive-vs-public-node.json
+rename to content/writings/_archive/archive-vs-public-node.json
+index 746cea7e..f736b6d6 100644
+--- a/content/writings/archive-vs-public-node.json
++++ b/content/writings/_archive/archive-vs-public-node.json
+@@ -7,7 +7,12 @@
+   "summary": "说明 Archive 作为总索引时，为什么还需要单独保留公开项目节点这一层。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "planned",
++  "status": "archived",
+   "featured": false,
+-  "order": 4
++  "order": 4,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/bo-live-debrief.json b/content/writings/_archive/bo-live-debrief.json
+similarity index 69%
+rename from content/writings/bo-live-debrief.json
+rename to content/writings/_archive/bo-live-debrief.json
+index 19f2b911..c86116f0 100644
+--- a/content/writings/bo-live-debrief.json
++++ b/content/writings/_archive/bo-live-debrief.json
+@@ -7,7 +7,12 @@
+   "summary": "复盘 BO LIVE 专场中的视觉段落、现场气氛和合作结构如何一起成立。",
+   "relatedWork": "kashiwa",
+   "relatedNode": null,
+-  "status": "planned",
++  "status": "archived",
+   "featured": false,
+-  "order": 3
++  "order": 3,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/content-protocol.json b/content/writings/_archive/content-protocol.json
+similarity index 71%
+rename from content/writings/content-protocol.json
+rename to content/writings/_archive/content-protocol.json
+index efe666f1..86c8f033 100644
+--- a/content/writings/content-protocol.json
++++ b/content/writings/_archive/content-protocol.json
+@@ -7,7 +7,12 @@
+   "summary": "讨论内容协议如何同时支撑 portfolio、团队入口、查看层和更深层的档案系统。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "planned",
++  "status": "archived",
+   "featured": false,
+-  "order": 6
++  "order": 6,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/graph-native-structure.json b/content/writings/_archive/graph-native-structure.json
+similarity index 69%
+rename from content/writings/graph-native-structure.json
+rename to content/writings/_archive/graph-native-structure.json
+index 532a1498..966d8862 100644
+--- a/content/writings/graph-native-structure.json
++++ b/content/writings/_archive/graph-native-structure.json
+@@ -7,7 +7,12 @@
+   "summary": "梳理 graph-native 网站在作品、节点、资产和写作之间的基本结构关系。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "planned",
++  "status": "archived",
+   "featured": false,
+-  "order": 3
++  "order": 3,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/live-collab-not-bg.json b/content/writings/_archive/live-collab-not-bg.json
+similarity index 67%
+rename from content/writings/live-collab-not-bg.json
+rename to content/writings/_archive/live-collab-not-bg.json
+index 8cd7c7c2..21388cab 100644
+--- a/content/writings/live-collab-not-bg.json
++++ b/content/writings/_archive/live-collab-not-bg.json
+@@ -7,7 +7,12 @@
+   "summary": "从 Kashiwa / TITAN 等合作出发，讨论现场视觉如何进入音乐、空间、屏幕和观众经验之间的关系。",
+   "relatedWork": "kashiwa",
+   "relatedNode": "can-festival",
+-  "status": "published",
+-  "featured": true,
+-  "order": 1
++  "status": "archived",
++  "featured": false,
++  "order": 1,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/next-chapters-2026.json b/content/writings/_archive/next-chapters-2026.json
+similarity index 84%
+rename from content/writings/next-chapters-2026.json
+rename to content/writings/_archive/next-chapters-2026.json
+index efb79925..382f6957 100644
+--- a/content/writings/next-chapters-2026.json
++++ b/content/writings/_archive/next-chapters-2026.json
+@@ -10,7 +10,12 @@
+   "summaryEn": "New research directions: movement and motion capture for Drop Flow, volumetric sand for TIMER, and large-scale spatial openings for HERO DOME.",
+   "articlePath": "docs/portfolio-maintenance-os/next-works-2026-2027.md",
+   "githubUrl": "https://github.com/ewanqian/portfolio/blob/main/docs/portfolio-maintenance-os/next-works-2026-2027.md",
+-  "status": "published",
++  "status": "archived",
+   "featured": false,
+-  "order": 5
++  "order": 5,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/nodal-organization.json b/content/writings/_archive/nodal-organization.json
+similarity index 71%
+rename from content/writings/nodal-organization.json
+rename to content/writings/_archive/nodal-organization.json
+index 1c09616b..69778c52 100644
+--- a/content/writings/nodal-organization.json
++++ b/content/writings/_archive/nodal-organization.json
+@@ -7,7 +7,12 @@
+   "summary": "解释为什么长期来看，作品、公开节点、图片与文章都应该进入同一套节点化组织逻辑。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "draft",
++  "status": "archived",
+   "featured": false,
+-  "order": 5
++  "order": 5,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/observation-symbiosis.json b/content/writings/_archive/observation-symbiosis.json
+similarity index 72%
+rename from content/writings/observation-symbiosis.json
+rename to content/writings/_archive/observation-symbiosis.json
+index d236397b..692cac3d 100644
+--- a/content/writings/observation-symbiosis.json
++++ b/content/writings/_archive/observation-symbiosis.json
+@@ -7,7 +7,12 @@
+   "summary": "围绕扫描、数字自然与环境逻辑展开，讨论环境如何从背景转成作品本体的一部分。",
+   "relatedWork": null,
+   "relatedNode": "observation-and-symbiosis",
+-  "status": "published",
++  "status": "archived",
+   "featured": false,
+-  "order": 5
++  "order": 5,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/performance-control-model.json b/content/writings/_archive/performance-control-model.json
+similarity index 84%
+rename from content/writings/performance-control-model.json
+rename to content/writings/_archive/performance-control-model.json
+index 8b3d1075..bb2619f1 100644
+--- a/content/writings/performance-control-model.json
++++ b/content/writings/_archive/performance-control-model.json
+@@ -10,7 +10,12 @@
+   "summaryEn": "A working research model exploring state, feedback and controllability in realtime audiovisual performance.",
+   "articlePath": "research/performance-control-model/README.md",
+   "githubUrl": "https://github.com/ewanqian/portfolio/blob/main/research/performance-control-model/README.md",
+-  "status": "draft",
++  "status": "archived",
+   "featured": false,
+-  "order": 2
++  "order": 2,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/portfolio-not-enough.json b/content/writings/_archive/portfolio-not-enough.json
+similarity index 68%
+rename from content/writings/portfolio-not-enough.json
+rename to content/writings/_archive/portfolio-not-enough.json
+index f9b29fa4..9767793c 100644
+--- a/content/writings/portfolio-not-enough.json
++++ b/content/writings/_archive/portfolio-not-enough.json
+@@ -7,7 +7,12 @@
+   "summary": "讨论个人网站如何同时承担作品入口、方法层、档案层和合作判断。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "planned",
++  "status": "archived",
+   "featured": false,
+-  "order": 2
++  "order": 2,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/practice-lines-not-list.json b/content/writings/_archive/practice-lines-not-list.json
+similarity index 66%
+rename from content/writings/practice-lines-not-list.json
+rename to content/writings/_archive/practice-lines-not-list.json
+index 5f6dbadb..9c11cfd4 100644
+--- a/content/writings/practice-lines-not-list.json
++++ b/content/writings/_archive/practice-lines-not-list.json
+@@ -7,7 +7,12 @@
+   "summary": "讨论这个站如何用实践线组织作品、页面关系和长期方法。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "draft",
++  "status": "archived",
+   "featured": false,
+-  "order": 1
++  "order": 1,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/practice-then-production.json b/content/writings/_archive/practice-then-production.json
+similarity index 69%
+rename from content/writings/practice-then-production.json
+rename to content/writings/_archive/practice-then-production.json
+index 5b1f6171..600add89 100644
+--- a/content/writings/practice-then-production.json
++++ b/content/writings/_archive/practice-then-production.json
+@@ -7,7 +7,12 @@
+   "summary": "记录首页阅读顺序为什么应该先建立作品判断，再进入合作判断。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "draft",
++  "status": "archived",
+   "featured": false,
+-  "order": 4
++  "order": 4,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/public-nodes-not-news.json b/content/writings/_archive/public-nodes-not-news.json
+similarity index 69%
+rename from content/writings/public-nodes-not-news.json
+rename to content/writings/_archive/public-nodes-not-news.json
+index 9d7e5792..fe1ba0bb 100644
+--- a/content/writings/public-nodes-not-news.json
++++ b/content/writings/_archive/public-nodes-not-news.json
+@@ -7,7 +7,12 @@
+   "summary": "说明公开节点为什么更接近作品证据和外部落点，而不只是新闻式更新。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "draft",
++  "status": "archived",
+   "featured": false,
+-  "order": 2
++  "order": 2,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/rehearsal-to-public-node.json b/content/writings/_archive/rehearsal-to-public-node.json
+similarity index 72%
+rename from content/writings/rehearsal-to-public-node.json
+rename to content/writings/_archive/rehearsal-to-public-node.json
+index a7cf4eec..e8660481 100644
+--- a/content/writings/rehearsal-to-public-node.json
++++ b/content/writings/_archive/rehearsal-to-public-node.json
+@@ -7,7 +7,12 @@
+   "summary": "追踪 rehearsal、场地测试和公开节点之间的连续关系，以及它们如何重塑作品判断。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "planned",
++  "status": "archived",
+   "featured": false,
+-  "order": 6
++  "order": 6,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/timer-temporal.json b/content/writings/_archive/timer-temporal.json
+similarity index 69%
+rename from content/writings/timer-temporal.json
+rename to content/writings/_archive/timer-temporal.json
+index 50244e88..966660fd 100644
+--- a/content/writings/timer-temporal.json
++++ b/content/writings/_archive/timer-temporal.json
+@@ -7,7 +7,12 @@
+   "summary": "讨论节拍、频段、视觉结构与观看节奏如何在 TIMER 里形成持续控制。",
+   "relatedWork": "timer",
+   "relatedNode": null,
+-  "status": "published",
++  "status": "archived",
+   "featured": false,
+-  "order": 3
++  "order": 3,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/viewer-specs-part-of-system.json b/content/writings/_archive/viewer-specs-part-of-system.json
+similarity index 69%
+rename from content/writings/viewer-specs-part-of-system.json
+rename to content/writings/_archive/viewer-specs-part-of-system.json
+index d31b9e44..1b84ec12 100644
+--- a/content/writings/viewer-specs-part-of-system.json
++++ b/content/writings/_archive/viewer-specs-part-of-system.json
+@@ -7,7 +7,12 @@
+   "summary": "解释交付规格、播放条件和版本管理为什么会反过来影响作品本体。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "draft",
++  "status": "archived",
+   "featured": false,
+-  "order": 3
++  "order": 3,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/viewer-test-changes-work.json b/content/writings/_archive/viewer-test-changes-work.json
+similarity index 70%
+rename from content/writings/viewer-test-changes-work.json
+rename to content/writings/_archive/viewer-test-changes-work.json
+index 27b7e324..00a46252 100644
+--- a/content/writings/viewer-test-changes-work.json
++++ b/content/writings/_archive/viewer-test-changes-work.json
+@@ -7,7 +7,12 @@
+   "summary": "记录一次播放测试如何暴露结构问题，并最终改变作品段落与交付逻辑。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "planned",
++  "status": "archived",
+   "featured": false,
+-  "order": 5
++  "order": 5,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/viewer-venue-spec-objects.json b/content/writings/_archive/viewer-venue-spec-objects.json
+similarity index 72%
+rename from content/writings/viewer-venue-spec-objects.json
+rename to content/writings/_archive/viewer-venue-spec-objects.json
+index c4bebf5e..b2a4bde3 100644
+--- a/content/writings/viewer-venue-spec-objects.json
++++ b/content/writings/_archive/viewer-venue-spec-objects.json
+@@ -7,7 +7,12 @@
+   "summary": "讨论为什么交付规格、场地适配和播放条件不该只存在于项目备注里，而要进入对象层。",
+   "relatedWork": null,
+   "relatedNode": null,
+-  "status": "planned",
++  "status": "archived",
+   "featured": false,
+-  "order": 5
++  "order": 5,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "archived"
++  }
+ }
+diff --git a/content/writings/_backlog/README.md b/content/writings/_backlog/README.md
+new file mode 100644
+index 00000000..b66e1ece
+--- /dev/null
++++ b/content/writings/_backlog/README.md
+@@ -0,0 +1,3 @@
++# Writing rewrite candidates
++
++Internal-only. These metadata records are not public articles and are never loaded by the normal Writing build. A future article must be based on genuine work/field evidence and pass editorial review before its JSON returns to content/writings/.
+diff --git a/content/writings/drop-flow-note.json b/content/writings/_backlog/drop-flow-note.json
+similarity index 69%
+rename from content/writings/drop-flow-note.json
+rename to content/writings/_backlog/drop-flow-note.json
+index bb50b755..39168df9 100644
+--- a/content/writings/drop-flow-note.json
++++ b/content/writings/_backlog/drop-flow-note.json
+@@ -10,7 +10,12 @@
+   "relatedStage": "spatial-generation",
+   "source": "newsroom",
+   "path": "/newsroom/drop-flow-note",
+-  "status": "published",
+-  "featured": true,
+-  "order": 1
++  "status": "planned",
++  "featured": false,
++  "order": 1,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "rewrite-candidate"
++  }
+ }
+diff --git a/content/writings/kashiwa-collab.json b/content/writings/_backlog/kashiwa-collab.json
+similarity index 70%
+rename from content/writings/kashiwa-collab.json
+rename to content/writings/_backlog/kashiwa-collab.json
+index 1b6da7a3..23169c7f 100644
+--- a/content/writings/kashiwa-collab.json
++++ b/content/writings/_backlog/kashiwa-collab.json
+@@ -7,7 +7,12 @@
+   "summary": "讨论合作项目中的视觉角色、空间段落与现场氛围，以及合作中视觉如何真正进入演出结构。",
+   "relatedWork": "kashiwa",
+   "relatedNode": "can-festival",
+-  "status": "published",
++  "status": "planned",
+   "featured": false,
+-  "order": 4
++  "order": 4,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "rewrite-candidate"
++  }
+ }
+diff --git a/content/writings/timer-not-sync.json b/content/writings/_backlog/timer-not-sync.json
+similarity index 62%
+rename from content/writings/timer-not-sync.json
+rename to content/writings/_backlog/timer-not-sync.json
+index 785de7f1..a064a273 100644
+--- a/content/writings/timer-not-sync.json
++++ b/content/writings/_backlog/timer-not-sync.json
+@@ -7,7 +7,12 @@
+   "summary": "讨论 TIMER 系列如何把节拍、频段与时间结构转成持续的图像组织。",
+   "relatedWork": "timer",
+   "relatedNode": null,
+-  "status": "published",
+-  "featured": true,
+-  "order": 2
++  "status": "planned",
++  "featured": false,
++  "order": 2,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "rewrite-candidate"
++  }
+ }
+diff --git a/content/writings/ufo-terminal-testing.json b/content/writings/_backlog/ufo-terminal-testing.json
+similarity index 75%
+rename from content/writings/ufo-terminal-testing.json
+rename to content/writings/_backlog/ufo-terminal-testing.json
+index 826f76de..220968c9 100644
+--- a/content/writings/ufo-terminal-testing.json
++++ b/content/writings/_backlog/ufo-terminal-testing.json
+@@ -9,5 +9,10 @@
+   "relatedNode": "ufo-terminal",
+   "status": "planned",
+   "featured": false,
+-  "order": 2
++  "order": 2,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "rewrite-candidate"
++  }
+ }
+diff --git a/content/writings/venue-screen-distance.json b/content/writings/_backlog/venue-screen-distance.json
+similarity index 73%
+rename from content/writings/venue-screen-distance.json
+rename to content/writings/_backlog/venue-screen-distance.json
+index 2799b995..39a70b79 100644
+--- a/content/writings/venue-screen-distance.json
++++ b/content/writings/_backlog/venue-screen-distance.json
+@@ -9,5 +9,10 @@
+   "relatedNode": null,
+   "status": "planned",
+   "featured": false,
+-  "order": 4
++  "order": 4,
++  "editorial": {
++    "visibility": "internal",
++    "reviewedOn": "2026-11-05",
++    "decision": "rewrite-candidate"
++  }
+ }
+diff --git a/content/writings/restage-re-executable-performance-space.json b/content/writings/restage-re-executable-performance-space.json
+index f6d524d3..91199ab0 100644
+--- a/content/writings/restage-re-executable-performance-space.json
++++ b/content/writings/restage-re-executable-performance-space.json
+@@ -3,14 +3,19 @@
+   "slug": "restage-re-executable-performance-space",
+   "title": "ReStage：可再执行的演出空间",
+   "titleEn": "ReStage: Re-executable Performance Space",
+-  "type": "Research / Long-term Project",
++  "type": "Long-term Research / Proposal",
+   "category": "research",
+   "date": "2026-09-18",
+-  "summary": "研究如何把一次现场视听演出保存为可测量、可重建、可编辑、可再次执行的空间状态，并以开放的 OPS 数据层连接 Web、Unity、Apple Vision Pro 与 AI Agent。",
+-  "summaryEn": "A long-term research project on preserving live audiovisual performance as a measurable, reconstructable and re-executable spatial state shared across Web, Unity, Apple Vision Pro and AI agents.",
++  "summary": "ReStage 长期研究提案：以空间影像、声学测量、时间与状态数据，探索一次实时演出如何被保存、重建并再次执行；规范、验证和跨平台实现仍在研究中。",
++  "summaryEn": "A long-term research proposal for capturing and re-executing performance space through visual, acoustic, temporal, and state data. Implementation and cross-platform validation remain research goals.",
+   "articlePath": "research/restage-re-executable-performance-space/README.md",
+   "githubUrl": "https://github.com/ewanqian/portfolio/blob/main/research/restage-re-executable-performance-space/README.md",
+-  "status": "published",
+-  "featured": true,
+-  "order": 1
++  "status": "draft",
++  "featured": false,
++  "order": 2,
++  "editorial": {
++    "reviewedOn": "2026-11-05",
++    "decision": "research-in-progress",
++    "note": "A research specification and roadmap, not a completed reproducible publication."
++  }
+ }
+diff --git a/docs/portfolio-maintenance-os/writing-catalog-audit-2026-11-05.md b/docs/portfolio-maintenance-os/writing-catalog-audit-2026-11-05.md
+new file mode 100644
+index 00000000..d4f96b3b
+--- /dev/null
++++ b/docs/portfolio-maintenance-os/writing-catalog-audit-2026-11-05.md
+@@ -0,0 +1,97 @@
++# Writing Catalogue Audit — 2026-11-05
++
++## Scope and outcome
++
++The audit began from 29 legacy metadata entries, seven with articlePath and twenty-two title/summary-only records. On the same day four additional complete Performable Music essays were added by a separate writing workflow, bringing the latest total to 33 entries, eleven with articlePath. Status and featured flags were not reliable: some metadata-only items were marked published or featured, while project roadmaps were presented as articles.
++
++**Current result: 9 active Writing entries (7 published articles and 2 research drafts), 5 editorial rewrite candidates, 19 archived legacy metadata entries.** This is a catalogue cleanup, not deletion of works or research documentation.
++
++The public index is generated from active metadata and requires a real article. Research proposals remain accessible under Research in Progress, but they are not Published Writing.
++
++## A. Active — original five entries (3 published, 2 research drafts)
++
++| Slug | Editorial class | Reason / next gate |
++| --- | --- | --- |
++| reactor-bpm-system-2026 | Published; selected | Complete field guide to DJ waveform, BPM Sync and Club live visual operation. Use as publication reference; fix mobile figure-to-section alignment and check every technical link. |
++| scene-forge-reader-02 | Published; selected | Long-form workshop reader with exercises and Cue Sheets. Improve image evidence, mobile reading and table QA. |
++| entropy-two-screen-2026 | Published; ordinary field note | Real authored live-visual project, but the short essay needs more tested engineering and screen references before featured placement. |
++| performable-music | Draft / proposal | Long-term music research; project is not yet a proven performance system. |
++| restage-re-executable-performance-space | Draft / long-term research | Substantial OPS specification and experimental plan; no verified full demonstrator yet. Reclassified from Published/Featured. |
++
++## A2. Concurrent Performable Music research additions — four published essays
++
++These records were added after the legacy 29-entry audit began. They contain substantial bodies and were preserved rather than overwritten. Their published labels record a textual publication, **not** proof that all proposed instruments or tracks already exist.
++
++| Slug | Editorial topic | Follow-up quality review |
++| --- | --- | --- |
++| pm-history-of-programmable-music | Electronic music history and six changes of control | Verify primary historical citations, dates and attribution. |
++| pm-seven-audiovisual-lineages | Seven artist/method case studies | Check every artist statement against source work/interview and distinguish interpretive conclusions. |
++| pm-eight-instruments-sixteen-works | Composition plan for eight instruments / sixteen candidate tracks | Mark the music as proposed until audio and a listening report exist. |
++| pm-human-agent-studio-reader | A reproducible human–agent music-production reader | Require tested exercises, screenshots and outputs before featured promotion. |
++
++All four are grouped as a distinct Performable Music series on the public Writing index; none is Featured.
++
++## B. Keep for evidence-led rewrite — five candidates
++
++Stored in content/writings/_backlog/, NOT Published Writing. Titles below are working references, not approved article headlines.
++
++| Source ID | Grounding | One article to write — evidence gate |
++| --- | --- | --- |
++| drop-flow-note | Existing Drop Flow works, project files and images | A concrete case study on how source imagery becomes a spatial/immersive composition. Requires authored visual comparisons and verified production sequence. |
++| timer-not-sync | TIMER series and project documentation | How temporal structure appears in the actual work; do not write a second generic BPM essay. Use original clips, parameter examples, and annotated frames. |
++| kashiwa-collab | Kashiwa / TITAN project and BO LIVE Shenzhen documentation | A collaboration and performance retrospective, with credits, input/output and verified scene captures. Merge the duplicate BO LIVE metadata. |
++| ufo-terminal-testing | Existing UFO Terminal nodes, works and exhibition records | A test-based exhibition account: what was tested, what failed, how spatial decisions changed. |
++| venue-screen-distance | Real stage dimensions, projection and screen adaptation experience | A practical viewing-distance and playback QA guide; merge viewer spec, rehearsal and playback-test fragments into this evidence-led work. |
++
++**Do not turn candidates into Published by adding only a new title or abstract.** They must pass the publication gate and manual editorial QA.
++
++## C. Archived / hidden — nineteen entries
++
++Moved to content/writings/_archive/. Original ideas are kept for historical traceability but no longer participate in page generation.
++
++### Internal site architecture rather than reader-facing essays (10)
++- archive-redesign
++- archive-vs-public-node
++- content-protocol
++- graph-native-structure
++- nodal-organization
++- portfolio-not-enough
++- practice-lines-not-list
++- practice-then-production
++- public-nodes-not-news
++- viewer-venue-spec-objects
++
++These topics belong to repository architecture and internal editorial/process documentation, not to independent practice-research articles.
++
++### Vague, repetitive or unverified thematic essay titles (4)
++- observation-symbiosis — lacks a unique documented case
++- live-collab-not-bg — overlaps Kashiwa collaboration
++- timer-temporal — overlaps the retained TIMER candidate
++- bo-live-debrief — overlaps Kashiwa / BO LIVE documentation
++
++### Fragments to consolidate into practical guides (3)
++- rehearsal-to-public-node
++- viewer-specs-part-of-system
++- viewer-test-changes-work
++
++These should inform the retained venue-screen-distance / QA article instead of appearing as three thin notes.
++
++### Research/project files that are NOT finished publications (2)
++- next-chapters-2026 — a 2026–2027 roadmap linking Drop Flow, TIMER and HERO DOME; the underlying project plan remains in the repository
++- performance-control-model — existing theoretical research source remains under research/performance-control-model; the Writing listing is hidden until grounded by concrete experiments and an editorial rewrite
++
++## D. Publication decision rules
++
++1. Public article = canonical Markdown file with substantive content, metadata, verified evidence, images and explanations an outsider can follow.
++2. Proposal = readable research question, method, phases and current validation state, but shown only as development material.
++3. Backlog = possible future article with identified authentic materials, no public navigation.
++4. Archive = old title/summary, duplicate, internal site operations, or unsupported generalization. Preserve provenance and allow retrieval; never auto-publish.
++
++The Node publication gate checks metadata and file integrity. It **cannot** certify copyright, artistic quality, factual correctness or mobile image placement. Those require an editor and browser QA.
++
++## E. Additional QA findings
++
++- Current MarkdownReader is a hand-rolled parser with limited Markdown features. Plan a staged move to react-markdown + remark-gfm instead of adding more parser edge cases.
++- BPM's images currently live mainly in a separate aside, which moves below the entire article on narrow screens. Section-anchored figure placement is a P0 UX issue, not a copy-editing issue.
++- Keep third-party show posters out of personal-publication covers unless usage rights are cleared. Prefer author-owned performance photos without dominating third-party logos.
++- Latest GitHub Pages success verifies compilation/deployment, not actual responsive reading or source attribution.
+diff --git a/docs/portfolio-maintenance-os/writing-editorial-guide.md b/docs/portfolio-maintenance-os/writing-editorial-guide.md
+index 87e05f4a..30041fca 100644
+--- a/docs/portfolio-maintenance-os/writing-editorial-guide.md
++++ b/docs/portfolio-maintenance-os/writing-editorial-guide.md
+@@ -96,17 +96,12 @@
+ - [ ] 新用户无需了解作者先前的聊天记录也能理解。
+ - [ ] 网站完成源码构建、发布构建及部署后再宣布上线。
+ 
+-## 八、Writing 目录审计（2026-11-04）
++## 八、Writing 目录审计（2026-11-05）
+ 
+-原始 `content/writings/` 共有 **28 条索引元数据**。其中 **4 条** 有可独立打开的 `articlePath`：BPM System、ENTROPY、Performable Music、Performance Control Model；其余 **24 条**只有摘要／项目指针或待写提纲，尚不具备 Published Writing 的正文条件。
++此次按实际条目而非发表标签重审：先审计原有 29 条（其中 7 条带 articlePath），再兼容同期新增的 4 篇可表演音乐专题正文。当前共 **33 条来源记录：7 篇 Published、2 项 Research in Progress、5 个内部待重写选题、19 个内部归档条目**。
+ 
+-**本次执行：**
++所有历史题目保留在 _backlog 或 _archive 子目录供检索，不删除对应作品、研究工程或项目资料。完整逐项决策见 writing-catalog-audit-2026-11-05.md。
+ 
+-- BPM System：保留为核心 Featured。
+-- Scene Forge 第二期 Reader 0.2：新增完整教材条目，进入 Featured。
+-- ENTROPY：保留在 Published / Field Notes，但从重点推荐中撤下。
+-- Performable Music：归类 Research Proposal，状态为发展中，不再显示为 Published。
+-- Performance Control Model：归类 Working Model，退出重点展示。
+-- 24 条元数据占位项：保留于仓库以便后续写作和溯源，但从公开 Writing 目录隐藏，不删除原有内容。
++今后不能只凭 status=published 就宣称文章已完成：需要完整正文、真实素材、引用依据、人工审校及手机端实际验收；脚本提供最低限度的文件与结构准入检查。
+ 
+-未来有新的完成稿时，只需配置有效 `articlePath`、验证正文与来源，再进入网站策展。保留先前 URL 的行为应独立审查，避免误删用户可能引用过的资源。
++出版组件和长期生产工作流见 writing-publication-system-v1.md。
+diff --git a/docs/portfolio-maintenance-os/writing-publication-system-v1.md b/docs/portfolio-maintenance-os/writing-publication-system-v1.md
+new file mode 100644
+index 00000000..b5d42d97
+--- /dev/null
++++ b/docs/portfolio-maintenance-os/writing-publication-system-v1.md
+@@ -0,0 +1,68 @@
++# Publication System v1 — Stable Quality Without a Second Website
++
++**Goal:** publish complete, readable performance research from real source material, while preserving future proposals and archival traceability.
++
++## Recommended stack after researching official project documentation
++
++| Component | Use | Adoption decision |
++| --- | --- | --- |
++| react-markdown + remark-gfm | CommonMark/GFM rendering; links, tables, media, and custom React element mappings | **P0 next technical migration.** Replace the bespoke MarkdownReader after visual regression coverage. |
++| Markdoc (Stripe) | Stronger document syntax and validation, custom figures and notes | Evaluate in a small branch only if Markdown figure manifests become unmanageable. Do not force it on all writing. |
++| Astro Starlight | Automatic sidebars, search, accessible docs layouts, multilingual docs | Borrow UX patterns; not a site migration. |
++| Docusaurus MDX | Technical manuals, live React components, docs versioning | Not worth duplicating the portfolio renderer yet; a secondary handbook site can be considered if volumes demand it. |
++
++Official references:
++- https://github.com/remarkjs/react-markdown
++- https://github.com/remarkjs/remark-gfm
++- https://markdoc.dev/docs/overview
++- https://starlight.astro.build/guides/sidebar/
++- https://docusaurus.io/docs
++
++**Principle:** content is authored as Markdown and media manifests; interactive components are reusable, optional, and never the only way to understand a claim.
++
++## Proposed reusable React reading components
++
++1. **ArticleFigure** — image, alt text, caption, owner, source, display width; anchored to a heading or paragraph, not a page-wide end gallery.
++2. **StagePlot** — source-backed stage geometry and screen measurements, with units and exportable static fallback.
++3. **TimeAxis** — chronological historical cases with project/creator/date, a real source URL, operating mechanism, and why it helps this article.
++4. **SignalFlow** — labelled inputs, transforms, outputs and operator actions. Use data, not a screenshot of a fake node graph.
++5. **ProcessCompare** — one observable before/after or method A/B comparison; every image retains its native aspect ratio.
++6. **SOPAccordion** — steps, prerequisites, expected result and test. Must be readable without opening unrelated sections.
++7. **ReferenceList** — source title, author, publication date, URL, role (primary project, manual, interview or reporting).
++8. **TermNote** — a concise first-use term definition, avoiding entire separate glossary pages.
++9. **PublicationCardExport** — reproducible 9 × 1:1 image layout from the same source text and figure register, without regenerated pictures.
++
++Avoid a new micro-site for every essay. A single article can use none, one or several of these components.
++
++## Stable publication production
++
++**Stage 0 — Sources:** link to canonical work, video / images, operations logs and actual reference research.
++
++**Stage 1 — Editorial brief:** define the reader, question, one-sentence contribution and 3–7-section narrative spine. Record what the text will not cover.
++
++**Stage 2 — Draft:** plain Markdown that remains useful without images. Explain terms only at first use. Move specialist training and extra devices into appendix when not central.
++
++**Stage 3 — Figure register:** for each visual, record exact asset file, rights owner, provenance, section anchor, alt and caption. The mobile view places the figure next to that section; desktop may show it in a contextual rail.
++
++**Stage 4 — Evidence:** historical/technical claims use verified project-team/official docs; clearly distinguish firsthand observations from independently sourced examples.
++
++**Stage 5 — Review:** run Node catalogue gate, review text, verify links, inspect desktop and mobile 390/768/1280px, confirm media fit and attributions.
++
++**Stage 6 — Publication:** source PR, Vite build, compiled-site PR if required by this repository, then GitHub Pages release verification.
++
++**Stage 7 — Reuse:** archive source notes, create a 9-card derivative and bilingual abstract where helpful. A social image set is an edition of the publication, not a second canonical article.
++
++## Acceptance checklist
++
++- [ ] Specific and useful question in the introduction
++- [ ] One main idea per section; concrete operations before abstract theory
++- [ ] Full canonical Markdown, not title and summary only
++- [ ] Images placed near their claims on mobile
++- [ ] Source and rights recorded for each image
++- [ ] Claims backed by credible primary documentation or identified as personal observations
++- [ ] Keyboard/mouse path works before extra hardware recommendations
++- [ ] SOP has a visible result, failure/recovery step and setup assumptions
++- [ ] Technical build/metadata validation passed
++- [ ] Visual QA checked in actual browser (not inferred from CI)
++
++The automated gate intentionally covers objective publication hygiene only. It does not assign a pretend artistic-quality score.
+diff --git a/react/package.json b/react/package.json
+index bc1d1ed0..8f955fcd 100644
+--- a/react/package.json
++++ b/react/package.json
+@@ -9,7 +9,8 @@
+     "build": "vite build",
+     "postbuild": "node scripts/copy-workspace-assets.mjs",
+     "lint": "eslint .",
+-    "preview": "vite preview"
++    "preview": "vite preview",
++    "check:writing": "node ../scripts/validate-writing-publications.mjs"
+   },
+   "dependencies": {
+     "@gsap/react": "^2.1.2",
+diff --git a/react/src/pages/Writing.jsx b/react/src/pages/Writing.jsx
+index 4ea75e90..ede3f920 100644
+--- a/react/src/pages/Writing.jsx
++++ b/react/src/pages/Writing.jsx
+@@ -10,9 +10,7 @@ import '../styles/writing-index.css'
+ // Public Writing is a reading library, not a backlog of editorial placeholders.
+ // An entry without a complete article is kept in content/writings for future work
+ // but is not rendered as a published article.
+-const EDITORIAL_FEATURES = ['reactor-bpm-system-2026', 'entropy-two-screen-2026', 'scene-forge-reader-02']
+-const RESEARCH_NOTES = ['performable-music', 'performance-control-model']
+-const PERFORMABLE_MUSIC_SERIES = ['pm-history-of-programmable-music', 'pm-seven-audiovisual-lineages', 'pm-eight-instruments-sixteen-works', 'pm-human-agent-studio-reader']
++const PERFORMABLE_MUSIC_SERIES_NAME = 'Performable Music / 可表演音乐'
+ 
+ function byOrder(items) {
+   return [...items].sort((a, b) => (a.order ?? 999) - (b.order ?? 999))
+@@ -47,15 +45,11 @@ function EditorialEntry({ item, language, featured = false, kind = '' }) {
+ function Writing() {
+   const { language } = useLanguage()
+   const records = writings.map((writing) => localizeWriting(writing, language))
+-  const byId = new Map(records.map((item) => [item.id, item]))
+-  const featured = EDITORIAL_FEATURES.map((id) => byId.get(id))
+-    .filter((item) => item?.articlePath && item.status === 'published')
+-  const musicSeries = PERFORMABLE_MUSIC_SERIES.map((id) => byId.get(id))
+-    .filter((item) => item?.articlePath && item.status === 'published')
+-  const otherPublished = byOrder(records.filter((item) =>
+-    item.articlePath && item.status === 'published' && !EDITORIAL_FEATURES.includes(item.id) && !PERFORMABLE_MUSIC_SERIES.includes(item.id)
+-  ))
+-  const research = RESEARCH_NOTES.map((id) => byId.get(id)).filter((item) => item?.articlePath)
++  const published = records.filter((item) => item.articlePath && item.status === 'published')
++  const featured = byOrder(published.filter((item) => item.featured === true))
++  const musicSeries = byOrder(published.filter((item) => item.series === PERFORMABLE_MUSIC_SERIES_NAME))
++  const otherPublished = byOrder(published.filter((item) => item.featured !== true && item.series !== PERFORMABLE_MUSIC_SERIES_NAME))
++  const research = byOrder(records.filter((item) => item.articlePath && item.status === 'draft' && item.category === 'research'))
+ 
+   return (
+     <>
+@@ -78,8 +72,8 @@ function Writing() {
+               <span>01 / SELECTED</span>
+             </div>
+             <div className="writing-editorial-feature-grid">
+-              {featured.map((item, index) => (
+-                <EditorialEntry key={item.id} item={item} language={language} featured kind={index === 0 ? 'LIVE SYSTEM / RESEARCH' : index === 1 ? 'PERFORMANCE / PROCESS' : 'WORKSHOP / READER'} />
++              {featured.map((item) => (
++                <EditorialEntry key={item.id} item={item} language={language} featured kind={item.id === 'scene-forge-reader-02' ? 'WORKSHOP / READER' : 'LIVE SYSTEM / RESEARCH'} />
+               ))}
+             </div>
+           </div>
+@@ -107,7 +101,7 @@ function Writing() {
+             <div className="container">
+               <div className="writing-edition-section-heading">
+                 <h2 id="writing-published-heading">Published Writing</h2>
+-                <span>02 / ARTICLES</span>
++                <span>03 / ARTICLES</span>
+               </div>
+               <div className="writing-editorial-list">
+                 {otherPublished.map((item) => <EditorialEntry key={item.id} item={item} language={language} kind="FIELD NOTES" />)}
+@@ -121,7 +115,7 @@ function Writing() {
+             <div className="container">
+               <div className="writing-edition-section-heading">
+                 <h2 id="writing-research-heading">{language === 'en' ? 'Research in progress' : '研究草案'}</h2>
+-                <span>03 / DEVELOPMENT</span>
++                <span>04 / DEVELOPMENT</span>
+               </div>
+               <p className="writing-edition-category-note">{language === 'en'
+                 ? 'Proposals and evolving research models, presented separately from completed articles.'
+@@ -129,7 +123,7 @@ function Writing() {
+               <div className="writing-editorial-list">
+                 {research.map((item) => (
+                   <EditorialEntry key={item.id} item={item} language={language}
+-                    kind={item.id === 'performable-music' ? 'PROPOSAL' : 'WORKING MODEL'} />
++                    kind={item.id === 'performable-music' ? 'PROPOSAL' : 'LONG-TERM RESEARCH'} />
+                 ))}
+               </div>
+             </div>
+diff --git a/scripts/build-content.js b/scripts/build-content.js
+index 25411546..96cba369 100644
+--- a/scripts/build-content.js
++++ b/scripts/build-content.js
+@@ -1,6 +1,7 @@
+ import fs from 'fs'
+ import path from 'path'
+ import { fileURLToPath } from 'url'
++import { validateWritingCatalog } from './validate-writing-publications.mjs'
+ 
+ const here = path.dirname(fileURLToPath(import.meta.url))
+ const repoRoot = path.resolve(here, '..')
+@@ -68,6 +69,8 @@ function attachWritingArticle(writing) {
+ const works = readJsonFiles(path.join(contentDir, 'works'))
+ const nodes = readJsonFiles(path.join(contentDir, 'nodes'))
+ const assets = readJsonFiles(path.join(contentDir, 'assets'))
++validateWritingCatalog(repoRoot)
++
+ const writings = readJsonFiles(path.join(contentDir, 'writings'))
+   .map(attachWritingArticle)
+ const relations = readJsonFiles(path.join(contentDir, 'relations'))
+diff --git a/scripts/validate-writing-publications.mjs b/scripts/validate-writing-publications.mjs
+new file mode 100644
+index 00000000..3aba967f
+--- /dev/null
++++ b/scripts/validate-writing-publications.mjs
+@@ -0,0 +1,89 @@
++import fs from 'node:fs'
++import path from 'node:path'
++import { fileURLToPath } from 'node:url'
++
++const defaultRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
++const acceptableStatuses = new Set(['published', 'draft'])
++
++export function validateWritingCatalog(repoRoot = defaultRoot) {
++  const root = path.join(repoRoot, 'content', 'writings')
++  const files = fs.readdirSync(root).filter((name) => name.endsWith('.json')).sort()
++  const errors = []
++  const slugs = new Set()
++  const summary = { active: files.length, published: 0, draft: 0, featured: 0, archived: 0, backlog: 0 }
++
++  for (const folder of ['_archive', '_backlog']) {
++    const dir = path.join(root, folder)
++    const count = fs.existsSync(dir) ? fs.readdirSync(dir).filter((name) => name.endsWith('.json')).length : 0
++    summary[folder === '_archive' ? 'archived' : 'backlog'] = count
++  }
++
++  for (const name of files) {
++    const fullPath = path.join(root, name)
++    let entry
++    try {
++      entry = JSON.parse(fs.readFileSync(fullPath, 'utf8'))
++    } catch (error) {
++      errors.push(name + ': invalid JSON: ' + error.message)
++      continue
++    }
++
++    if (entry.id !== name.slice(0, -5)) errors.push(name + ': id does not match filename')
++    const slug = entry.slug || entry.id
++    if (!slug || slugs.has(slug)) errors.push(name + ': missing/duplicate slug')
++    slugs.add(slug)
++
++    if (!acceptableStatuses.has(entry.status)) {
++      errors.push(name + ': active entries must be published or draft; move plans to _backlog and old concepts to _archive')
++    } else {
++      summary[entry.status] += 1
++    }
++
++    if (!entry.title || !entry.type || !entry.summary || entry.summary.trim().length < 20) {
++      errors.push(name + ': title, type and informative summary required')
++    }
++
++    if (entry.featured === true) {
++      summary.featured += 1
++      if (entry.status !== 'published') errors.push(name + ': featured is only allowed for published work')
++    }
++
++    if (!entry.articlePath) {
++      errors.push(name + ': every active entry requires a complete articlePath; move metadata-only candidates out of active Writing')
++      continue
++    }
++
++    const documentPath = path.resolve(repoRoot, entry.articlePath)
++    const relative = path.relative(repoRoot, documentPath)
++    if (relative.startsWith('..') || path.isAbsolute(relative) || !fs.existsSync(documentPath)) {
++      errors.push(name + ': articlePath is outside repository or missing: ' + entry.articlePath)
++      continue
++    }
++    if (!fs.statSync(documentPath).isFile()) {
++      errors.push(name + ': articlePath is not a file')
++      continue
++    }
++    const markdown = fs.readFileSync(documentPath, 'utf8')
++    if (markdown.trim().length < (entry.status === 'published' ? 1000 : 450)) {
++      errors.push(name + ': body too short for ' + entry.status + ' publication')
++    }
++    const headings = (markdown.match(/^#{1,4} +\S/gm) || []).length
++    if (entry.status === 'published' && headings < 2) errors.push(name + ': published article must include section headings')
++
++    if (entry.status === 'published' && entry.articlePath.startsWith('docs/portfolio-maintenance-os/')) {
++      errors.push(name + ': internal project-management document cannot be a Published Writing article')
++    }
++  }
++
++  if (errors.length) throw new Error('Writing publication gate failed:\n- ' + errors.join('\n- '))
++  return summary
++}
++
++if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
++  try {
++    console.log('Writing publication gate passed:', validateWritingCatalog())
++  } catch (error) {
++    console.error(error.message)
++    process.exitCode = 1
++  }
++}
