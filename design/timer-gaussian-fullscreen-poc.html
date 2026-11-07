@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#060606">
+<title>VIRTURA — TIMER Gaussian Background Study</title>
+<style>
+:root{--bg:#050405;--fg:#f3f0ea;--muted:#b3b0ad;--rule:#f3f0ea45;--pad:clamp(18px,3.4vw,55px)}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;background:var(--bg);color:var(--fg);font:15px/1.4 Arial,Helvetica,"PingFang SC",sans-serif}
+body{overflow-x:hidden}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible{outline:2px solid var(--fg);outline-offset:5px}
+.stage{position:relative;height:100svh;min-height:580px;isolation:isolate;overflow:hidden;background:#050405}
+.poster{position:absolute;inset:0;display:grid;place-items:center;z-index:-2}
+.poster img{height:100%;width:100%;object-fit:contain;filter:brightness(.72) saturate(.8)}
+.viewer{position:absolute;inset:0;width:100%;height:100%;border:0;background:transparent;z-index:-1;display:none;pointer-events:none}
+.stage.is-3d .viewer{display:block}.stage.is-3d .poster{display:none}
+.stage.is-control .viewer{pointer-events:auto}.stage.is-control .main-controls,.stage.is-control .top-meta{pointer-events:none;opacity:0}
+.stage:after{content:"";position:absolute;z-index:0;inset:0;pointer-events:none;background:linear-gradient(90deg,#050405e5 0%,transparent 50%),linear-gradient(0deg,#050405c7 0%,transparent 28%)}
+.stage.is-control:after{opacity:0}
+.nav{position:absolute;z-index:5;left:var(--pad);right:var(--pad);top:0;height:88px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--rule);gap:15px}
+.logo{font-size:clamp(19px,2vw,27px);font-weight:650;letter-spacing:-.075em}.right{display:flex;align-items:center;gap:22px;color:var(--fg);font-size:11px;letter-spacing:.14em}
+.main-controls{position:absolute;left:var(--pad);bottom:clamp(90px,13svh,140px);max-width:640px;z-index:4;transition:opacity .2s}
+.small{color:var(--muted);letter-spacing:.18em;font-size:11px;text-transform:uppercase}
+h1{font-weight:480;font-size:clamp(66px,12vw,174px);line-height:.85;letter-spacing:-.105em;margin:16px 0 25px}
+.actions{display:flex;flex-wrap:wrap;gap:13px}.action{font-size:12px;font-weight:600;letter-spacing:.09em;min-height:46px;min-width:160px;background:var(--fg);color:#0a0a0a;padding:13px 19px;border:1px solid var(--fg);text-align:center}.action.subtle{background:#0504058a;color:var(--fg)}
+.top-meta{position:absolute;right:var(--pad);top:120px;z-index:3;text-align:right;font-size:11px;letter-spacing:.13em;color:var(--fg)}
+.info{position:absolute;left:var(--pad);right:var(--pad);bottom:22px;display:flex;gap:20px;justify-content:space-between;z-index:4;font-size:10px;color:var(--muted);letter-spacing:.08em}
+.reset{display:none;position:absolute;right:var(--pad);top:106px;z-index:7;color:var(--fg);background:#050405e9;border:1px solid var(--fg);font-size:12px;padding:12px 16px}.stage.is-control .reset{display:block}
+.state{position:absolute;bottom:72px;left:var(--pad);z-index:6;color:var(--fg);background:#070607d6;padding:7px 10px;font-size:11px;display:none}
+.state.visible{display:block}
+.skip{position:absolute;z-index:20;top:0;left:0;transform:translateY(-130%);background:#fff;color:#000;padding:12px}.skip:focus{transform:translateY(0)}
+@media(max-width:700px){.right{gap:14px}.right a:first-child{display:none}.stage{min-height:650px}.top-meta{top:106px}.poster img{object-fit:contain}.main-controls{bottom:110px}h1{font-size:clamp(62px,17vw,104px)}.info{font-size:9px}.actions .action{min-width:135px}}
+@media(prefers-reduced-motion:reduce){.main-controls{transition:none}}
+</style></head>
+<body><a class="skip" href="#entry">跳到主操作</a>
+<main class="stage" id="stage" aria-label="TIMER Gaussian experimental background">
+ <div class="poster" id="poster"><img src="../assets/gaussian/timer-gaussian-0531.webp" alt="TIMER 高斯空间样本：黑红色空间、光球与体积影像"></div>
+ <nav class="nav" aria-label="VIRTURA 导航"><a class="logo" href="../">VIRTURA</a><div class="right"><a href="../#work">STUDIO</a><a href="../apps/">SPACE</a></div></nav>
+ <div class="top-meta">TIMER / SPATIAL ARCHIVE<br>SCENE 0531 · 3DGS</div>
+ <div class="main-controls" id="entry"><div class="small">VIRTURA / WORKS / 2024 → 2026</div><h1>TIMER</h1>
+ <div class="actions"><button class="action" id="start" type="button">开启高斯背景 ↗</button><a class="action subtle" href="https://ewanqian.site/works/timer" target="_blank" rel="noopener noreferrer">查看作品档案 ↗</a><button class="action subtle" type="button" id="control" hidden>操控空间 / ORBIT</button></div></div>
+ <div class="info"><span>EXPERIMENT 01 / EXISTING SUPERSPLAT ASSET</span><span>DESIGN TEST — NOT RELEASED AVP APP</span></div>
+ <p class="state" id="state" role="status" aria-live="polite"></p>
+ <button class="reset" id="reset" type="button">返回界面 / EXIT CAMERA</button>
+</main>
+<script>
+(()=>{
+const stage=document.getElementById('stage'),start=document.getElementById('start'),control=document.getElementById('control'),reset=document.getElementById('reset'),state=document.getElementById('state');
+let frame;
+function status(v){state.textContent=v;state.classList.toggle('visible',!!v)}
+start.addEventListener('click',()=>{
+ if(frame)return;
+ if(window.matchMedia('(prefers-reduced-motion: reduce)').matches){
+   status('浏览器设置了减少动态效果；您仍可选择打开场景。');
+ }
+ status('正在连接 SuperSplat Viewer；此提示只表示页面连接状态，不是场景渲染进度。');
+ frame=document.createElement('iframe');
+ frame.className='viewer';frame.title='TIMER Gaussian 0531 — SuperSplat';frame.allow='fullscreen; xr-spatial-tracking';
+ frame.src='https://superspl.at/s?id=b9ec0173';frame.setAttribute('loading','eager');
+ frame.addEventListener('load',()=>{stage.classList.add('is-3d');status('Viewer 页面已连接。实际三维画面仍可能继续加载。');start.textContent='高斯背景已连接';start.disabled=true;control.hidden=false});
+ frame.addEventListener('error',()=>{status('嵌入页面未能加载；请从作品档案访问原始场景。');frame.remove();frame=null});
+ stage.insertBefore(frame,stage.firstChild);
+});
+control.addEventListener('click',()=>{stage.classList.add('is-control');status('');frame?.focus()});
+function exit(){stage.classList.remove('is-control');control.focus()}
+reset.addEventListener('click',exit);
+window.addEventListener('keydown',e=>{if(e.key==='Escape'&&stage.classList.contains('is-control'))exit()});
+})();
+</script></body></html>
