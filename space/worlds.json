@@ -40,7 +40,12 @@
         "balloon",
         "teahouse",
         "research"
-      ]
+      ],
+      "secondaryUrl": "https://spaceport.virtura.space/",
+      "secondaryLabel": {
+        "zh": "港口首页",
+        "en": "Port home"
+      }
     },
     {
       "id": "mova",
@@ -71,7 +76,12 @@
       "related": [
         "arrival",
         "research"
-      ]
+      ],
+      "secondaryUrl": "https://spaceport.virtura.space/stations/mova/exhibitions/index.html",
+      "secondaryLabel": {
+        "zh": "展览目录",
+        "en": "Exhibition index"
+      }
     },
     {
       "id": "balloon",
@@ -102,7 +112,12 @@
       "related": [
         "arrival",
         "research"
-      ]
+      ],
+      "secondaryUrl": "https://spaceport.virtura.space/stations/balloon-live-space/weekly-program/index.html",
+      "secondaryLabel": {
+        "zh": "查看节目表",
+        "en": "Weekly programme"
+      }
     },
     {
       "id": "teahouse",
@@ -132,7 +147,12 @@
       "sourcePath": "stations/teahouse-forest-pavilion/index.html",
       "related": [
         "arrival"
-      ]
+      ],
+      "secondaryUrl": "https://spaceport.virtura.space/stations/teahouse-forest-pavilion/ten-minute-tea/index.html",
+      "secondaryLabel": {
+        "zh": "十分钟茶屋",
+        "en": "Ten-minute tea"
+      }
     },
     {
       "id": "research",
@@ -165,7 +185,12 @@
         "mova",
         "balloon",
         "knowledge"
-      ]
+      ],
+      "secondaryUrl": "https://spaceport.virtura.space/stations/research-laboratory/weekly-brief/index.html",
+      "secondaryLabel": {
+        "zh": "研究简报",
+        "en": "Research briefs"
+      }
     },
     {
       "id": "knowledge",
@@ -195,7 +220,12 @@
       "sourcePath": "knowledge-network/index.html",
       "related": [
         "research"
-      ]
+      ],
+      "secondaryUrl": "https://spaceport.virtura.space/knowledge-network/learning-paths/index.html",
+      "secondaryLabel": {
+        "zh": "学习路径",
+        "en": "Learning paths"
+      }
     }
   ]
 }
