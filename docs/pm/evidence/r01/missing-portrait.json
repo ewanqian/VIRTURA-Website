@@ -1,0 +1,5 @@
+{
+  "url": "https://virtura.space/assets/people/sihui-xu-square.jpg",
+  "headers": "HTTP/2 200 \ndate: Sat, 07 Nov 2026 17:09:53 GMT\ncontent-type: image/jpeg\ncontent-length: 19096\naccess-control-allow-origin: *\ncache-control: public, max-age=0, must-revalidate\netag: \"b1e51b1f62f509fa98f11ff88d17258b\"\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=FkDgboOw8OxiwS8EfQoJpe7SuT%2Frk2U94zPHS%2F69hlvxxxtAijAHDTR3xxPdyd4Ggy2IbYTI08EAEOKT7oTnqNsgZl9eNKnasSoS2LkrVTX8EDxEuApTCToA7iLi9No3\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: cloudflare\ncf-ray: a56df2c08e05341c-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+  "bytes": 19096
+}

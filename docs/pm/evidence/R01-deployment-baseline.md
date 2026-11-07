@@ -69,3 +69,15 @@ Next gate: editor/deployment owner verifies provider configuration/build logs an
 ## Post-push PR preview acceptance
 
 At observed PR head `9e8bbdf01c1f7ac74bc4960c15232b36bb62e8af`, static integrity and Cloudflare checks both SUCCESS ([check snapshot](r01/pr-checks.json)). Fixed PR preview `https://e378519a.virtura-website.pages.dev` returned successful curl responses for all five routes; each HTML body equals the corresponding observed PR file ([response hash proof](r01/pr-preview-proof.json)). Public sampled HTML still maps to main `837d68c`; PR preview has a distinct SHA and identical website bytes because this PR changes evidence only. Later evidence-only commits are not retrospectively claimed as this measured preview SHA. Cloudflare account settings/build logs and historical rollback target remain unverified.
+
+## Continued R01 audit — 2026-11-08
+
+Automatic Codex review of head 429b5ed completed with no findings; GitHub human reviews remain empty. This is not editorial approval. Follow-up [script](r01/followup.cjs), [raw results](r01/followup.json), and four viewport screenshots add latest observed PR preview, soft-404 and overflow proof. Latest observed PR deployment d666d5f3 serves all five expected HTML files exactly matching 429b5ed.
+
+Historical deployment candidate: `08c21c94.virtura-website.pages.dev`, SHA `15df3236cab97d59bbc8064c234f490d00720b3d`, provider check successful ([snapshot](r01/rollback-candidate-checks.json)); all five HTML responses exactly match that revision. This is a reachable **candidate**, not an approved known-good runtime/rollback target: no provider environment/settings access, rollback permission, all-assets regression or rollback drill was proved.
+
+Follow-up root viewport 375 has scrollWidth 474; Atlas viewport 768 has scrollWidth 793. Negative route displays root with 200. Follow-up root/soft404 zero-image entries were sampled after bounded waits and include visible images with src attributes; they are incomplete-load observations, not proof of missing or corrupt assets. Separate per-asset HTTP/decode output is recorded in image-decode.json.
+
+Additional access search: known local Wrangler config locations contained no config TOML files. Browser inventory was attempted twice and timed out, so an authenticated dashboard session could not be established through available browser tooling. No account login was changed. R01 remains BLOCKED on provider settings/build logs and owner-approved rollback target.
+
+Per-asset decode result: **21 unique root img src values, 20 decoded, one failed HTTP 404**: `assets/people/sihui-xu-square.jpg`. [Raw decode results](r01/image-decode.json), [repeat HTTP proof](r01/missing-portrait.json). This isolates an actual missing portrait from timing-dependent empty currentSrc observations. No replacement photo, credit or homepage markup was introduced; correction requires verified existing source/rights under the original preservation rule.

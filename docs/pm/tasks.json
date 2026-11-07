@@ -63,7 +63,9 @@
       "evidenceLinks": [
         "docs/pm/evidence/R01-deployment-baseline.md",
         "docs/pm/evidence/r01/runtime.json",
-        "docs/pm/evidence/r01/github-main-checks.json"
+        "docs/pm/evidence/r01/github-main-checks.json",
+        "docs/pm/evidence/r01/followup.json",
+        "docs/pm/evidence/r01/image-decode.json"
       ],
       "prUrl": "https://github.com/ewanqian/VIRTURA-Website/pull/5",
       "completedAt": null,
