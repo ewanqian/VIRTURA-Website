@@ -1,0 +1,334 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-11-07",
+  "sourceRepo": "ewanqian/VIRTURA-Website",
+  "issueTracker": {
+    "enabled": false,
+    "reason": "GitHub REST create issue returned HTTP 410: Issues disabled",
+    "systemOfRecord": "docs/pm/tasks.json",
+    "delivery": "pull requests"
+  },
+  "rules": {
+    "maxConcurrentLocal": 2,
+    "maxConcurrentOnline": 1,
+    "maxConcurrentActiveP0": 2,
+    "neverPushMain": true,
+    "mergePolicy": "Human/editor review after gates and deployment preview",
+    "publishedDoesNotMeanVerified": true,
+    "protectHomepageSections": [
+      "#top",
+      "#universes",
+      "#capabilities",
+      "#work",
+      "#delivery",
+      "#workflow",
+      "#studio",
+      "#people",
+      "#project-inquiry"
+    ],
+    "preserveAspectRatio": true,
+    "sourceOfTruth": "Portfolio concepts do not automatically confer team authorship",
+    "taskStates": [
+      "QUEUED",
+      "READY",
+      "IN_PROGRESS",
+      "IN_REVIEW",
+      "BLOCKED",
+      "DONE"
+    ]
+  },
+  "tasks": [
+    {
+      "id": "R01",
+      "title": "Deployment truth and rollback",
+      "priority": "P0",
+      "route": "LOCAL_OPENCODE",
+      "status": "READY",
+      "dependencies": [],
+      "effort": "S",
+      "brief": "Verify Cloudflare/GitHub deployment from accessible evidence; do not infer success from merge or CNAME.",
+      "inputs": [
+        "docs/site-upgrade/DEPLOYMENT-OWNERSHIP.md",
+        "CNAME",
+        "apps/index.html",
+        "apps/store.html"
+      ],
+      "outputs": [
+        "docs/pm/evidence/R01-deployment-baseline.md"
+      ],
+      "acceptance": [
+        "Route/HTTP table for root/apps/store/My Space/Atlas; public vs preview SHA; screenshot/404 evidence; rollback path"
+      ],
+      "humanSignoff": true,
+      "evidenceLinks": [],
+      "prUrl": null,
+      "completedAt": null,
+      "blocker": null
+    },
+    {
+      "id": "R02",
+      "title": "Portfolio QA knowledge transfer",
+      "priority": "P0",
+      "route": "LOCAL_DEEPSEEK",
+      "status": "READY",
+      "dependencies": [],
+      "effort": "S",
+      "brief": "Review portfolio PR #130 #132 #134 #121 #94 and convert only proven process into team gates.",
+      "inputs": [
+        "https://github.com/ewanqian/portfolio/pull/130",
+        "https://github.com/ewanqian/portfolio/pull/132",
+        "https://github.com/ewanqian/portfolio/pull/134",
+        "https://github.com/ewanqian/portfolio/pull/121",
+        "https://github.com/ewanqian/portfolio/pull/94"
+      ],
+      "outputs": [
+        "docs/pm/evidence/R02-portfolio-transfer.md"
+      ],
+      "acceptance": [
+        "Matrix: source PR → mechanism → team adaptation → unsafe-to-copy assumptions → owner decision"
+      ],
+      "humanSignoff": false,
+      "evidenceLinks": [],
+      "prUrl": null,
+      "completedAt": null,
+      "blocker": null
+    },
+    {
+      "id": "R03",
+      "title": "Space information architecture and service semantics",
+      "priority": "P0",
+      "route": "ONLINE_GPT_EDITOR",
+      "status": "QUEUED",
+      "dependencies": [
+        "R01"
+      ],
+      "effort": "L",
+      "brief": "Freeze VIRTURA Space vs Studio vs SpacePort vs Archive; Space as worlds first, tools and courses auxiliary. Research Wii/iCloud, not clone interface.",
+      "inputs": [
+        "index.html",
+        "apps/index.html",
+        "apps/store.html",
+        "docs/site-upgrade/VIRTURA-SPACES-SERVICE-DESIGN-2026.md"
+      ],
+      "outputs": [
+        "docs/pm/evidence/R03-IA-decision.md"
+      ],
+      "acceptance": [
+        "Approved sitemap, 3 user journeys, canonical zh/en naming, route redirect/compatibility map, content weights"
+      ],
+      "humanSignoff": true,
+      "evidenceLinks": [],
+      "prUrl": null,
+      "completedAt": null,
+      "blocker": null
+    },
+    {
+      "id": "R04",
+      "title": "Unified visual direction and safe homepage redesign",
+      "priority": "P0",
+      "route": "ONLINE_GPT_ART_DIRECTOR_THEN_LOCAL_OPENCODE",
+      "status": "QUEUED",
+      "dependencies": [
+        "R01",
+        "R03"
+      ],
+      "effort": "L",
+      "brief": "Protect root homepage hero, 7 works cards, people, inquiry and existing routes. Propose image-driven layout system before any root rewrite.",
+      "inputs": [
+        "index.html",
+        "brand-spec.md",
+        "apps/index.html",
+        "apps/store.html",
+        "apps/my-space.html",
+        "apps/catalog.html"
+      ],
+      "outputs": [
+        "docs/pm/evidence/R04-visual-QA.md"
+      ],
+      "acceptance": [
+        "Approved visual target, reused tokens, before-after captures at 375/768/1440 + zh/en, image aspect integrity, no scroll overflow, rollback"
+      ],
+      "humanSignoff": true,
+      "evidenceLinks": [],
+      "prUrl": null,
+      "completedAt": null,
+      "blocker": null
+    },
+    {
+      "id": "R05",
+      "title": "Media rights and asset mapping",
+      "priority": "P0",
+      "route": "LOCAL_OPENCODE",
+      "status": "QUEUED",
+      "dependencies": [
+        "R02"
+      ],
+      "effort": "M",
+      "brief": "Audit cover assets and edition correctness for TIMER/Drop Flow/SpacePort/SceneForge. Never invent sources or crop originals destructively.",
+      "inputs": [
+        "VIRTURA_WEBSITE_ASSETS",
+        "assets",
+        "https://github.com/ewanqian/portfolio",
+        "https://github.com/ewanqian/VIRTURA-Collective"
+      ],
+      "outputs": [
+        "docs/pm/evidence/R05-media-ledger.json"
+      ],
+      "acceptance": [
+        "At least 8 priority images with dimensions, hash, mapped work/edition/rights, decode and screenshot evidence"
+      ],
+      "humanSignoff": true,
+      "evidenceLinks": [],
+      "prUrl": null,
+      "completedAt": null,
+      "blocker": null
+    },
+    {
+      "id": "R06",
+      "title": "Team Credit and editorial truth",
+      "priority": "P0",
+      "route": "ONLINE_GPT_EDITOR",
+      "status": "QUEUED",
+      "dependencies": [
+        "R02"
+      ],
+      "effort": "M",
+      "brief": "Validate specific editions, team vs individual roles, portraits and institution claims; do not infer exclusive authorship or commercial rights.",
+      "inputs": [
+        "work/ufo-circular-series.html",
+        "index.html",
+        "https://xusihui.com/",
+        "https://github.com/ewanqian/VIRTURA-Collective"
+      ],
+      "outputs": [
+        "docs/pm/evidence/R06-credits.md"
+      ],
+      "acceptance": [
+        "TIMER/Drop Flow edition-level credit matrices and unresolved flags; no invented job titles or ownership"
+      ],
+      "humanSignoff": true,
+      "evidenceLinks": [],
+      "prUrl": null,
+      "completedAt": null,
+      "blocker": null
+    },
+    {
+      "id": "R07",
+      "title": "Independent app experience QA",
+      "priority": "P1",
+      "route": "LOCAL_OPENCODE",
+      "status": "QUEUED",
+      "dependencies": [
+        "R01"
+      ],
+      "effort": "M",
+      "brief": "Actually open 13 curated app links; test start/input/output/exit on desktop/mobile, annotate XR as unverified unless physically tested.",
+      "inputs": [
+        "apps/store-registry.json",
+        "data/space-asset-inventory-2026.json",
+        "https://github.com/ewanqian/SceneForge",
+        "https://github.com/ewanqian/atmospheric-escape-liveset"
+      ],
+      "outputs": [
+        "docs/pm/evidence/R07-runtime-matrix.csv"
+      ],
+      "acceptance": [
+        "Each app runtime URL, step-by-step journey, broken refs, QA screenshots, evidence-based category downgrade/upgrade"
+      ],
+      "humanSignoff": false,
+      "evidenceLinks": [],
+      "prUrl": null,
+      "completedAt": null,
+      "blocker": null
+    },
+    {
+      "id": "R08",
+      "title": "SpacePort/IP experiential map",
+      "priority": "P1",
+      "route": "ONLINE_GPT_CURATOR",
+      "status": "QUEUED",
+      "dependencies": [
+        "R03",
+        "R05"
+      ],
+      "effort": "L",
+      "brief": "Turn existing worlds and archives into a real navigable port/world itinerary; no invented playable IP; fictional banking distinct from financial services.",
+      "inputs": [
+        "https://github.com/ewanqian/VIRTURA-SpacePort",
+        "https://github.com/ewanqian/VIRTURA2114",
+        "https://github.com/ewanqian/Senia-Digital-Resort"
+      ],
+      "outputs": [
+        "docs/pm/evidence/R08-spaces-map.md"
+      ],
+      "acceptance": [
+        "Playable / archive / lore matrix, one 5-minute proof-of-experience, independently deployable routes and rights"
+      ],
+      "humanSignoff": true,
+      "evidenceLinks": [],
+      "prUrl": null,
+      "completedAt": null,
+      "blocker": null
+    },
+    {
+      "id": "R09",
+      "title": "App registry and identity contract",
+      "priority": "P1",
+      "route": "LOCAL_OPENCODE_THEN_ONLINE_REVIEW",
+      "status": "QUEUED",
+      "dependencies": [
+        "R02",
+        "R07"
+      ],
+      "effort": "M",
+      "brief": "Reconcile 33 raw assets vs 13 curated items, add schema and gate; identity sync OIDC/Workers/D1 remains proposal until real need and threat model.",
+      "inputs": [
+        "apps/store-registry.json",
+        "data/space-asset-inventory-2026.json",
+        "apps/sdk/virtura-app.schema.json",
+        "apps/my-space.html"
+      ],
+      "outputs": [
+        "docs/pm/evidence/R09-registry-contract.md"
+      ],
+      "acceptance": [
+        "Unique ID authority, source links, app lifecycle schema, privacy model; no token or premature cross-device auth implementation"
+      ],
+      "humanSignoff": true,
+      "evidenceLinks": [],
+      "prUrl": null,
+      "completedAt": null,
+      "blocker": null
+    },
+    {
+      "id": "R10",
+      "title": "Commercial service design and sustainable release loop",
+      "priority": "P2",
+      "route": "ONLINE_GPT_PRODUCT",
+      "status": "QUEUED",
+      "dependencies": [
+        "R03",
+        "R06",
+        "R07"
+      ],
+      "effort": "M",
+      "brief": "Choose 3 productizable services rooted in actual work and consented media, separate studio client services from fictional world IP, avoid empty store.",
+      "inputs": [
+        "docs/site-upgrade/SPACES-ASSET-AUDIT-2026-11-07.md",
+        "docs/site-upgrade/SPACES-STORE-SDK-ACCOUNT-DESIGN-2026.md",
+        "https://github.com/ewanqian/SceneForge"
+      ],
+      "outputs": [
+        "docs/pm/evidence/R10-service-packages.md"
+      ],
+      "acceptance": [
+        "3 products: target client, authentic demo, deliverable, rights, scope, support cost and verified CTA; monthly update rules"
+      ],
+      "humanSignoff": true,
+      "evidenceLinks": [],
+      "prUrl": null,
+      "completedAt": null,
+      "blocker": null
+    }
+  ]
+}
