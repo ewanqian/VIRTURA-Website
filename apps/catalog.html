@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Spaces Atlas / VIRTURA</title><meta name="description" content="VIRTURA 体验、作品、工作坊、世界观及空间档案的公开目录"><style>
+:root{color-scheme:dark;--bg:#101514;--line:#36413b;--fg:#eee;--sub:#a7b2ac}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.55 -apple-system,BlinkMacSystemFont,Arial,"PingFang SC",sans-serif}
+a{color:inherit}a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid #c9e3cb;outline-offset:3px}
+main{max-width:1150px;padding:42px 24px 95px;margin:auto}.back{font-size:13px;color:#a9c8ae}h1{font-size:clamp(35px,5vw,65px);font-weight:530;line-height:1;letter-spacing:-.06em;margin:32px 0 20px}h2{font-weight:500}p{max-width:760px;color:var(--sub)}.controls{display:flex;gap:12px;align-items:center;flex-wrap:wrap;margin:38px 0 28px}input{width:min(460px,100%);background:#19221f;color:#fff;border:1px solid var(--line);padding:13px 15px;border-radius:11px;font:inherit}.hint{font-size:12px;color:var(--sub)}details{border-top:1px solid var(--line);padding:15px 0}details:last-child{border-bottom:1px solid var(--line)}summary{cursor:pointer;font-size:20px;letter-spacing:-.03em;padding:8px 2px;display:flex;justify-content:space-between;gap:12px}summary small{font-size:12px;letter-spacing:0;color:var(--sub)}.rows{display:grid;gap:8px;padding:16px 0}.item{display:grid;grid-template-columns:minmax(180px,1.3fr) 55px minmax(180px,1.4fr) minmax(190px,1.25fr);gap:16px;border:1px solid var(--line);border-radius:10px;padding:14px 16px;align-items:center;background:#18201d}.name{font-weight:550}.name a{text-decoration:underline;text-decoration-color:#718b78;text-underline-offset:4px}.score{border-radius:6px;font-size:12px;font-weight:700;border:1px solid #637b69;padding:5px 8px;text-align:center}.meta{color:var(--sub);font-size:12px}.note{margin-top:30px;font-size:12px;color:var(--sub)}@media(max-width:760px){.item{grid-template-columns:1fr 52px}.meta{grid-column:1/-1}.rows{gap:10px}}
+</style></head><body><main><a class="back" href="./">← Spaces / 返回频道</a><p class="hint">VIRTURA / DIGITAL INVENTORY / 2026.11</p><h1>所有空间，<br>都有自己的状态。</h1><p>将团队合作、空间档案、工作坊、虚拟世界和可交互实验放入同一张资产目录。评分代表目前仓库资料可打包程度，不代表已经通过真实浏览器和头显验收。</p>
+<div class="controls"><input type="search" id="query" placeholder="搜索作品 / 游戏 / 课程 / 仓库…" aria-label="搜索资产"><span id="total" class="hint">读取目录中…</span></div>
+<section id="sections" aria-label="分组资产清单"><p>正在读取资产目录。如果没有显示，请直接访问 <a href="../data/space-asset-inventory-2026.json">JSON 资产表</a>。</p></section>
+<p class="note">A：明确发布线索及入口；B：已有可运行代码或体验子集；C：目前以档案或文本为主。带有入口不代表在设备上已通过测试，商业、艺术合作与个人作品权属分别保存。<br><a href="../data/space-asset-inventory-2026.json">下载 JSON 索引</a></p></main>
+<script>
+(async()=>{
+ const wrap=document.getElementById('sections'),input=document.getElementById('query'),total=document.getElementById('total');
+ try{
+ const resp=await fetch('../data/space-asset-inventory-2026.json',{cache:'no-cache'});if(!resp.ok)throw Error('HTTP '+resp.status);
+ const data=await resp.json(); const groups=[...new Set(data.items.map(x=>x.group))];
+ function render(){const q=input.value.trim().toLocaleLowerCase();wrap.replaceChildren();let found=0;
+ groups.forEach(group=>{const items=data.items.filter(x=>x.group===group&&[x.title,x.description,x.repository,x.reason].join(' ').toLocaleLowerCase().includes(q));if(!items.length)return;found+=items.length;
+ const details=document.createElement('details');details.open=!!q||group==='团队与合作'||group==='空间档案'||group==='工具与工作坊';
+ const summary=document.createElement('summary');summary.append(document.createTextNode(group));const ct=document.createElement('small');ct.textContent=items.length+' 个';summary.append(ct);details.append(summary);
+ const rows=document.createElement('div');rows.className='rows';
+ items.forEach(x=>{const row=document.createElement('div');row.className='item';
+ const title=document.createElement('div');title.className='name';const a=document.createElement('a');a.textContent=x.title;a.href=x.url;a.target=x.url.startsWith('http')?'_blank':'_self';a.rel='noopener noreferrer';title.append(a);
+ const grade=document.createElement('div');grade.className='score';grade.textContent=x.grade;
+ const description=document.createElement('div');description.className='meta';description.textContent=x.description;
+ const proof=document.createElement('div');proof.className='meta';proof.textContent=x.reason+' · 待办：'+x.next;
+ row.append(title,grade,description,proof);rows.append(row)});
+ details.append(rows);wrap.append(details)});total.textContent='当前显示 '+found+' / '+data.items.length+' 项 · '+groups.length+' 组';}
+ input.addEventListener('input',render);render();
+ }catch(err){total.textContent='目录暂不可读取';wrap.textContent='资产索引加载失败。请访问上面的 JSON 清单。';}
+})();
+</script></body></html>
