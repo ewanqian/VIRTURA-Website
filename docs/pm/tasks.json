@@ -121,7 +121,10 @@
         "index.html",
         "apps/index.html",
         "apps/store.html",
-        "docs/site-upgrade/VIRTURA-SPACES-SERVICE-DESIGN-2026.md"
+        "docs/site-upgrade/VIRTURA-SPACES-SERVICE-DESIGN-2026.md",
+        "docs/design/VIRTURA-SPACE-DECISIONS-AND-RISKS-2026-11-08.md",
+        "docs/design/VIRTURA-SPACE-ART-DIRECTION-v07.md",
+        "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md"
       ],
       "outputs": [
         "docs/pm/evidence/R03-IA-decision.md"
@@ -155,7 +158,10 @@
         "apps/my-space.html",
         "apps/catalog.html",
         "docs/design/VIRTURA-VI-v05-2026.md",
-        "design/space-v05-preview.html"
+        "design/space-v05-preview.html",
+        "docs/design/VIRTURA-SPACE-DECISIONS-AND-RISKS-2026-11-08.md",
+        "docs/design/VIRTURA-SPACE-ART-DIRECTION-v07.md",
+        "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md"
       ],
       "outputs": [
         "docs/pm/evidence/R04-visual-QA.md"
@@ -184,7 +190,10 @@
         "VIRTURA_WEBSITE_ASSETS",
         "assets",
         "https://github.com/ewanqian/portfolio",
-        "https://github.com/ewanqian/VIRTURA-Collective"
+        "https://github.com/ewanqian/VIRTURA-Collective",
+        "docs/design/VIRTURA-SPACE-DECISIONS-AND-RISKS-2026-11-08.md",
+        "docs/design/VIRTURA-SPACE-ART-DIRECTION-v07.md",
+        "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md"
       ],
       "outputs": [
         "docs/pm/evidence/R05-media-ledger.json"
