@@ -1,0 +1,254 @@
+[
+  {
+    "route": "/",
+    "width": 375,
+    "initial": 474,
+    "candidates": [
+      {
+        "selector": "span.sr-only",
+        "client": 1,
+        "scroll": 82,
+        "overflow": "hidden"
+      },
+      {
+        "selector": "h1.hero-title",
+        "client": 251,
+        "scroll": 257,
+        "overflow": "visible"
+      },
+      {
+        "selector": "span.lang-zh",
+        "client": 251,
+        "scroll": 257,
+        "overflow": "visible"
+      },
+      {
+        "selector": "span.outline",
+        "client": 251,
+        "scroll": 257,
+        "overflow": "visible"
+      },
+      {
+        "selector": "span",
+        "client": 251,
+        "scroll": 257,
+        "overflow": "visible"
+      },
+      {
+        "selector": "div.ticker-inner",
+        "client": 375,
+        "scroll": 1396,
+        "overflow": "hidden"
+      },
+      {
+        "selector": "h2.section-title.dual-title",
+        "client": 304,
+        "scroll": 326,
+        "overflow": "visible"
+      },
+      {
+        "selector": "span.lang-zh",
+        "client": 304,
+        "scroll": 326,
+        "overflow": "visible"
+      },
+      {
+        "selector": "#delivery",
+        "client": 375,
+        "scroll": 474,
+        "overflow": "visible"
+      },
+      {
+        "selector": "div.section-head",
+        "client": 339,
+        "scroll": 456,
+        "overflow": "visible"
+      },
+      {
+        "selector": "h2.section-title.dual-title",
+        "client": 304,
+        "scroll": 456,
+        "overflow": "visible"
+      },
+      {
+        "selector": "span.lang-zh",
+        "client": 304,
+        "scroll": 456,
+        "overflow": "visible"
+      },
+      {
+        "selector": "div.workflow",
+        "client": 339,
+        "scroll": 358,
+        "overflow": "visible"
+      },
+      {
+        "selector": "div.workflow-copy",
+        "client": 339,
+        "scroll": 358,
+        "overflow": "visible"
+      },
+      {
+        "selector": "h2",
+        "client": 304,
+        "scroll": 358,
+        "overflow": "visible"
+      },
+      {
+        "selector": "h2.team-title.dual-title",
+        "client": 304,
+        "scroll": 326,
+        "overflow": "visible"
+      },
+      {
+        "selector": "span.lang-zh",
+        "client": 304,
+        "scroll": 326,
+        "overflow": "visible"
+      }
+    ],
+    "probes": [
+      {
+        "css": "#delivery{display:none!important}",
+        "scrollWidth": 376
+      },
+      {
+        "css": ".section-title,.team-title,.workflow-copy h2{overflow-wrap:anywhere!important;word-break:break-all!important}",
+        "scrollWidth": 375
+      },
+      {
+        "css": ".ticker{display:none!important}",
+        "scrollWidth": 474
+      },
+      {
+        "css": ".item{grid-template-columns:1fr 52px!important}.meta{grid-column:1/-1!important}",
+        "scrollWidth": 474
+      },
+      {
+        "css": ".contact{font-size:42px!important}",
+        "scrollWidth": 474
+      },
+      {
+        "css": ".nav{display:none!important}",
+        "scrollWidth": 474
+      },
+      {
+        "css": "input,select,textarea{min-width:0!important;width:100%!important;max-width:100%!important}",
+        "scrollWidth": 474
+      },
+      {
+        "css": "*{min-width:0!important}",
+        "scrollWidth": 474
+      },
+      {
+        "css": ".inquiry{display:none!important}",
+        "scrollWidth": 474
+      }
+    ]
+  },
+  {
+    "route": "/apps/catalog.html",
+    "width": 768,
+    "initial": 793,
+    "candidates": [
+      {
+        "selector": "main",
+        "client": 768,
+        "scroll": 793,
+        "overflow": "visible"
+      },
+      {
+        "selector": "#sections",
+        "client": 720,
+        "scroll": 769,
+        "overflow": "visible"
+      },
+      {
+        "selector": "details",
+        "client": 720,
+        "scroll": 769,
+        "overflow": "visible"
+      },
+      {
+        "selector": "div.rows",
+        "client": 720,
+        "scroll": 769,
+        "overflow": "visible"
+      },
+      {
+        "selector": "div.item",
+        "client": 718,
+        "scroll": 768,
+        "overflow": "visible"
+      },
+      {
+        "selector": "div.meta",
+        "client": 190,
+        "scroll": 256,
+        "overflow": "visible"
+      },
+      {
+        "selector": "div.item",
+        "client": 718,
+        "scroll": 760,
+        "overflow": "visible"
+      },
+      {
+        "selector": "div.meta",
+        "client": 190,
+        "scroll": 248,
+        "overflow": "visible"
+      },
+      {
+        "selector": "div.item",
+        "client": 718,
+        "scroll": 726,
+        "overflow": "visible"
+      },
+      {
+        "selector": "div.meta",
+        "client": 190,
+        "scroll": 214,
+        "overflow": "visible"
+      }
+    ],
+    "probes": [
+      {
+        "css": "#delivery{display:none!important}",
+        "scrollWidth": 793
+      },
+      {
+        "css": ".section-title,.team-title,.workflow-copy h2{overflow-wrap:anywhere!important;word-break:break-all!important}",
+        "scrollWidth": 793
+      },
+      {
+        "css": ".ticker{display:none!important}",
+        "scrollWidth": 793
+      },
+      {
+        "css": ".item{grid-template-columns:1fr 52px!important}.meta{grid-column:1/-1!important}",
+        "scrollWidth": 768
+      },
+      {
+        "css": ".contact{font-size:42px!important}",
+        "scrollWidth": 793
+      },
+      {
+        "css": ".nav{display:none!important}",
+        "scrollWidth": 793
+      },
+      {
+        "css": "input,select,textarea{min-width:0!important;width:100%!important;max-width:100%!important}",
+        "scrollWidth": 793
+      },
+      {
+        "css": "*{min-width:0!important}",
+        "scrollWidth": 793
+      },
+      {
+        "css": ".inquiry{display:none!important}",
+        "scrollWidth": 793
+      }
+    ]
+  }
+]
