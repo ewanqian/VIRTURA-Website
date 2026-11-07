@@ -1,0 +1,6 @@
+{
+  "url": "https://virtura.space/r01-intentional-missing-route",
+  "sha256": "b6b142fc808f00c8ea1b17ce735b50daab71dcc33d2e017a0c1845c4099ea99c",
+  "equalsMainRoot": true,
+  "note": "HTTP 200 from headers; fallback is not a real 404"
+}

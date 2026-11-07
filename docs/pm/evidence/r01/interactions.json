@@ -1,0 +1,34 @@
+{
+  "time": "2026-11-07T16:44:35.402Z",
+  "en": "en",
+  "persisted": "en",
+  "zh": "zh-CN",
+  "overflowing": [
+    {
+      "tag": "SPAN",
+      "class": "",
+      "right": 464.03125
+    },
+    {
+      "tag": "SPAN",
+      "class": "",
+      "right": 643.78125
+    },
+    {
+      "tag": "SPAN",
+      "class": "",
+      "right": 916.9375
+    },
+    {
+      "tag": "SPAN",
+      "class": "",
+      "right": 1148.15625
+    },
+    {
+      "tag": "SPAN",
+      "class": "",
+      "right": 1354.140625
+    }
+  ],
+  "formSubmission": "NOT RUN: mailto would open external email client"
+}

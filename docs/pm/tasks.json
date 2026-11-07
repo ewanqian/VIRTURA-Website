@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "updatedAt": "2026-11-07",
+  "updatedAt": "2026-11-08",
   "sourceRepo": "ewanqian/VIRTURA-Website",
   "issueTracker": {
     "enabled": false,
@@ -43,7 +43,7 @@
       "title": "Deployment truth and rollback",
       "priority": "P0",
       "route": "LOCAL_OPENCODE",
-      "status": "READY",
+      "status": "BLOCKED",
       "dependencies": [],
       "effort": "S",
       "brief": "Verify Cloudflare/GitHub deployment from accessible evidence; do not infer success from merge or CNAME.",
@@ -60,10 +60,14 @@
         "Route/HTTP table for root/apps/store/My Space/Atlas; public vs preview SHA; screenshot/404 evidence; rollback path"
       ],
       "humanSignoff": true,
-      "evidenceLinks": [],
+      "evidenceLinks": [
+        "docs/pm/evidence/R01-deployment-baseline.md",
+        "docs/pm/evidence/r01/runtime.json",
+        "docs/pm/evidence/r01/github-main-checks.json"
+      ],
       "prUrl": null,
       "completedAt": null,
-      "blocker": null
+      "blocker": "Cloudflare authenticated project settings/full build logs and previous known-good rollback deployment not accessible/confirmed. HTTP and browser baseline complete; editor signoff pending."
     },
     {
       "id": "R02",

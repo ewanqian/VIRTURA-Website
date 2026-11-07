@@ -1,0 +1,32 @@
+{
+  "/": {
+    "exitCode": 0,
+    "headers": "HTTP/2 200 \ndate: Sat, 07 Nov 2026 16:43:15 GMT\ncontent-type: text/html; charset=utf-8\naccess-control-allow-origin: *\ncache-control: public, max-age=0, must-revalidate\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=15bWKPbYzNeigJOw%2FZu1vzlj3OuUa6EifGqCQbvy7Aj5pO5eBvSZTjc9mOOxlmWI6iM2Siex1ggSqfeh4b8h9THwDzBJS2bfGq7me3Grng6K6lIzA3KlN70cQyKrsvE5\"}]}\nserver: cloudflare\ncf-ray: a56dcbbe790b2f50-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+    "stderr": ""
+  },
+  "/apps/": {
+    "exitCode": 0,
+    "headers": "HTTP/2 200 \ndate: Sat, 07 Nov 2026 16:43:16 GMT\ncontent-type: text/html; charset=utf-8\naccess-control-allow-origin: *\ncache-control: public, max-age=0, must-revalidate\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=inm19AiU1XE8M04TXMU%2Bb%2Fj3eMI0VuNx2e3KFdJW4CEwVLMYO5KlwY5IEN4a4I5YoxVfEROo7kL2pd1dkXGBTgu4Eri6FAnGRzpYWA%2FAPn46BpoZG%2FZ2CWvZjjJ9buCK\"}]}\nserver: cloudflare\ncf-ray: a56dcbc48c1bf8b7-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+    "stderr": ""
+  },
+  "/apps/store.html": {
+    "exitCode": 0,
+    "headers": "HTTP/2 308 \ndate: Sat, 07 Nov 2026 16:43:17 GMT\ncontent-length: 0\nlocation: /apps/store\naccess-control-allow-origin: *\nreferrer-policy: strict-origin-when-cross-origin\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=mWR41ABQVuxGDCi4OgUKNle47Bek4gFuiw2hfh29QlMjyW5UTme0VTA0trnvH8eqd5jA4fqbWvTp25pyM2S126CXDNl2Kvea%2FGqhfWGbFL9qlxzxkD%2BTmTuK9LSL0rj3\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: cloudflare\ncf-ray: a56dcbc91adef7ab-LAX\nalt-svc: h3=\":443\"; ma=86400\n\nHTTP/2 200 \ndate: Sat, 07 Nov 2026 16:43:17 GMT\ncontent-type: text/html; charset=utf-8\naccess-control-allow-origin: *\ncache-control: public, max-age=0, must-revalidate\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3ptOrAxjYlDKVnp2k2yjKCfUXJZGWFiJXV8iK70txqZLB7nUmwLf4zeIU0rSbF%2FZq0tByWN8aAcSR2TtdN3u0b8qxNl4SJ7Z%2B0r2zLl07q0AudsDquPqCiwZIDEnCkzg\"}]}\nserver: cloudflare\ncf-ray: a56dcbcabd55f7ab-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+    "stderr": ""
+  },
+  "/apps/my-space.html": {
+    "exitCode": 0,
+    "headers": "HTTP/2 308 \ndate: Sat, 07 Nov 2026 16:43:18 GMT\ncontent-length: 0\nlocation: /apps/my-space\naccess-control-allow-origin: *\nreferrer-policy: strict-origin-when-cross-origin\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=yeKpO1F2Kp4%2BKQFPiMCC4FLgF%2FrP1fbN0a%2Ft01Ob00xPUyQPemNJcdtUKLVBoOnau8a5l66hpvTJ3vyr1p8IFRrxHfmvN7YhfFzbejZCsIS0mSLvmGyd0MtUjEUsBkgY\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: cloudflare\ncf-ray: a56dcbcf5afad3b6-LAX\nalt-svc: h3=\":443\"; ma=86400\n\nHTTP/2 200 \ndate: Sat, 07 Nov 2026 16:43:18 GMT\ncontent-type: text/html; charset=utf-8\naccess-control-allow-origin: *\ncache-control: public, max-age=0, must-revalidate\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=GET9wO9KVu4P14aYAwG7cJHh73Y1jkoqjxNbOO6IboR5mzvWKezk1U2I2Ly3jrcl0Vm3rdNErwd9XugqBtwtEc2%2BM5UooCGR5iDwkv4nURIicPc%2BxKzRG3FntHh4ASVf\"}]}\nserver: cloudflare\ncf-ray: a56dcbd0fbdad3b6-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+    "stderr": ""
+  },
+  "/apps/catalog.html": {
+    "exitCode": 0,
+    "headers": "HTTP/2 308 \ndate: Sat, 07 Nov 2026 16:43:19 GMT\ncontent-length: 0\nlocation: /apps/catalog\naccess-control-allow-origin: *\nreferrer-policy: strict-origin-when-cross-origin\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=cQhY%2Bz1lw%2Fme6GiZE3x5hWCCsnjUO8suwFszsq2oJsFIytonNXth%2Bg2eIYuQKNG35GMwLRZTdUHVFmMuYXjcLfNAfTe%2B8hp%2B7cJW7aXivLOzF9Oo7Q27Na5vom%2Fhwg%2F6\"}]}\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nserver: cloudflare\ncf-ray: a56dcbd59a67ca79-LAX\nalt-svc: h3=\":443\"; ma=86400\n\nHTTP/2 200 \ndate: Sat, 07 Nov 2026 16:43:19 GMT\ncontent-type: text/html; charset=utf-8\naccess-control-allow-origin: *\ncache-control: public, max-age=0, must-revalidate\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=WOdS0G0hMRQYWn39cxEZAROYVMxXZ2xTKlFOq9dSHmV3wKOAYLJFCWzK9Cou9KpAX2b1E6sqxYrD03AqM2oTpQ4CZ3ISw5UVaVDIqix%2Fg0elTvcgWMBZxz6rw2TbNPuP\"}]}\nserver: cloudflare\ncf-ray: a56dcbd71eabca79-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+    "stderr": ""
+  },
+  "/r01-intentional-missing-route": {
+    "exitCode": 0,
+    "headers": "HTTP/2 200 \ndate: Sat, 07 Nov 2026 16:43:20 GMT\ncontent-type: text/html; charset=utf-8\naccess-control-allow-origin: *\ncache-control: public, max-age=0, must-revalidate\nnel: {\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}\nreferrer-policy: strict-origin-when-cross-origin\nx-content-type-options: nosniff\nreport-to: {\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ArO%2BWFr2RkSUbBJxak60k6FHWqmUrBkL7BNYzTevBBRQvzmffVBxHWcoFLnNIJhTheAB4Ehhfsx8J3Sn0UZoJppI3x%2Bq%2BvwVMHkDrZy0auSdFgaN%2BjNHgtWK4RNY5FG6\"}]}\nserver: cloudflare\ncf-ray: a56dcbdd8e54196e-LAX\nalt-svc: h3=\":443\"; ma=86400\n\n",
+    "stderr": ""
+  }
+}
