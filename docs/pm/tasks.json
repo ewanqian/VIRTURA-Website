@@ -111,7 +111,7 @@
       "title": "Space information architecture and service semantics",
       "priority": "P0",
       "route": "ONLINE_GPT_EDITOR",
-      "status": "QUEUED",
+      "status": "BLOCKED",
       "dependencies": [
         "R01"
       ],
@@ -124,16 +124,24 @@
         "docs/site-upgrade/VIRTURA-SPACES-SERVICE-DESIGN-2026.md"
       ],
       "outputs": [
-        "docs/pm/evidence/R03-IA-decision.md"
+        "docs/pm/evidence/R03-IA-decision.md",
+        "space/worlds.json",
+        "space/index.html",
+        "space/station.html",
+        "docs/design/SPACE-MAP-V01-REVIEW.md"
       ],
       "acceptance": [
         "Approved sitemap, 3 user journeys, canonical zh/en naming, route redirect/compatibility map, content weights"
       ],
       "humanSignoff": true,
-      "evidenceLinks": [],
-      "prUrl": null,
+      "evidenceLinks": [
+        "https://github.com/ewanqian/VIRTURA-Website/actions/runs/42404687014",
+        "https://github.com/ewanqian/VIRTURA-Website/actions/runs/42404687049",
+        "https://github.com/ewanqian/VIRTURA-Website/pull/9"
+      ],
+      "prUrl": "https://github.com/ewanqian/VIRTURA-Website/pull/9",
       "completedAt": null,
-      "blocker": null
+      "blocker": "Map prototype and Chromium evidence exist, but R01 editorial closure, human art-direction review and live external SpacePort route verification are not complete. Do not merge /space into main navigation yet."
     },
     {
       "id": "R04",
