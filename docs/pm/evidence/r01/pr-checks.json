@@ -1,0 +1,26 @@
+{
+  "url": "https://github.com/ewanqian/VIRTURA-Website/pull/5",
+  "headRefOid": "9e8bbdf01c1f7ac74bc4960c15232b36bb62e8af",
+  "statusCheckRollup": [
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-07T16:48:23Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://github.com/ewanqian/VIRTURA-Website/actions/runs/42393117133/job/128464674902",
+      "name": "verify",
+      "startedAt": "2026-11-07T16:48:14Z",
+      "status": "COMPLETED",
+      "workflowName": "Static content and task integrity"
+    },
+    {
+      "__typename": "CheckRun",
+      "completedAt": "2026-11-07T16:48:23Z",
+      "conclusion": "SUCCESS",
+      "detailsUrl": "https://dash.cloudflare.com/?to=/90a2f7a4e5724f844fe096f16e8defe6/pages/view/virtura-website/e378519a-20d3-4e62-bc3b-8d1d6426447b",
+      "name": "Cloudflare Pages",
+      "startedAt": "2026-11-07T16:48:23Z",
+      "status": "COMPLETED",
+      "workflowName": ""
+    }
+  ]
+}

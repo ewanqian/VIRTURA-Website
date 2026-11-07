@@ -1,0 +1,36 @@
+{
+  "observedPRHead": "9e8bbdf01c1f7ac74bc4960c15232b36bb62e8af",
+  "preview": "https://e378519a.virtura-website.pages.dev",
+  "samples": [
+    {
+      "route": "/",
+      "curlExit": 0,
+      "sha256": "b6b142fc808f00c8ea1b17ce735b50daab71dcc33d2e017a0c1845c4099ea99c",
+      "matchesPRFile": true
+    },
+    {
+      "route": "/apps/",
+      "curlExit": 0,
+      "sha256": "53b57dd9ba813db91f48f062f93adbc65e4e686eb0e2b5ba96dddaa626386cb9",
+      "matchesPRFile": true
+    },
+    {
+      "route": "/apps/store.html",
+      "curlExit": 0,
+      "sha256": "70f2f9086a65919e598ed3ca90bb30c6c434e2b5f35a47177084093e45eca9d7",
+      "matchesPRFile": true
+    },
+    {
+      "route": "/apps/my-space.html",
+      "curlExit": 0,
+      "sha256": "08a7638e95e8fee73bc4154e5276cbede3470ba175c56c96736e1b8f3d5be19e",
+      "matchesPRFile": true
+    },
+    {
+      "route": "/apps/catalog.html",
+      "curlExit": 0,
+      "sha256": "5f5450b41274076e0ade0d47e5889cea5f907efa440cce2b92c1aa0162a0b849",
+      "matchesPRFile": true
+    }
+  ]
+}

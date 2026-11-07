@@ -1,0 +1,341 @@
+{
+  "time": "2026-11-07T17:08:02.149Z",
+  "bodies": [
+    {
+      "base": "https://d666d5f3.virtura-website.pages.dev",
+      "sha": "429b5ed325b237f59641fbbee7df8ed3e84a123d",
+      "route": "/",
+      "sha256": "b6b142fc808f00c8ea1b17ce735b50daab71dcc33d2e017a0c1845c4099ea99c",
+      "matchesSource": true
+    },
+    {
+      "base": "https://d666d5f3.virtura-website.pages.dev",
+      "sha": "429b5ed325b237f59641fbbee7df8ed3e84a123d",
+      "route": "/apps/",
+      "sha256": "53b57dd9ba813db91f48f062f93adbc65e4e686eb0e2b5ba96dddaa626386cb9",
+      "matchesSource": true
+    },
+    {
+      "base": "https://d666d5f3.virtura-website.pages.dev",
+      "sha": "429b5ed325b237f59641fbbee7df8ed3e84a123d",
+      "route": "/apps/store.html",
+      "sha256": "70f2f9086a65919e598ed3ca90bb30c6c434e2b5f35a47177084093e45eca9d7",
+      "matchesSource": true
+    },
+    {
+      "base": "https://d666d5f3.virtura-website.pages.dev",
+      "sha": "429b5ed325b237f59641fbbee7df8ed3e84a123d",
+      "route": "/apps/my-space.html",
+      "sha256": "08a7638e95e8fee73bc4154e5276cbede3470ba175c56c96736e1b8f3d5be19e",
+      "matchesSource": true
+    },
+    {
+      "base": "https://d666d5f3.virtura-website.pages.dev",
+      "sha": "429b5ed325b237f59641fbbee7df8ed3e84a123d",
+      "route": "/apps/catalog.html",
+      "sha256": "5f5450b41274076e0ade0d47e5889cea5f907efa440cce2b92c1aa0162a0b849",
+      "matchesSource": true
+    },
+    {
+      "base": "https://08c21c94.virtura-website.pages.dev",
+      "sha": "15df3236cab97d59bbc8064c234f490d00720b3d",
+      "route": "/",
+      "sha256": "b6b142fc808f00c8ea1b17ce735b50daab71dcc33d2e017a0c1845c4099ea99c",
+      "matchesSource": true
+    },
+    {
+      "base": "https://08c21c94.virtura-website.pages.dev",
+      "sha": "15df3236cab97d59bbc8064c234f490d00720b3d",
+      "route": "/apps/",
+      "sha256": "53b57dd9ba813db91f48f062f93adbc65e4e686eb0e2b5ba96dddaa626386cb9",
+      "matchesSource": true
+    },
+    {
+      "base": "https://08c21c94.virtura-website.pages.dev",
+      "sha": "15df3236cab97d59bbc8064c234f490d00720b3d",
+      "route": "/apps/store.html",
+      "sha256": "70f2f9086a65919e598ed3ca90bb30c6c434e2b5f35a47177084093e45eca9d7",
+      "matchesSource": true
+    },
+    {
+      "base": "https://08c21c94.virtura-website.pages.dev",
+      "sha": "15df3236cab97d59bbc8064c234f490d00720b3d",
+      "route": "/apps/my-space.html",
+      "sha256": "08a7638e95e8fee73bc4154e5276cbede3470ba175c56c96736e1b8f3d5be19e",
+      "matchesSource": true
+    },
+    {
+      "base": "https://08c21c94.virtura-website.pages.dev",
+      "sha": "15df3236cab97d59bbc8064c234f490d00720b3d",
+      "route": "/apps/catalog.html",
+      "sha256": "5f5450b41274076e0ade0d47e5889cea5f907efa440cce2b92c1aa0162a0b849",
+      "matchesSource": true
+    }
+  ],
+  "browser": [
+    {
+      "name": "root",
+      "url": "https://virtura.space/",
+      "status": 200,
+      "viewport": 375,
+      "scrollWidth": 474,
+      "title": "VIRTURA — 体验设计与空间媒体工作室",
+      "zeroImages": [
+        {
+          "html": "<img class=\"cap-media\" src=\"VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp\" alt=\"ERSHA 点云空间采集\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img class=\"cap-media\" src=\"VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg\" alt=\"AI 盛典品牌影像\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"中国·AI盛典开场秀盒体舞台画面\" class=\"visual\" src=\"VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"TITAN 现场视觉系统\" class=\"visual\" src=\"VIRTURA_WEBSITE_ASSETS/04_TITAN/hero.webp\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"&gt;&gt;round-a-clock 环形 LED 屏幕现场\" class=\"visual\" src=\"VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/hero.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"SYSTEM × ERSHA 建筑空间扫描\" class=\"visual\" src=\"VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"环形矩阵屏幕视觉内容实践\" class=\"visual\" src=\"VIRTURA_WEBSITE_ASSETS/09_CIRCULAR_MATRIX_SCREEN/control_03_thumbnail.webp\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Immersive spatial media environment\" src=\"assets/embedded/media-01.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Ewan Qian / 钱誉文\" src=\"assets/embedded/media-02.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Xuan Shen / 沈轩\" src=\"assets/embedded/media-03.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Murphy Nile / 周子凌\" src=\"assets/embedded/media-04.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Cui Fang / 崔放\" src=\"assets/embedded/media-05.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Sihui Xu / 许思慧\" src=\"assets/people/sihui-xu-square.jpg\" loading=\"lazy\" decoding=\"async\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Realtime generative visual system\" src=\"assets/embedded/media-06.jpg\">",
+          "visible": true,
+          "display": "block"
+        }
+      ],
+      "overflow": [
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "实时音画与技术制作",
+          "right": 464.03125
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "Brand Experience",
+          "right": 643.78125
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "Cultural + Public Experience",
+          "right": 916.9375
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "Immersive Environments",
+          "right": 1148.15625
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "Realtime Audiovisual",
+          "right": 1354.140625
+        }
+      ]
+    },
+    {
+      "name": "atlas",
+      "url": "https://virtura.space/apps/catalog.html",
+      "status": 200,
+      "viewport": 768,
+      "scrollWidth": 793,
+      "title": "Spaces Atlas / VIRTURA",
+      "zeroImages": [],
+      "overflow": []
+    },
+    {
+      "name": "soft404",
+      "url": "https://virtura.space/r01-intentional-missing-route",
+      "status": 200,
+      "viewport": 375,
+      "scrollWidth": 474,
+      "title": "VIRTURA — 体验设计与空间媒体工作室",
+      "zeroImages": [
+        {
+          "html": "<img class=\"universe-bg\" src=\"VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp\" alt=\"滴流环幕音画演出现场\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img class=\"cap-media\" src=\"VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_01_system.jpg\" alt=\"实时三维生成视觉系统\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img class=\"cap-media\" src=\"VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp\" alt=\"ERSHA 点云空间采集\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img class=\"cap-media\" src=\"VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/detail_03_site.jpg\" alt=\"西岸旋心现场实施\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img class=\"cap-media\" src=\"VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg\" alt=\"AI 盛典品牌影像\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"中国·AI盛典开场秀盒体舞台画面\" class=\"visual\" src=\"VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"控时者与滴流环幕音画系列\" class=\"visual\" src=\"VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"TITAN 现场视觉系统\" class=\"visual\" src=\"VIRTURA_WEBSITE_ASSETS/04_TITAN/hero.webp\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"&gt;&gt;round-a-clock 环形 LED 屏幕现场\" class=\"visual\" src=\"VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/hero.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"SYSTEM × ERSHA 建筑空间扫描\" class=\"visual\" src=\"VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"环形矩阵屏幕视觉内容实践\" class=\"visual\" src=\"VIRTURA_WEBSITE_ASSETS/09_CIRCULAR_MATRIX_SCREEN/control_03_thumbnail.webp\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Immersive spatial media environment\" src=\"assets/embedded/media-01.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Ewan Qian / 钱誉文\" src=\"assets/embedded/media-02.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Xuan Shen / 沈轩\" src=\"assets/embedded/media-03.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Murphy Nile / 周子凌\" src=\"assets/embedded/media-04.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Cui Fang / 崔放\" src=\"assets/embedded/media-05.jpg\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Sihui Xu / 许思慧\" src=\"assets/people/sihui-xu-square.jpg\" loading=\"lazy\" decoding=\"async\">",
+          "visible": true,
+          "display": "block"
+        },
+        {
+          "html": "<img alt=\"Realtime generative visual system\" src=\"assets/embedded/media-06.jpg\">",
+          "visible": true,
+          "display": "block"
+        }
+      ],
+      "overflow": [
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "实时音画与技术制作",
+          "right": 464.03125
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "Brand Experience",
+          "right": 643.78125
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "Cultural + Public Experience",
+          "right": 916.9375
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "Immersive Environments",
+          "right": 1148.15625
+        },
+        {
+          "tag": "SPAN",
+          "class": "",
+          "text": "Realtime Audiovisual",
+          "right": 1354.140625
+        }
+      ]
+    },
+    {
+      "name": "preview",
+      "url": "https://d666d5f3.virtura-website.pages.dev/apps/",
+      "status": 200,
+      "viewport": 1440,
+      "scrollWidth": 1440,
+      "title": "Spaces / VIRTURA",
+      "zeroImages": [],
+      "overflow": []
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "url": "https://2945efc6.virtura-website.pages.dev/",
+    "sourceSHA": "15df3236cab97d59bbc8064c234f490d00720b3d",
+    "curlExit": 0,
+    "matchesSource": true,
+    "sha256": "b6b142fc808f00c8ea1b17ce735b50daab71dcc33d2e017a0c1845c4099ea99c"
+  },
+  {
+    "url": "https://2945efc6.virtura-website.pages.dev/apps/",
+    "sourceSHA": "15df3236cab97d59bbc8064c234f490d00720b3d",
+    "curlExit": 0,
+    "matchesSource": true,
+    "sha256": "53b57dd9ba813db91f48f062f93adbc65e4e686eb0e2b5ba96dddaa626386cb9"
+  },
+  {
+    "url": "https://2945efc6.virtura-website.pages.dev/apps/store.html",
+    "sourceSHA": "15df3236cab97d59bbc8064c234f490d00720b3d",
+    "curlExit": 0,
+    "matchesSource": true,
+    "sha256": "70f2f9086a65919e598ed3ca90bb30c6c434e2b5f35a47177084093e45eca9d7"
+  },
+  {
+    "url": "https://2945efc6.virtura-website.pages.dev/apps/my-space.html",
+    "sourceSHA": "15df3236cab97d59bbc8064c234f490d00720b3d",
+    "curlExit": 0,
+    "matchesSource": true,
+    "sha256": "08a7638e95e8fee73bc4154e5276cbede3470ba175c56c96736e1b8f3d5be19e"
+  },
+  {
+    "url": "https://2945efc6.virtura-website.pages.dev/apps/catalog.html",
+    "sourceSHA": "15df3236cab97d59bbc8064c234f490d00720b3d",
+    "curlExit": 0,
+    "matchesSource": true,
+    "sha256": "5f5450b41274076e0ade0d47e5889cea5f907efa440cce2b92c1aa0162a0b849"
+  }
+]

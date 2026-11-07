@@ -1,0 +1,105 @@
+{
+  "index.html": {
+    "sha256": "b6b142fc808f00c8ea1b17ce735b50daab71dcc33d2e017a0c1845c4099ea99c",
+    "lines": 319,
+    "evidence": [
+      {
+        "line": 81,
+        "text": ".inquiry{display:grid;grid-template-columns:.72fr 1.28fr;gap:clamp(36px,7vw,120px);background:#f0f0eb;color:#0b0b0b}.inquiry-copy h2{margin:0 0 22px;font-size:var(--h2);line-height:.9;letter-spacing:-.07em;font-weight:500}.inquiry-copy p{margin:0;max-width:48ch;color:rgba(0,0,0,.65);font-size:15px;line-height:1.55}.project-form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 16px}.field{display:grid;gap:8px}.field-wide{grid-column:1/-1}.field label{font-size:11px;text-transform:uppercase;letter-spacing:.06em}.field input,.field select,.field textarea{width:100%;border:0;border-bottom:1px solid rgba(0,0,0,.35);border-radius:0;background:transparent;color:#0b0b0b;padding:10px 0;font:inherit;outline:none}.field textarea{min-height:96px;resize:vertical}.field input:focus,.field select:focus,.field textarea:focus{border-bottom-color:#0b0b0b}.form-actions{grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:12px}.form-note{font-size:11px;color:rgba(0,0,0,.55);max-width:44ch}.submit-button{appearance:none;border:1px solid #0b0b0b;background:#0b0b0b;color:#f0f0eb;padding:14px 20px;cursor:pointer;font:inherit}.submit-button:hover{background:transparent;color:#0b0b0b}"
+      },
+      {
+        "line": 83,
+        "text": "@media(max-width:840px){.nav{grid-template-columns:1fr auto;padding-bottom:10px;background:linear-gradient(rgba(0,0,0,.72),transparent);mix-blend-mode:normal}.navlinks{display:flex;grid-column:1/-1;grid-row:2;justify-content:flex-start;overflow-x:auto;gap:18px;padding:12px 0 2px;scrollbar-width:none}.navlinks::-webkit-scrollbar{display:none}.hero{padding-top:132px}.delivery-grid{grid-template-columns:1fr}.delivery-card{min-height:250px}.workflow,.inquiry{grid-template-columns:1fr}.project-form{grid-template-columns:1fr}.field-wide,.form-actions{grid-column:auto}.form-actions{align-items:flex-start;flex-direction:column}.hero-title>.lang-zh{font-size:clamp(54px,18vw,92px);max-width:7ch}.hero-title>.lang-en{max-width:26ch!important}.studio-copy{overflow-wrap:anywhere}}"
+      },
+      {
+        "line": 124,
+        "text": "<button aria-label=\"切换为中文\" data-set-lang=\"zh\" type=\"button\">中</button><span class=\"divider\">/</span><button aria-label=\"Switch to English\" data-set-lang=\"en\" type=\"button\">EN</button>"
+      },
+      {
+        "line": 256,
+        "text": "<form class=\"project-form\" id=\"project-form\">"
+      },
+      {
+        "line": 271,
+        "text": "<div class=\"footer-row\"><span>VIRTURA © 2026</span><span>体验设计 + 空间媒体</span><span><a href=\"https://collective.virtura.space/\">Collective</a> · <a href=\"https://spaceport.virtura.space/\">SpacePort</a> · <a href=\"mailto:studio@virtura.space\">Email</a></span></div>"
+      },
+      {
+        "line": 309,
+        "text": "    const projectForm=document.querySelector('#project-form');"
+      },
+      {
+        "line": 316,
+        "text": "      location.href=`mailto:studio@virtura.space?subject=${subject}&body=${body}`;"
+      }
+    ]
+  },
+  "apps/index.html": {
+    "sha256": "53b57dd9ba813db91f48f062f93adbc65e4e686eb0e2b5ba96dddaa626386cb9",
+    "lines": 38,
+    "evidence": []
+  },
+  "apps/store.html": {
+    "sha256": "70f2f9086a65919e598ed3ca90bb30c6c434e2b5f35a47177084093e45eca9d7",
+    "lines": 30,
+    "evidence": [
+      {
+        "line": 21,
+        "text": "function saveIds(a){try{localStorage.setItem(STORAGE,JSON.stringify(a));return true}catch(_){status.textContent='浏览器禁止本地保存，仍可直接打开应用';return false}}"
+      },
+      {
+        "line": 28,
+        "text": "fetch('store-registry.json',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(d=>{items=d.apps.filter(x=>x&&x.id&&x.url);render()}).catch(()=>{status.textContent='暂时无法读取目录，请通过完整资产目录访问';const a=document.createElement('a');a.href='catalog.html';a.textContent='打开 Spaces Atlas';grid.append(a)});"
+      }
+    ]
+  },
+  "apps/my-space.html": {
+    "sha256": "08a7638e95e8fee73bc4154e5276cbede3470ba175c56c96736e1b8f3d5be19e",
+    "lines": 18,
+    "evidence": [
+      {
+        "line": 8,
+        "text": "function write(v){try{localStorage.setItem(STORAGE,JSON.stringify(v));return true}catch(_){status.textContent='无法保存：请检查浏览器本地存储权限';return false}}"
+      },
+      {
+        "line": 16,
+        "text": "try{const response=await fetch('store-registry.json',{cache:'no-cache'});if(!response.ok)throw Error(String(response.status));const data=await response.json();apps=data.apps;draw()}catch(_){status.textContent='无法读取应用登记册';list.textContent='请返回 Spaces Store 重试。'}"
+      }
+    ]
+  },
+  "apps/catalog.html": {
+    "sha256": "5f5450b41274076e0ade0d47e5889cea5f907efa440cce2b92c1aa0162a0b849",
+    "lines": 32,
+    "evidence": [
+      {
+        "line": 9,
+        "text": "<section id=\"sections\" aria-label=\"分组资产清单\"><p>正在读取资产目录。如果没有显示，请直接访问 <a href=\"../data/space-asset-inventory-2026.json\">JSON 资产表</a>。</p></section>"
+      },
+      {
+        "line": 10,
+        "text": "<p class=\"note\">A：明确发布线索及入口；B：已有可运行代码或体验子集；C：目前以档案或文本为主。带有入口不代表在设备上已通过测试，商业、艺术合作与个人作品权属分别保存。<br><a href=\"../data/space-asset-inventory-2026.json\">下载 JSON 索引</a></p></main>"
+      },
+      {
+        "line": 15,
+        "text": " const resp=await fetch('../data/space-asset-inventory-2026.json',{cache:'no-cache'});if(!resp.ok)throw Error('HTTP '+resp.status);"
+      }
+    ]
+  },
+  "assets/lang.js": {
+    "sha256": "19474da130c60bf1b0627e8a0d003d8f249a6519e44e3592454127415965a28d",
+    "lines": 35,
+    "evidence": [
+      {
+        "line": 9,
+        "text": "    try { localStorage.setItem(storageKey, value); } catch (_) {}"
+      },
+      {
+        "line": 19,
+        "text": "    document.querySelectorAll('[data-set-lang]').forEach((button) => {"
+      },
+      {
+        "line": 32,
+        "text": "  document.querySelectorAll('[data-set-lang]').forEach((button) => {"
+      }
+    ]
+  }
+}

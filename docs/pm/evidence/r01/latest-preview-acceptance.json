@@ -1,0 +1,166 @@
+{
+  "time": "2026-11-07T17:20:46.301569+00:00",
+  "samples": [
+    {
+      "pr": 5,
+      "headSHA": "5b052b20031ce638a21d92588b4569a68a2945b9",
+      "url": "https://e66f343e.virtura-website.pages.dev/",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "b6b142fc808f00c8ea1b17ce735b50daab71dcc33d2e017a0c1845c4099ea99c",
+      "bytes": 61349,
+      "stderr": ""
+    },
+    {
+      "pr": 5,
+      "headSHA": "5b052b20031ce638a21d92588b4569a68a2945b9",
+      "url": "https://e66f343e.virtura-website.pages.dev/apps/",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "53b57dd9ba813db91f48f062f93adbc65e4e686eb0e2b5ba96dddaa626386cb9",
+      "bytes": 11140,
+      "stderr": ""
+    },
+    {
+      "pr": 5,
+      "headSHA": "5b052b20031ce638a21d92588b4569a68a2945b9",
+      "url": "https://e66f343e.virtura-website.pages.dev/apps/store.html",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "70f2f9086a65919e598ed3ca90bb30c6c434e2b5f35a47177084093e45eca9d7",
+      "bytes": 9031,
+      "stderr": ""
+    },
+    {
+      "pr": 5,
+      "headSHA": "5b052b20031ce638a21d92588b4569a68a2945b9",
+      "url": "https://e66f343e.virtura-website.pages.dev/apps/my-space.html",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "08a7638e95e8fee73bc4154e5276cbede3470ba175c56c96736e1b8f3d5be19e",
+      "bytes": 5874,
+      "stderr": ""
+    },
+    {
+      "pr": 5,
+      "headSHA": "5b052b20031ce638a21d92588b4569a68a2945b9",
+      "url": "https://e66f343e.virtura-website.pages.dev/apps/catalog.html",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "5f5450b41274076e0ade0d47e5889cea5f907efa440cce2b92c1aa0162a0b849",
+      "bytes": 5448,
+      "stderr": ""
+    },
+    {
+      "pr": 5,
+      "headSHA": "5b052b20031ce638a21d92588b4569a68a2945b9",
+      "url": "https://e66f343e.virtura-website.pages.dev/apps/store-registry.json",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "dde3e27868dea29d222dc2bd173172e0d4ddbbf1ea76f449e3b435dc8d3d36c2",
+      "bytes": 8573,
+      "stderr": ""
+    },
+    {
+      "pr": 5,
+      "headSHA": "5b052b20031ce638a21d92588b4569a68a2945b9",
+      "url": "https://e66f343e.virtura-website.pages.dev/data/space-asset-inventory-2026.json",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "322593fdd2287e75d931a60535067764bbfcfbe553dcb850f426d969dba0b8a6",
+      "bytes": 16985,
+      "stderr": ""
+    },
+    {
+      "pr": 5,
+      "headSHA": "5b052b20031ce638a21d92588b4569a68a2945b9",
+      "url": "https://e66f343e.virtura-website.pages.dev/assets/lang.js",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "19474da130c60bf1b0627e8a0d003d8f249a6519e44e3592454127415965a28d",
+      "bytes": 1407,
+      "stderr": ""
+    },
+    {
+      "pr": 6,
+      "headSHA": "36dbcc87abd9ff4747a4e495195059c4ab726ec4",
+      "url": "https://f0ea6bb6.virtura-website.pages.dev/",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "b6b142fc808f00c8ea1b17ce735b50daab71dcc33d2e017a0c1845c4099ea99c",
+      "bytes": 61349,
+      "stderr": ""
+    },
+    {
+      "pr": 6,
+      "headSHA": "36dbcc87abd9ff4747a4e495195059c4ab726ec4",
+      "url": "https://f0ea6bb6.virtura-website.pages.dev/apps/",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "53b57dd9ba813db91f48f062f93adbc65e4e686eb0e2b5ba96dddaa626386cb9",
+      "bytes": 11140,
+      "stderr": ""
+    },
+    {
+      "pr": 6,
+      "headSHA": "36dbcc87abd9ff4747a4e495195059c4ab726ec4",
+      "url": "https://f0ea6bb6.virtura-website.pages.dev/apps/store.html",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "70f2f9086a65919e598ed3ca90bb30c6c434e2b5f35a47177084093e45eca9d7",
+      "bytes": 9031,
+      "stderr": ""
+    },
+    {
+      "pr": 6,
+      "headSHA": "36dbcc87abd9ff4747a4e495195059c4ab726ec4",
+      "url": "https://f0ea6bb6.virtura-website.pages.dev/apps/my-space.html",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "08a7638e95e8fee73bc4154e5276cbede3470ba175c56c96736e1b8f3d5be19e",
+      "bytes": 5874,
+      "stderr": ""
+    },
+    {
+      "pr": 6,
+      "headSHA": "36dbcc87abd9ff4747a4e495195059c4ab726ec4",
+      "url": "https://f0ea6bb6.virtura-website.pages.dev/apps/catalog.html",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "5f5450b41274076e0ade0d47e5889cea5f907efa440cce2b92c1aa0162a0b849",
+      "bytes": 5448,
+      "stderr": ""
+    },
+    {
+      "pr": 6,
+      "headSHA": "36dbcc87abd9ff4747a4e495195059c4ab726ec4",
+      "url": "https://f0ea6bb6.virtura-website.pages.dev/apps/store-registry.json",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "dde3e27868dea29d222dc2bd173172e0d4ddbbf1ea76f449e3b435dc8d3d36c2",
+      "bytes": 8573,
+      "stderr": ""
+    },
+    {
+      "pr": 6,
+      "headSHA": "36dbcc87abd9ff4747a4e495195059c4ab726ec4",
+      "url": "https://f0ea6bb6.virtura-website.pages.dev/data/space-asset-inventory-2026.json",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "322593fdd2287e75d931a60535067764bbfcfbe553dcb850f426d969dba0b8a6",
+      "bytes": 16985,
+      "stderr": ""
+    },
+    {
+      "pr": 6,
+      "headSHA": "36dbcc87abd9ff4747a4e495195059c4ab726ec4",
+      "url": "https://f0ea6bb6.virtura-website.pages.dev/assets/lang.js",
+      "curlExit": 0,
+      "matchesSource": true,
+      "sha256": "19474da130c60bf1b0627e8a0d003d8f249a6519e44e3592454127415965a28d",
+      "bytes": 1407,
+      "stderr": ""
+    }
+  ],
+  "passed": true
+}

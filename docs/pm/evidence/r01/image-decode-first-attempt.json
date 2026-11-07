@@ -1,0 +1,167 @@
+[
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 1280,
+    "height": 720,
+    "decoded": true
+  },
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 2755,
+    "height": 1501,
+    "decoded": true
+  },
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/space-lobby.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 1920,
+    "height": 1280,
+    "decoded": true
+  },
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_01_system.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 1440,
+    "height": 809,
+    "decoded": true
+  },
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+    "curlExit": 0,
+    "format": "WEBP",
+    "width": 4032,
+    "height": 3024,
+    "decoded": true
+  },
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/04_TITAN/detail_02_live.jpeg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 1536,
+    "height": 1024,
+    "decoded": true
+  },
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/04_TITAN/hero.webp",
+    "curlExit": 0,
+    "format": "WEBP",
+    "width": 1920,
+    "height": 1080,
+    "decoded": true
+  },
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/detail_03_site.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 1920,
+    "height": 2560,
+    "decoded": true
+  },
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/hero.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 1440,
+    "height": 1080,
+    "decoded": true
+  },
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/detail_01_xray.webp",
+    "curlExit": 0,
+    "format": "WEBP",
+    "width": 1528,
+    "height": 958,
+    "decoded": true
+  },
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+    "curlExit": 0,
+    "format": "WEBP",
+    "width": 2262,
+    "height": 1219,
+    "decoded": true
+  },
+  {
+    "src": "VIRTURA_WEBSITE_ASSETS/09_CIRCULAR_MATRIX_SCREEN/control_03_thumbnail.webp",
+    "curlExit": 0,
+    "format": "WEBP",
+    "width": 1280,
+    "height": 1707,
+    "decoded": true
+  },
+  {
+    "src": "assets/embedded/media-01.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 2048,
+    "height": 699,
+    "decoded": true
+  },
+  {
+    "src": "assets/embedded/media-02.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 1038,
+    "height": 1046,
+    "decoded": true
+  },
+  {
+    "src": "assets/embedded/media-03.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 988,
+    "height": 1002,
+    "decoded": true
+  },
+  {
+    "src": "assets/embedded/media-04.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 981,
+    "height": 990,
+    "decoded": true
+  },
+  {
+    "src": "assets/embedded/media-05.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 1051,
+    "height": 1041,
+    "decoded": true
+  },
+  {
+    "src": "assets/embedded/media-06.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 1440,
+    "height": 809,
+    "decoded": true
+  },
+  {
+    "src": "assets/experience-xr-hackathon.jpg",
+    "curlExit": 0,
+    "format": "JPEG",
+    "width": 1014,
+    "height": 863,
+    "decoded": true
+  },
+  {
+    "src": "assets/people/sihui-xu-square.jpg",
+    "curlExit": 56,
+    "error": "curl: (56) The requested URL returned error: 404\n"
+  },
+  {
+    "src": "assets/virtura-logo-white.png",
+    "curlExit": 0,
+    "format": "PNG",
+    "width": 209,
+    "height": 51,
+    "decoded": true
+  }
+]

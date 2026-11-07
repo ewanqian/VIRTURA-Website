@@ -1,0 +1,2734 @@
+{
+  "time": "2026-11-07T16:41:30.555Z",
+  "sourceSHA": "837d68c6ff15f37500c05ae7e2337721ea613463",
+  "http": [
+    {
+      "url": "https://virtura.space/",
+      "status": 200,
+      "finalURL": "https://virtura.space/",
+      "bytes": 61349,
+      "sha256": "b6b142fc808f00c8ea1b17ce735b50daab71dcc33d2e017a0c1845c4099ea99c",
+      "matchesMainFile": true
+    },
+    {
+      "url": "https://virtura.space/apps/",
+      "status": 200,
+      "finalURL": "https://virtura.space/apps/",
+      "bytes": 11140,
+      "sha256": "53b57dd9ba813db91f48f062f93adbc65e4e686eb0e2b5ba96dddaa626386cb9",
+      "matchesMainFile": true
+    },
+    {
+      "url": "https://virtura.space/apps/store.html",
+      "status": 200,
+      "finalURL": "https://virtura.space/apps/store",
+      "bytes": 9031,
+      "sha256": "70f2f9086a65919e598ed3ca90bb30c6c434e2b5f35a47177084093e45eca9d7",
+      "matchesMainFile": true
+    },
+    {
+      "url": "https://virtura.space/apps/my-space.html",
+      "status": 200,
+      "finalURL": "https://virtura.space/apps/my-space",
+      "bytes": 5874,
+      "sha256": "08a7638e95e8fee73bc4154e5276cbede3470ba175c56c96736e1b8f3d5be19e",
+      "matchesMainFile": true
+    },
+    {
+      "url": "https://virtura.space/apps/catalog.html",
+      "status": 200,
+      "finalURL": "https://virtura.space/apps/catalog",
+      "bytes": 5448,
+      "sha256": "5f5450b41274076e0ade0d47e5889cea5f907efa440cce2b92c1aa0162a0b849",
+      "matchesMainFile": true
+    },
+    {
+      "url": "https://63c4c95f.virtura-website.pages.dev/",
+      "status": 200,
+      "finalURL": "https://63c4c95f.virtura-website.pages.dev/",
+      "bytes": 61349,
+      "sha256": "b6b142fc808f00c8ea1b17ce735b50daab71dcc33d2e017a0c1845c4099ea99c",
+      "matchesMainFile": true
+    },
+    {
+      "url": "https://63c4c95f.virtura-website.pages.dev/apps/",
+      "status": 200,
+      "finalURL": "https://63c4c95f.virtura-website.pages.dev/apps/",
+      "bytes": 11140,
+      "sha256": "53b57dd9ba813db91f48f062f93adbc65e4e686eb0e2b5ba96dddaa626386cb9",
+      "matchesMainFile": true
+    },
+    {
+      "url": "https://63c4c95f.virtura-website.pages.dev/apps/store.html",
+      "status": 200,
+      "finalURL": "https://63c4c95f.virtura-website.pages.dev/apps/store",
+      "bytes": 9031,
+      "sha256": "70f2f9086a65919e598ed3ca90bb30c6c434e2b5f35a47177084093e45eca9d7",
+      "matchesMainFile": true
+    },
+    {
+      "url": "https://63c4c95f.virtura-website.pages.dev/apps/my-space.html",
+      "status": 200,
+      "finalURL": "https://63c4c95f.virtura-website.pages.dev/apps/my-space",
+      "bytes": 5874,
+      "sha256": "08a7638e95e8fee73bc4154e5276cbede3470ba175c56c96736e1b8f3d5be19e",
+      "matchesMainFile": true
+    },
+    {
+      "url": "https://63c4c95f.virtura-website.pages.dev/apps/catalog.html",
+      "status": 200,
+      "finalURL": "https://63c4c95f.virtura-website.pages.dev/apps/catalog",
+      "bytes": 5448,
+      "sha256": "5f5450b41274076e0ade0d47e5889cea5f907efa440cce2b92c1aa0162a0b849",
+      "matchesMainFile": true
+    }
+  ],
+  "samples": [
+    {
+      "route": "/",
+      "width": 375,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "VIRTURA — 体验设计与空间媒体工作室",
+      "lang": "zh-CN",
+      "dataLang": "zh",
+      "languageControls": 2,
+      "overflow": true,
+      "anchors": [
+        "top",
+        "universes",
+        "capabilities",
+        "work",
+        "delivery",
+        "workflow",
+        "studio",
+        "people",
+        "sihui-xu",
+        "project-inquiry",
+        "project-form",
+        "project-type",
+        "project-location",
+        "launch-date",
+        "budget",
+        "contact-name",
+        "contact-way",
+        "project-brief",
+        "contact",
+        "related-links-title"
+      ],
+      "forms": [
+        {
+          "id": "project-form",
+          "action": null,
+          "method": "get"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/detail_01_xray.webp",
+          "width": 1528,
+          "height": 958,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/space-lobby.jpg",
+          "width": 1920,
+          "height": 1280,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_01_system.jpg",
+          "width": 1440,
+          "height": 809,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/detail_02_live.jpeg",
+          "width": 1536,
+          "height": 1024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/detail_03_site.jpg",
+          "width": 1920,
+          "height": 2560,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/hero.webp",
+          "width": 1920,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/hero.jpg",
+          "width": 1440,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/09_CIRCULAR_MATRIX_SCREEN/control_03_thumbnail.webp",
+          "width": 1280,
+          "height": 1707,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-01.jpg",
+          "width": 2048,
+          "height": 699,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-02.jpg",
+          "width": 1038,
+          "height": 1046,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-03.jpg",
+          "width": 988,
+          "height": 1002,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-04.jpg",
+          "width": 981,
+          "height": 990,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-05.jpg",
+          "width": 1051,
+          "height": 1041,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "",
+          "width": 0,
+          "height": 0,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-06.jpg",
+          "width": 1440,
+          "height": 809,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        }
+      ],
+      "links": [
+        "#top",
+        "#universes",
+        "#capabilities",
+        "#work",
+        "apps/",
+        "#delivery",
+        "#workflow",
+        "#studio",
+        "#project-inquiry",
+        "work/system-ersha.html",
+        "work/natgeo-crystal.html",
+        "https://ewanqian.site/#/gaussian-scenes",
+        "work/ufo-circular-series.html",
+        "work/ai-gala.html",
+        "work/natgeo-crystal.html",
+        "work/ufo-circular-series.html",
+        "work/titan.html",
+        "work/west-bund-xuanxin.html",
+        "work/system-ersha.html",
+        "work/circular-matrix-screen.html",
+        "https://ewanqian.site/",
+        "https://ewanqian.site/",
+        "https://murphynile.com/",
+        "https://murphynile.com/",
+        "https://xusihui.com/",
+        "https://xusihui.com/",
+        "#project-inquiry",
+        "https://collective.virtura.space/",
+        "https://spaceport.virtura.space/",
+        "mailto:studio@virtura.space",
+        "https://collective.virtura.space/",
+        "apps/",
+        "https://spaceport.virtura.space/"
+      ],
+      "screenshot": "root-375-zh.jpg"
+    },
+    {
+      "route": "/",
+      "width": 375,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "VIRTURA — Experience Design & Spatial Media Studio",
+      "lang": "en",
+      "dataLang": "en",
+      "languageControls": 2,
+      "overflow": false,
+      "anchors": [
+        "top",
+        "universes",
+        "capabilities",
+        "work",
+        "delivery",
+        "workflow",
+        "studio",
+        "people",
+        "sihui-xu",
+        "project-inquiry",
+        "project-form",
+        "project-type",
+        "project-location",
+        "launch-date",
+        "budget",
+        "contact-name",
+        "contact-way",
+        "project-brief",
+        "contact",
+        "related-links-title"
+      ],
+      "forms": [
+        {
+          "id": "project-form",
+          "action": null,
+          "method": "get"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/detail_01_xray.webp",
+          "width": 1528,
+          "height": 958,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/space-lobby.jpg",
+          "width": 1920,
+          "height": 1280,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_01_system.jpg",
+          "width": 1440,
+          "height": 809,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/detail_02_live.jpeg",
+          "width": 1536,
+          "height": 1024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/detail_03_site.jpg",
+          "width": 1920,
+          "height": 2560,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/hero.webp",
+          "width": 1920,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/hero.jpg",
+          "width": 1440,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/09_CIRCULAR_MATRIX_SCREEN/control_03_thumbnail.webp",
+          "width": 1280,
+          "height": 1707,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-01.jpg",
+          "width": 2048,
+          "height": 699,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-02.jpg",
+          "width": 1038,
+          "height": 1046,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-03.jpg",
+          "width": 988,
+          "height": 1002,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-04.jpg",
+          "width": 981,
+          "height": 990,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-05.jpg",
+          "width": 1051,
+          "height": 1041,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "",
+          "width": 0,
+          "height": 0,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-06.jpg",
+          "width": 1440,
+          "height": 809,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        }
+      ],
+      "links": [
+        "#top",
+        "#universes",
+        "#capabilities",
+        "#work",
+        "apps/",
+        "#delivery",
+        "#workflow",
+        "#studio",
+        "#project-inquiry",
+        "work/system-ersha.html",
+        "work/natgeo-crystal.html",
+        "https://ewanqian.site/#/gaussian-scenes",
+        "work/ufo-circular-series.html",
+        "work/ai-gala.html",
+        "work/natgeo-crystal.html",
+        "work/ufo-circular-series.html",
+        "work/titan.html",
+        "work/west-bund-xuanxin.html",
+        "work/system-ersha.html",
+        "work/circular-matrix-screen.html",
+        "https://ewanqian.site/",
+        "https://ewanqian.site/",
+        "https://murphynile.com/",
+        "https://murphynile.com/",
+        "https://xusihui.com/",
+        "https://xusihui.com/",
+        "#project-inquiry",
+        "https://collective.virtura.space/",
+        "https://spaceport.virtura.space/",
+        "mailto:studio@virtura.space",
+        "https://collective.virtura.space/",
+        "apps/",
+        "https://spaceport.virtura.space/"
+      ],
+      "screenshot": "root-375-en.jpg"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "VIRTURA — 体验设计与空间媒体工作室",
+      "lang": "zh-CN",
+      "dataLang": "zh",
+      "languageControls": 2,
+      "overflow": false,
+      "anchors": [
+        "top",
+        "universes",
+        "capabilities",
+        "work",
+        "delivery",
+        "workflow",
+        "studio",
+        "people",
+        "sihui-xu",
+        "project-inquiry",
+        "project-form",
+        "project-type",
+        "project-location",
+        "launch-date",
+        "budget",
+        "contact-name",
+        "contact-way",
+        "project-brief",
+        "contact",
+        "related-links-title"
+      ],
+      "forms": [
+        {
+          "id": "project-form",
+          "action": null,
+          "method": "get"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/detail_01_xray.webp",
+          "width": 1528,
+          "height": 958,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/space-lobby.jpg",
+          "width": 1920,
+          "height": 1280,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_01_system.jpg",
+          "width": 1440,
+          "height": 809,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/detail_02_live.jpeg",
+          "width": 1536,
+          "height": 1024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/detail_03_site.jpg",
+          "width": 1920,
+          "height": 2560,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/hero.webp",
+          "width": 1920,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/hero.jpg",
+          "width": 1440,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/09_CIRCULAR_MATRIX_SCREEN/control_03_thumbnail.webp",
+          "width": 1280,
+          "height": 1707,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-01.jpg",
+          "width": 2048,
+          "height": 699,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-02.jpg",
+          "width": 1038,
+          "height": 1046,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-03.jpg",
+          "width": 988,
+          "height": 1002,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-04.jpg",
+          "width": 981,
+          "height": 990,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "",
+          "width": 0,
+          "height": 0,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "",
+          "width": 0,
+          "height": 0,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "",
+          "width": 0,
+          "height": 0,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        }
+      ],
+      "links": [
+        "#top",
+        "#universes",
+        "#capabilities",
+        "#work",
+        "apps/",
+        "#delivery",
+        "#workflow",
+        "#studio",
+        "#project-inquiry",
+        "work/system-ersha.html",
+        "work/natgeo-crystal.html",
+        "https://ewanqian.site/#/gaussian-scenes",
+        "work/ufo-circular-series.html",
+        "work/ai-gala.html",
+        "work/natgeo-crystal.html",
+        "work/ufo-circular-series.html",
+        "work/titan.html",
+        "work/west-bund-xuanxin.html",
+        "work/system-ersha.html",
+        "work/circular-matrix-screen.html",
+        "https://ewanqian.site/",
+        "https://ewanqian.site/",
+        "https://murphynile.com/",
+        "https://murphynile.com/",
+        "https://xusihui.com/",
+        "https://xusihui.com/",
+        "#project-inquiry",
+        "https://collective.virtura.space/",
+        "https://spaceport.virtura.space/",
+        "mailto:studio@virtura.space",
+        "https://collective.virtura.space/",
+        "apps/",
+        "https://spaceport.virtura.space/"
+      ],
+      "screenshot": "root-768-zh.jpg"
+    },
+    {
+      "route": "/",
+      "width": 768,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "VIRTURA — Experience Design & Spatial Media Studio",
+      "lang": "en",
+      "dataLang": "en",
+      "languageControls": 2,
+      "overflow": false,
+      "anchors": [
+        "top",
+        "universes",
+        "capabilities",
+        "work",
+        "delivery",
+        "workflow",
+        "studio",
+        "people",
+        "sihui-xu",
+        "project-inquiry",
+        "project-form",
+        "project-type",
+        "project-location",
+        "launch-date",
+        "budget",
+        "contact-name",
+        "contact-way",
+        "project-brief",
+        "contact",
+        "related-links-title"
+      ],
+      "forms": [
+        {
+          "id": "project-form",
+          "action": null,
+          "method": "get"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/detail_01_xray.webp",
+          "width": 1528,
+          "height": 958,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/space-lobby.jpg",
+          "width": 1920,
+          "height": 1280,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_01_system.jpg",
+          "width": 1440,
+          "height": 809,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/detail_02_live.jpeg",
+          "width": 1536,
+          "height": 1024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/detail_03_site.jpg",
+          "width": 1920,
+          "height": 2560,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/hero.webp",
+          "width": 1920,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/hero.jpg",
+          "width": 1440,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/09_CIRCULAR_MATRIX_SCREEN/control_03_thumbnail.webp",
+          "width": 1280,
+          "height": 1707,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-01.jpg",
+          "width": 2048,
+          "height": 699,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-02.jpg",
+          "width": 1038,
+          "height": 1046,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-03.jpg",
+          "width": 988,
+          "height": 1002,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-04.jpg",
+          "width": 981,
+          "height": 990,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-05.jpg",
+          "width": 1051,
+          "height": 1041,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "",
+          "width": 0,
+          "height": 0,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-06.jpg",
+          "width": 1440,
+          "height": 809,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        }
+      ],
+      "links": [
+        "#top",
+        "#universes",
+        "#capabilities",
+        "#work",
+        "apps/",
+        "#delivery",
+        "#workflow",
+        "#studio",
+        "#project-inquiry",
+        "work/system-ersha.html",
+        "work/natgeo-crystal.html",
+        "https://ewanqian.site/#/gaussian-scenes",
+        "work/ufo-circular-series.html",
+        "work/ai-gala.html",
+        "work/natgeo-crystal.html",
+        "work/ufo-circular-series.html",
+        "work/titan.html",
+        "work/west-bund-xuanxin.html",
+        "work/system-ersha.html",
+        "work/circular-matrix-screen.html",
+        "https://ewanqian.site/",
+        "https://ewanqian.site/",
+        "https://murphynile.com/",
+        "https://murphynile.com/",
+        "https://xusihui.com/",
+        "https://xusihui.com/",
+        "#project-inquiry",
+        "https://collective.virtura.space/",
+        "https://spaceport.virtura.space/",
+        "mailto:studio@virtura.space",
+        "https://collective.virtura.space/",
+        "apps/",
+        "https://spaceport.virtura.space/"
+      ],
+      "screenshot": "root-768-en.jpg"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "VIRTURA — 体验设计与空间媒体工作室",
+      "lang": "zh-CN",
+      "dataLang": "zh",
+      "languageControls": 2,
+      "overflow": false,
+      "anchors": [
+        "top",
+        "universes",
+        "capabilities",
+        "work",
+        "delivery",
+        "workflow",
+        "studio",
+        "people",
+        "sihui-xu",
+        "project-inquiry",
+        "project-form",
+        "project-type",
+        "project-location",
+        "launch-date",
+        "budget",
+        "contact-name",
+        "contact-way",
+        "project-brief",
+        "contact",
+        "related-links-title"
+      ],
+      "forms": [
+        {
+          "id": "project-form",
+          "action": null,
+          "method": "get"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/detail_01_xray.webp",
+          "width": 1528,
+          "height": 958,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/space-lobby.jpg",
+          "width": 1920,
+          "height": 1280,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_01_system.jpg",
+          "width": 1440,
+          "height": 809,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/detail_02_live.jpeg",
+          "width": 1536,
+          "height": 1024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/detail_03_site.jpg",
+          "width": 1920,
+          "height": 2560,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/hero.webp",
+          "width": 1920,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/hero.jpg",
+          "width": 1440,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/09_CIRCULAR_MATRIX_SCREEN/control_03_thumbnail.webp",
+          "width": 1280,
+          "height": 1707,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-01.jpg",
+          "width": 2048,
+          "height": 699,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-02.jpg",
+          "width": 1038,
+          "height": 1046,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-03.jpg",
+          "width": 988,
+          "height": 1002,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-04.jpg",
+          "width": 981,
+          "height": 990,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-05.jpg",
+          "width": 1051,
+          "height": 1041,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "",
+          "width": 0,
+          "height": 0,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-06.jpg",
+          "width": 1440,
+          "height": 809,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        }
+      ],
+      "links": [
+        "#top",
+        "#universes",
+        "#capabilities",
+        "#work",
+        "apps/",
+        "#delivery",
+        "#workflow",
+        "#studio",
+        "#project-inquiry",
+        "work/system-ersha.html",
+        "work/natgeo-crystal.html",
+        "https://ewanqian.site/#/gaussian-scenes",
+        "work/ufo-circular-series.html",
+        "work/ai-gala.html",
+        "work/natgeo-crystal.html",
+        "work/ufo-circular-series.html",
+        "work/titan.html",
+        "work/west-bund-xuanxin.html",
+        "work/system-ersha.html",
+        "work/circular-matrix-screen.html",
+        "https://ewanqian.site/",
+        "https://ewanqian.site/",
+        "https://murphynile.com/",
+        "https://murphynile.com/",
+        "https://xusihui.com/",
+        "https://xusihui.com/",
+        "#project-inquiry",
+        "https://collective.virtura.space/",
+        "https://spaceport.virtura.space/",
+        "mailto:studio@virtura.space",
+        "https://collective.virtura.space/",
+        "apps/",
+        "https://spaceport.virtura.space/"
+      ],
+      "screenshot": "root-1440-zh.jpg"
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "VIRTURA — Experience Design & Spatial Media Studio",
+      "lang": "en",
+      "dataLang": "en",
+      "languageControls": 2,
+      "overflow": false,
+      "anchors": [
+        "top",
+        "universes",
+        "capabilities",
+        "work",
+        "delivery",
+        "workflow",
+        "studio",
+        "people",
+        "sihui-xu",
+        "project-inquiry",
+        "project-form",
+        "project-type",
+        "project-location",
+        "launch-date",
+        "budget",
+        "contact-name",
+        "contact-way",
+        "project-brief",
+        "contact",
+        "related-links-title"
+      ],
+      "forms": [
+        {
+          "id": "project-form",
+          "action": null,
+          "method": "get"
+        }
+      ],
+      "images": [
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/detail_01_xray.webp",
+          "width": 1528,
+          "height": 958,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/space-lobby.jpg",
+          "width": 1920,
+          "height": 1280,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_01_system.jpg",
+          "width": 1440,
+          "height": 809,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/detail_02_live.jpeg",
+          "width": 1536,
+          "height": 1024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/detail_03_site.jpg",
+          "width": 1920,
+          "height": 2560,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/experience-xr-hackathon.jpg",
+          "width": 1014,
+          "height": 863,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/01_AI_GALA/hero-robot-cube.jpg",
+          "width": 1280,
+          "height": 720,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/02_NATGEO_CRYSTAL/hero-crystal.jpg",
+          "width": 2755,
+          "height": 1501,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/03_UFO_CIRCULAR_SERIES/dropflow_03_live.webp",
+          "width": 4032,
+          "height": 3024,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/04_TITAN/hero.webp",
+          "width": 1920,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/05_WEST_BUND_XUANXIN/hero.jpg",
+          "width": 1440,
+          "height": 1080,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/06_SYSTEM_ERSHA/hero.webp",
+          "width": 2262,
+          "height": 1219,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/VIRTURA_WEBSITE_ASSETS/09_CIRCULAR_MATRIX_SCREEN/control_03_thumbnail.webp",
+          "width": 1280,
+          "height": 1707,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-01.jpg",
+          "width": 2048,
+          "height": 699,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-02.jpg",
+          "width": 1038,
+          "height": 1046,
+          "complete": true,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/embedded/media-03.jpg",
+          "width": 988,
+          "height": 1002,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "",
+          "width": 0,
+          "height": 0,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "",
+          "width": 0,
+          "height": 0,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "",
+          "width": 0,
+          "height": 0,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "",
+          "width": 0,
+          "height": 0,
+          "complete": false,
+          "objectFit": "cover"
+        },
+        {
+          "src": "https://virtura.space/assets/virtura-logo-white.png",
+          "width": 209,
+          "height": 51,
+          "complete": true,
+          "objectFit": "fill"
+        }
+      ],
+      "links": [
+        "#top",
+        "#universes",
+        "#capabilities",
+        "#work",
+        "apps/",
+        "#delivery",
+        "#workflow",
+        "#studio",
+        "#project-inquiry",
+        "work/system-ersha.html",
+        "work/natgeo-crystal.html",
+        "https://ewanqian.site/#/gaussian-scenes",
+        "work/ufo-circular-series.html",
+        "work/ai-gala.html",
+        "work/natgeo-crystal.html",
+        "work/ufo-circular-series.html",
+        "work/titan.html",
+        "work/west-bund-xuanxin.html",
+        "work/system-ersha.html",
+        "work/circular-matrix-screen.html",
+        "https://ewanqian.site/",
+        "https://ewanqian.site/",
+        "https://murphynile.com/",
+        "https://murphynile.com/",
+        "https://xusihui.com/",
+        "https://xusihui.com/",
+        "#project-inquiry",
+        "https://collective.virtura.space/",
+        "https://spaceport.virtura.space/",
+        "mailto:studio@virtura.space",
+        "https://collective.virtura.space/",
+        "apps/",
+        "https://spaceport.virtura.space/"
+      ],
+      "screenshot": "root-1440-en.jpg"
+    },
+    {
+      "route": "/apps/",
+      "width": 375,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "count",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "../#work",
+        "../#people",
+        "../#project-inquiry",
+        "store.html",
+        "my-space.html",
+        "catalog.html",
+        "catalog.html",
+        "../#work",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.site/works/timer",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA-SpacePort",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "catalog.html",
+        "../"
+      ],
+      "screenshot": "apps-375-zh.jpg"
+    },
+    {
+      "route": "/apps/",
+      "width": 375,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "count",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "../#work",
+        "../#people",
+        "../#project-inquiry",
+        "store.html",
+        "my-space.html",
+        "catalog.html",
+        "catalog.html",
+        "../#work",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.site/works/timer",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA-SpacePort",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "catalog.html",
+        "../"
+      ],
+      "screenshot": "apps-375-en.jpg"
+    },
+    {
+      "route": "/apps/",
+      "width": 768,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "count",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "../#work",
+        "../#people",
+        "../#project-inquiry",
+        "store.html",
+        "my-space.html",
+        "catalog.html",
+        "catalog.html",
+        "../#work",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.site/works/timer",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA-SpacePort",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "catalog.html",
+        "../"
+      ],
+      "screenshot": "apps-768-zh.jpg"
+    },
+    {
+      "route": "/apps/",
+      "width": 768,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "count",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "../#work",
+        "../#people",
+        "../#project-inquiry",
+        "store.html",
+        "my-space.html",
+        "catalog.html",
+        "catalog.html",
+        "../#work",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.site/works/timer",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA-SpacePort",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "catalog.html",
+        "../"
+      ],
+      "screenshot": "apps-768-en.jpg"
+    },
+    {
+      "route": "/apps/",
+      "width": 1440,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "count",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "../#work",
+        "../#people",
+        "../#project-inquiry",
+        "store.html",
+        "my-space.html",
+        "catalog.html",
+        "catalog.html",
+        "../#work",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.site/works/timer",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA-SpacePort",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "catalog.html",
+        "../"
+      ],
+      "screenshot": "apps-1440-zh.jpg"
+    },
+    {
+      "route": "/apps/",
+      "width": 1440,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "count",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "../#work",
+        "../#people",
+        "../#project-inquiry",
+        "store.html",
+        "my-space.html",
+        "catalog.html",
+        "catalog.html",
+        "../#work",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.site/works/timer",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA-SpacePort",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "catalog.html",
+        "../"
+      ],
+      "screenshot": "apps-1440-en.jpg"
+    },
+    {
+      "route": "/apps/store.html",
+      "width": 375,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Store / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "search",
+        "status",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "./",
+        "my-space.html",
+        "../#project-inquiry",
+        "my-space.html",
+        "catalog.html",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://github.com/ewanqian/HyperFlow-SHM",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "../",
+        "catalog.html",
+        "my-space.html"
+      ],
+      "screenshot": "store-375-zh.jpg"
+    },
+    {
+      "route": "/apps/store.html",
+      "width": 375,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Store / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "search",
+        "status",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "./",
+        "my-space.html",
+        "../#project-inquiry",
+        "my-space.html",
+        "catalog.html",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://github.com/ewanqian/HyperFlow-SHM",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "../",
+        "catalog.html",
+        "my-space.html"
+      ],
+      "screenshot": "store-375-en.jpg"
+    },
+    {
+      "route": "/apps/store.html",
+      "width": 768,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Store / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "search",
+        "status",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "./",
+        "my-space.html",
+        "../#project-inquiry",
+        "my-space.html",
+        "catalog.html",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://github.com/ewanqian/HyperFlow-SHM",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "../",
+        "catalog.html",
+        "my-space.html"
+      ],
+      "screenshot": "store-768-zh.jpg"
+    },
+    {
+      "route": "/apps/store.html",
+      "width": 768,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Store / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "search",
+        "status",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "./",
+        "my-space.html",
+        "../#project-inquiry",
+        "my-space.html",
+        "catalog.html",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://github.com/ewanqian/HyperFlow-SHM",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "../",
+        "catalog.html",
+        "my-space.html"
+      ],
+      "screenshot": "store-768-en.jpg"
+    },
+    {
+      "route": "/apps/store.html",
+      "width": 1440,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Store / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "search",
+        "status",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "./",
+        "my-space.html",
+        "../#project-inquiry",
+        "my-space.html",
+        "catalog.html",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://github.com/ewanqian/HyperFlow-SHM",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "../",
+        "catalog.html",
+        "my-space.html"
+      ],
+      "screenshot": "store-1440-zh.jpg"
+    },
+    {
+      "route": "/apps/store.html",
+      "width": 1440,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Store / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "search",
+        "status",
+        "grid"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "../",
+        "./",
+        "my-space.html",
+        "../#project-inquiry",
+        "my-space.html",
+        "catalog.html",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://github.com/ewanqian/HyperFlow-SHM",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "../",
+        "catalog.html",
+        "my-space.html"
+      ],
+      "screenshot": "store-1440-en.jpg"
+    },
+    {
+      "route": "/apps/my-space.html",
+      "width": 375,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "My Space / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "status",
+        "list",
+        "export",
+        "clear"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "store.html",
+        "store.html"
+      ],
+      "screenshot": "my-space-375-zh.jpg"
+    },
+    {
+      "route": "/apps/my-space.html",
+      "width": 375,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "My Space / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "status",
+        "list",
+        "export",
+        "clear"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "store.html",
+        "store.html"
+      ],
+      "screenshot": "my-space-375-en.jpg"
+    },
+    {
+      "route": "/apps/my-space.html",
+      "width": 768,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "My Space / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "status",
+        "list",
+        "export",
+        "clear"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "store.html",
+        "store.html"
+      ],
+      "screenshot": "my-space-768-zh.jpg"
+    },
+    {
+      "route": "/apps/my-space.html",
+      "width": 768,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "My Space / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "status",
+        "list",
+        "export",
+        "clear"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "store.html",
+        "store.html"
+      ],
+      "screenshot": "my-space-768-en.jpg"
+    },
+    {
+      "route": "/apps/my-space.html",
+      "width": 1440,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "My Space / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "status",
+        "list",
+        "export",
+        "clear"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "store.html",
+        "store.html"
+      ],
+      "screenshot": "my-space-1440-zh.jpg"
+    },
+    {
+      "route": "/apps/my-space.html",
+      "width": 1440,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "My Space / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "status",
+        "list",
+        "export",
+        "clear"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "store.html",
+        "store.html"
+      ],
+      "screenshot": "my-space-1440-en.jpg"
+    },
+    {
+      "route": "/apps/catalog.html",
+      "width": 375,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Atlas / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "query",
+        "total",
+        "sections"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "./",
+        "https://virtura.space/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/digital-library-stage",
+        "https://github.com/ewanqian/xuanart-demo",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/Greenhouse-in-Transit/blob/main/Archive/greenhouse-flow-evidence-demo-v1.html",
+        "https://github.com/ewanqian/no-further-input-required",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/starter/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/hand-osc-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/",
+        "https://github.com/ewanqian/performable-music/tree/main/performances/2026-12-03-phase-01/pressure-test-001/stage-lab",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "https://github.com/ewanqian/VPE-Immersive-Signal-Codex/tree/main/deployment",
+        "https://github.com/ewanqian/BodyForge-Pocket",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://github.com/ewanqian/new-media-artist-simulator/tree/main/new-media-time-simulator",
+        "https://github.com/ewanqian/portal-of-all-beings/tree/main/web-demo",
+        "https://github.com/ewanqian/Virtura-Perceptual-Engine",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "https://spaceport.virtura.space/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA2114",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/mova",
+        "https://github.com/ewanqian/VIRTURA-Collective/tree/main/merch",
+        "https://github.com/ewanqian/virtura-merge-store",
+        "../data/space-asset-inventory-2026.json"
+      ],
+      "screenshot": "catalog-375-zh.jpg"
+    },
+    {
+      "route": "/apps/catalog.html",
+      "width": 375,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Atlas / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "query",
+        "total",
+        "sections"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "./",
+        "https://virtura.space/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/digital-library-stage",
+        "https://github.com/ewanqian/xuanart-demo",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/Greenhouse-in-Transit/blob/main/Archive/greenhouse-flow-evidence-demo-v1.html",
+        "https://github.com/ewanqian/no-further-input-required",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/starter/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/hand-osc-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/",
+        "https://github.com/ewanqian/performable-music/tree/main/performances/2026-12-03-phase-01/pressure-test-001/stage-lab",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "https://github.com/ewanqian/VPE-Immersive-Signal-Codex/tree/main/deployment",
+        "https://github.com/ewanqian/BodyForge-Pocket",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://github.com/ewanqian/new-media-artist-simulator/tree/main/new-media-time-simulator",
+        "https://github.com/ewanqian/portal-of-all-beings/tree/main/web-demo",
+        "https://github.com/ewanqian/Virtura-Perceptual-Engine",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "https://spaceport.virtura.space/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA2114",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/mova",
+        "https://github.com/ewanqian/VIRTURA-Collective/tree/main/merch",
+        "https://github.com/ewanqian/virtura-merge-store",
+        "../data/space-asset-inventory-2026.json"
+      ],
+      "screenshot": "catalog-375-en.jpg"
+    },
+    {
+      "route": "/apps/catalog.html",
+      "width": 768,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Atlas / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": true,
+      "anchors": [
+        "query",
+        "total",
+        "sections"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "./",
+        "https://virtura.space/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/digital-library-stage",
+        "https://github.com/ewanqian/xuanart-demo",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/Greenhouse-in-Transit/blob/main/Archive/greenhouse-flow-evidence-demo-v1.html",
+        "https://github.com/ewanqian/no-further-input-required",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/starter/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/hand-osc-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/",
+        "https://github.com/ewanqian/performable-music/tree/main/performances/2026-12-03-phase-01/pressure-test-001/stage-lab",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "https://github.com/ewanqian/VPE-Immersive-Signal-Codex/tree/main/deployment",
+        "https://github.com/ewanqian/BodyForge-Pocket",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://github.com/ewanqian/new-media-artist-simulator/tree/main/new-media-time-simulator",
+        "https://github.com/ewanqian/portal-of-all-beings/tree/main/web-demo",
+        "https://github.com/ewanqian/Virtura-Perceptual-Engine",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "https://spaceport.virtura.space/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA2114",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/mova",
+        "https://github.com/ewanqian/VIRTURA-Collective/tree/main/merch",
+        "https://github.com/ewanqian/virtura-merge-store",
+        "../data/space-asset-inventory-2026.json"
+      ],
+      "screenshot": "catalog-768-zh.jpg"
+    },
+    {
+      "route": "/apps/catalog.html",
+      "width": 768,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Atlas / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": true,
+      "anchors": [
+        "query",
+        "total",
+        "sections"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "./",
+        "https://virtura.space/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/digital-library-stage",
+        "https://github.com/ewanqian/xuanart-demo",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/Greenhouse-in-Transit/blob/main/Archive/greenhouse-flow-evidence-demo-v1.html",
+        "https://github.com/ewanqian/no-further-input-required",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/starter/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/hand-osc-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/",
+        "https://github.com/ewanqian/performable-music/tree/main/performances/2026-12-03-phase-01/pressure-test-001/stage-lab",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "https://github.com/ewanqian/VPE-Immersive-Signal-Codex/tree/main/deployment",
+        "https://github.com/ewanqian/BodyForge-Pocket",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://github.com/ewanqian/new-media-artist-simulator/tree/main/new-media-time-simulator",
+        "https://github.com/ewanqian/portal-of-all-beings/tree/main/web-demo",
+        "https://github.com/ewanqian/Virtura-Perceptual-Engine",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "https://spaceport.virtura.space/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA2114",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/mova",
+        "https://github.com/ewanqian/VIRTURA-Collective/tree/main/merch",
+        "https://github.com/ewanqian/virtura-merge-store",
+        "../data/space-asset-inventory-2026.json"
+      ],
+      "screenshot": "catalog-768-en.jpg"
+    },
+    {
+      "route": "/apps/catalog.html",
+      "width": 1440,
+      "requestedLang": "zh",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Atlas / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "query",
+        "total",
+        "sections"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "./",
+        "https://virtura.space/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/digital-library-stage",
+        "https://github.com/ewanqian/xuanart-demo",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/Greenhouse-in-Transit/blob/main/Archive/greenhouse-flow-evidence-demo-v1.html",
+        "https://github.com/ewanqian/no-further-input-required",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/starter/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/hand-osc-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/",
+        "https://github.com/ewanqian/performable-music/tree/main/performances/2026-12-03-phase-01/pressure-test-001/stage-lab",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "https://github.com/ewanqian/VPE-Immersive-Signal-Codex/tree/main/deployment",
+        "https://github.com/ewanqian/BodyForge-Pocket",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://github.com/ewanqian/new-media-artist-simulator/tree/main/new-media-time-simulator",
+        "https://github.com/ewanqian/portal-of-all-beings/tree/main/web-demo",
+        "https://github.com/ewanqian/Virtura-Perceptual-Engine",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "https://spaceport.virtura.space/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA2114",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/mova",
+        "https://github.com/ewanqian/VIRTURA-Collective/tree/main/merch",
+        "https://github.com/ewanqian/virtura-merge-store",
+        "../data/space-asset-inventory-2026.json"
+      ],
+      "screenshot": "catalog-1440-zh.jpg"
+    },
+    {
+      "route": "/apps/catalog.html",
+      "width": 1440,
+      "requestedLang": "en",
+      "errors": [],
+      "failedRequests": [],
+      "status": 200,
+      "title": "Spaces Atlas / VIRTURA",
+      "lang": "zh-CN",
+      "languageControls": 0,
+      "overflow": false,
+      "anchors": [
+        "query",
+        "total",
+        "sections"
+      ],
+      "forms": [],
+      "images": [],
+      "links": [
+        "./",
+        "https://virtura.space/",
+        "https://ewanqian.github.io/cng-design-archive/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/digital-library-stage",
+        "https://github.com/ewanqian/xuanart-demo",
+        "https://ewanqian.github.io/shanhaifusheng-2026/versions/v0.3.2/",
+        "https://ewanqian.github.io/Greenhouse-in-Transit/",
+        "https://github.com/ewanqian/Greenhouse-in-Transit/blob/main/Archive/greenhouse-flow-evidence-demo-v1.html",
+        "https://github.com/ewanqian/no-further-input-required",
+        "https://ewanqian.github.io/SceneForge/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/",
+        "https://ewanqian.github.io/SceneForge/workshop/20261031/starter/",
+        "https://ewanqian.github.io/SceneForge/stage-replica/",
+        "https://ewanqian.github.io/SceneForge/entropy-stage/",
+        "https://ewanqian.github.io/SceneForge/needle-room/",
+        "https://ewanqian.github.io/performable-music/",
+        "https://ewanqian.github.io/performable-music/visual-runtime-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/hand-osc-lab/",
+        "https://ewanqian.github.io/performable-music/spatial-playground/",
+        "https://github.com/ewanqian/performable-music/tree/main/performances/2026-12-03-phase-01/pressure-test-001/stage-lab",
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "https://github.com/ewanqian/VPE-Immersive-Signal-Codex/tree/main/deployment",
+        "https://github.com/ewanqian/BodyForge-Pocket",
+        "https://github.com/ewanqian/new-media-artist-simulator",
+        "https://github.com/ewanqian/new-media-artist-simulator/tree/main/new-media-time-simulator",
+        "https://github.com/ewanqian/portal-of-all-beings/tree/main/web-demo",
+        "https://github.com/ewanqian/Virtura-Perceptual-Engine",
+        "https://github.com/ewanqian/Senia-Digital-Resort",
+        "https://spaceport.virtura.space/",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/balloon-live-space",
+        "https://github.com/ewanqian/VIRTURA2114",
+        "https://github.com/ewanqian/VIRTURA-SpacePort/tree/main/stations/mova",
+        "https://github.com/ewanqian/VIRTURA-Collective/tree/main/merch",
+        "https://github.com/ewanqian/virtura-merge-store",
+        "../data/space-asset-inventory-2026.json"
+      ],
+      "screenshot": "catalog-1440-en.jpg"
+    }
+  ]
+}
