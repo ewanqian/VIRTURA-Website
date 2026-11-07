@@ -37,7 +37,6 @@
       const anchor=$('station-secondary');
       anchor.href=world.secondaryUrl;
       anchor.target='_blank';anchor.rel='noopener noreferrer';
-      anchor.dataset.zh=world.secondaryLabel.zh;anchor.dataset.en=world.secondaryLabel.en;
       anchor.innerHTML='';
       const span=document.createElement('span');span.dataset.zh=world.secondaryLabel.zh;span.dataset.en=world.secondaryLabel.en;span.textContent=world.secondaryLabel.zh;
       const arrow=document.createElement('span');arrow.textContent='↗';arrow.setAttribute('aria-hidden','true');
