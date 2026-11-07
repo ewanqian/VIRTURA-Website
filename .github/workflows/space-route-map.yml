@@ -1,0 +1,18 @@
+name: SpacePort route map integrity
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  route-contract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify map registry, route coverage and JS syntax
+        run: node scripts/qa-space-route-map.mjs
