@@ -27,7 +27,15 @@
       "#project-inquiry"
     ],
     "preserveAspectRatio": true,
-    "sourceOfTruth": "Portfolio concepts do not automatically confer team authorship"
+    "sourceOfTruth": "Portfolio concepts do not automatically confer team authorship",
+    "taskStates": [
+      "QUEUED",
+      "READY",
+      "IN_PROGRESS",
+      "IN_REVIEW",
+      "BLOCKED",
+      "DONE"
+    ]
   },
   "tasks": [
     {
@@ -90,7 +98,7 @@
       "title": "Space information architecture and service semantics",
       "priority": "P0",
       "route": "ONLINE_GPT_EDITOR",
-      "status": "READY",
+      "status": "QUEUED",
       "dependencies": [
         "R01"
       ],
@@ -119,7 +127,7 @@
       "title": "Unified visual direction and safe homepage redesign",
       "priority": "P0",
       "route": "ONLINE_GPT_ART_DIRECTOR_THEN_LOCAL_OPENCODE",
-      "status": "BLOCKED",
+      "status": "QUEUED",
       "dependencies": [
         "R01",
         "R03"
@@ -151,7 +159,7 @@
       "title": "Media rights and asset mapping",
       "priority": "P0",
       "route": "LOCAL_OPENCODE",
-      "status": "READY",
+      "status": "QUEUED",
       "dependencies": [
         "R02"
       ],
@@ -180,7 +188,7 @@
       "title": "Team Credit and editorial truth",
       "priority": "P0",
       "route": "ONLINE_GPT_EDITOR",
-      "status": "READY",
+      "status": "QUEUED",
       "dependencies": [
         "R02"
       ],
@@ -209,7 +217,7 @@
       "title": "Independent app experience QA",
       "priority": "P1",
       "route": "LOCAL_OPENCODE",
-      "status": "BLOCKED",
+      "status": "QUEUED",
       "dependencies": [
         "R01"
       ],
@@ -238,7 +246,7 @@
       "title": "SpacePort/IP experiential map",
       "priority": "P1",
       "route": "ONLINE_GPT_CURATOR",
-      "status": "BLOCKED",
+      "status": "QUEUED",
       "dependencies": [
         "R03",
         "R05"
@@ -267,7 +275,7 @@
       "title": "App registry and identity contract",
       "priority": "P1",
       "route": "LOCAL_OPENCODE_THEN_ONLINE_REVIEW",
-      "status": "BLOCKED",
+      "status": "QUEUED",
       "dependencies": [
         "R02",
         "R07"
@@ -297,7 +305,7 @@
       "title": "Commercial service design and sustainable release loop",
       "priority": "P2",
       "route": "ONLINE_GPT_PRODUCT",
-      "status": "BLOCKED",
+      "status": "QUEUED",
       "dependencies": [
         "R03",
         "R06",
