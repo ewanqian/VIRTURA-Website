@@ -1,3 +1,5 @@
+> **Design checkpoint 2026-11-08**: Before any Space/VI, map, hero, app icon or homepage redesign, read `docs/design/VIRTURA-SPACE-DECISIONS-AND-RISKS-2026-11-08.md` and `docs/design/VIRTURA-SPACE-ART-DIRECTION-v07.md`. v05 is explicitly rejected as final UI; PR #9 is an interaction proof, not an approved visual map. Do not merge green UI or the `deploy/space-v05-as-public-entry-20261108` branch. Map/navigation is primary; Gaussian optional. Visual proposals must pass human art-direction review before implementation.
+
 # VIRTURA Website · Agent Operating Rules
 
 Scope: `ewanqian/VIRTURA-Website`, production domain `virtura.space`. This repository is the **public website**, not a workspace for arbitrary prototype generation.
