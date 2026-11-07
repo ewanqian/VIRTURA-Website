@@ -1,3 +1,5 @@
+> **New checkpoint:** `docs/design/VIRTURA-SPACE-DECISIONS-AND-RISKS-2026-11-08.md`, `VIRTURA-SPACE-ART-DIRECTION-v07.md`, and `VIRTURA-SPACE-PROMPT-PACK-v07.md` preserve rejected designs, missing risks and reproducible visual prompts. Read these before R03/R04/R05 implementation. Treat all generated imagery as conceptual, not authentic project assets. No production homepage changes until owner approves art direction.
+
 # HiKu / OpenCode / DeepSeek · Local Routing Packet v1
 
 This is a READY-TO-PASTE operations handoff for the user's local router. Project: `ewanqian/VIRTURA-Website`. First read `AGENTS.md`, `docs/pm/VIRTURA-SPACE-PROGRAM-2026-11-07.md`, `docs/pm/tasks.json`.
