@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#090a0c"><meta name="robots" content="noindex,nofollow">
+<meta name="description" content="VIRTURA SpacePort 空间地图试验：选择站点，了解功能，进入实际可访问的站点。">
+<title>SpacePort — Route Map / VIRTURA</title>
+<link rel="stylesheet" href="map.css">
+</head>
+<body>
+<a class="skip" href="#space-map">跳到地图 / Skip to map</a>
+<header class="sitebar">
+  <a class="identity" href="../" aria-label="VIRTURA 官方网站">VIRTURA <span>SPACEPORT</span></a>
+  <nav class="toplinks" aria-label="主导航">
+    <a href="../#work" data-zh="作品" data-en="WORKS">作品</a>
+    <a href="./" aria-current="page" data-zh="空间地图" data-en="SPACE MAP">空间地图</a>
+    <a href="../apps/" data-zh="档案" data-en="ARCHIVE">档案</a>
+    <button class="lang" id="lang-switch" type="button" aria-label="切换中英文">EN / 中</button>
+  </nav>
+</header>
+<main class="map-layout" id="space-map">
+  <section class="map-stage" aria-label="SpacePort 站点路线图" id="map-stage">
+    <div class="map-top">
+      <div><span class="micro">VIRTURA / A00 / ORIENTATION</span>
+        <h1 class="map-title" data-zh="轨道到达港" data-en="Orbital Arrival">轨道到达港</h1></div>
+      <span class="map-version">ROUTE DIAGRAM / v01<br>NOT GEOGRAPHIC SCALE</span>
+    </div>
+    <svg class="network" id="route-svg" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+      <defs><radialGradient id="portglow"><stop stop-color="#bdc5cd" stop-opacity=".09"/><stop offset="1" stop-color="#bdc5cd" stop-opacity="0"/></radialGradient></defs>
+      <ellipse cx="50" cy="52" rx="42" ry="38" fill="url(#portglow)"/>
+      <ellipse class="orbit" cx="50" cy="52" rx="42" ry="38"/>
+      <ellipse class="orbit" cx="50" cy="52" rx="30" ry="29"/>
+      <ellipse class="orbit" cx="50" cy="52" rx="16" ry="16"/>
+      <path class="gridline" d="M0 52H100 M50 0V100 M0 0L100 100 M0 100L100 0"/>
+      <g id="route-lines"></g>
+    </svg>
+    <div class="map-nodes" id="map-nodes" role="group" aria-label="选择空间站点"></div>
+    <div class="map-legend">
+      <span data-zh="站点关系示意 · 非真实距离" data-en="SCHEMATIC CONNECTIONS · NOT DISTANCE">站点关系示意 · 非真实距离</span>
+      <span><strong id="station-count">06</strong> / STATIONS</span>
+    </div>
+    <noscript><p class="error">需要启用 JavaScript 才能使用地图。你仍可<a href="https://spaceport.virtura.space/" style="text-decoration:underline">打开现有 SpacePort 网页</a>。</p></noscript>
+  </section>
+  <aside class="inspect" aria-labelledby="inspect-title" id="inspector">
+    <div class="inspect-photo"><img id="inspect-img" src="../assets/spaces/gateway-spaceport.jpg" alt="" loading="eager">
+      <span class="image-label" id="photo-label">A00 / ARRIVAL</span></div>
+    <div class="inspect-body">
+      <div class="state-row"><span id="station-code">A00 / PORT</span><span class="state-pill" id="station-status">PROTOTYPE</span></div>
+      <h2 id="inspect-title">轨道到达港</h2>
+      <p class="role" id="station-type">公共导览与路线入口</p>
+      <p class="short-copy" id="station-copy">从公共到达大厅选择目的地。</p>
+      <div class="inspect-actions">
+        <a id="enter-link" class="primary-action" href="./station.html?id=arrival"><span data-zh="进入站点" data-en="ENTER STATION">进入站点</span><span aria-hidden="true">↗</span></a>
+        <a id="source-link" class="secondary-action" href="https://spaceport.virtura.space/arrival-terminal-v0.1.html" target="_blank" rel="noopener noreferrer"><span data-zh="打开已有网页" data-en="OPEN PUBLIC SITE">打开已有网页</span><span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="statusfoot" id="status-foot">原型验证 · 不代表已完成的三维世界</div>
+    </div>
+  </aside>
+</main>
+<script src="map.js" defer></script>
+</body></html>
