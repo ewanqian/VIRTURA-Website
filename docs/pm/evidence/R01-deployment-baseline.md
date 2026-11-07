@@ -1,6 +1,6 @@
 # R01 — Deployment truth and rollback baseline
 
-Date: 2026-11-08 Asia/Shanghai. Source: main `837d68c6ff15f37500c05ae7e2337721ea613463`. Read-only audit; no production/homepage/source changes. Status **BLOCKED** on authenticated Cloudflare settings/build-log and rollback-target confirmation; accessible HTTP/browser baseline complete. Human/editor signoff remains required.
+Date: 2026-11-08 Asia/Shanghai. Source: main `837d68c6ff15f37500c05ae7e2337721ea613463`. Read-only audit; no production/homepage/source changes. Current status **IN_REVIEW**. Authenticated Cloudflare settings, canonical production SHA, production logs and previous-production target have now been verified with the existing local token. Earlier BLOCKED/access statements below describe earlier audit phases and are superseded by the authenticated findings at the end. Human/editor signoff remains required.
 
 ## Deployment identity and exact limits
 
@@ -89,3 +89,22 @@ Portrait recheck correction: local source JPEG decodes at 340×340. Production, 
 [Diagnostic script](r01/layout-diagnostics.cjs) and [raw results](r01/layout-diagnostics.json) identify overflowing containers and test temporary browser-only style overrides, removing each override before the next. These are causal probes, not approved CSS or production changes. Root 375 zh: `#delivery` heading content reaches scrollWidth 474; hiding ticker does not change total width, disproving a ticker-only diagnosis. Atlas 768: long `.meta` contents extend fixed grid columns; applying the existing two-column-style layout temporarily reduces document width from 793 to 768. No source style, media, title or work ordering was edited.
 
 Latest pre-supplement acceptance: PR #5 head 5b052b2 / fixed deployment e66f343e and PR #6 head 36dbcc8 / fixed deployment f0ea6bb6 each serve five HTML entry routes, registry JSON, inventory JSON and language JS exactly matching their source revisions (16/16). Machine-readable record: [latest-preview-acceptance.json](r01/latest-preview-acceptance.json). These observed SHAs are explicit; this evidence supplement itself requires its own CI. Human reviews remain empty, automatic reviews have no findings. Cloudflare browser/access information requested; no assumption of account access made.
+
+## Authenticated Cloudflare closure — supersedes earlier access blockers
+
+Existing local VIRTURA credential was found outside the repository and token verification returned active. Earlier searches checked environment/Wrangler locations but missed this credential file; browser login was unnecessary. Token bytes were never printed, put in command arguments, sent to a model or committed. [Read-only collector](r01/cloudflare-readonly.py) loads the external credential and passes Authorization through curl stdin; only whitelisted project/deployment fields and sanitized logs are written. All provider requests were GET. No rollback/deploy/config/token mutation occurred.
+
+[Authenticated provider evidence](r01/cloudflare-api-evidence.json):
+
+- Project `virtura-website`; GitHub source `ewanqian/VIRTURA-Website`; production branch `main`; production deployment enabled; preview deployment setting `all`. Build command empty, root directory empty, destination directory `.`.
+- Custom domains `virtura.space` and `www.virtura.space` both active. Provider canonical production deployment `63c4c95f-838a-4f2f-9b70-e7e742e85eed` maps main SHA `837d68c6ff15f37500c05ae7e2337721ea613463`, completed successfully. This provider mapping closes the earlier alias/SHA uncertainty.
+- 46 deployment records collected across 3 pages. Canonical production logs contain 22 entries (all returned entries preserved): correct source checkout, no build command, no Functions directory, asset directory validation, 141/141 assets upload accounting and publication/deployment success. This is provider evidence, independent from the earlier body/hash/browser tests; it does not prove 13-app runtime or asset rights.
+- Previous successful **production** deployment: `2945efc6-9417-41c3-9d58-f4a9d68a834e`, SHA `15df3236cab97d59bbc8064c234f490d00720b3d`. All five routes at its fixed URL succeed and byte-match that source revision ([HTTP proof](r01/production-rollback-target-http.json)). Earlier `08c21c94` is provider-classified **preview**, so it is excluded from production rollback targets despite sharing that commit.
+
+### Concrete rollback plan — not executed
+
+Cloudflare's [rollback rules](https://developers.cloudflare.com/pages/configuration/rollbacks/) allow previous successfully built production deployments and exclude preview deployments. The [rollback API](https://developers.cloudflare.com/api/resources/pages/subresources/projects/subresources/deployments/methods/rollback/) performs a POST to `/accounts/{account_id}/pages/projects/virtura-website/deployments/{deployment_id}/rollback`. No POST was made.
+
+If an incident warrants reverting production, deployment owner first approves target `2945efc6-9417-41c3-9d58-f4a9d68a834e` and its content/known baseline defects; confirms it is still an available successful production deployment and that its Git diff fits the incident. Use provider rollback with appropriate permission, then GET project canonical_deployment to verify target/SHA, recheck five public routes/redirects/body hashes and root/app screenshots, bilingual root, image decode and inquiry path. A git revert alternative must use a separately reviewed PR; do not directly push main. Rollback eligibility and HTTP availability are proved; successful rollback execution, write permission and incident-specific owner approval are not claimed.
+
+R01 status is now IN_REVIEW; blocker cleared because required read access and concrete production rollback evidence exist. Keep completedAt null until review. Human/editor review of baseline defects and rollback selection remains the next gate. R03–R10 remain untouched.

@@ -43,7 +43,7 @@
       "title": "Deployment truth and rollback",
       "priority": "P0",
       "route": "LOCAL_OPENCODE",
-      "status": "BLOCKED",
+      "status": "IN_REVIEW",
       "dependencies": [],
       "effort": "S",
       "brief": "Verify Cloudflare/GitHub deployment from accessible evidence; do not infer success from merge or CNAME.",
@@ -66,11 +66,13 @@
         "docs/pm/evidence/r01/github-main-checks.json",
         "docs/pm/evidence/r01/followup.json",
         "docs/pm/evidence/r01/image-decode.json",
-        "docs/pm/evidence/r01/layout-diagnostics.json"
+        "docs/pm/evidence/r01/layout-diagnostics.json",
+        "docs/pm/evidence/r01/cloudflare-api-evidence.json",
+        "docs/pm/evidence/r01/production-rollback-target-http.json"
       ],
       "prUrl": "https://github.com/ewanqian/VIRTURA-Website/pull/5",
       "completedAt": null,
-      "blocker": "Cloudflare authenticated project settings/full build logs and previous known-good rollback deployment not accessible/confirmed. HTTP and browser baseline complete; editor signoff pending."
+      "blocker": null
     },
     {
       "id": "R02",

@@ -1,0 +1,2394 @@
+{
+  "collectedAt": "2026-11-07T17:41:02.236078+00:00",
+  "method": "GET only; no deployment, rollback or token modification",
+  "tokenStatus": "active",
+  "project": {
+    "name": "virtura-website",
+    "subdomain": "virtura-website.pages.dev",
+    "domains": [
+      "virtura-website.pages.dev",
+      "virtura.space",
+      "www.virtura.space"
+    ],
+    "production_branch": "main"
+  },
+  "build": {
+    "build_command": "",
+    "destination_dir": ".",
+    "root_dir": ""
+  },
+  "source": {
+    "owner": "ewanqian",
+    "repo_name": "VIRTURA-Website",
+    "production_branch": "main",
+    "deployments_enabled": true,
+    "production_deployments_enabled": true,
+    "preview_deployment_setting": "all",
+    "preview_branch_includes": [
+      "*"
+    ],
+    "preview_branch_excludes": []
+  },
+  "canonicalDeployment": {
+    "id": "63c4c95f-838a-4f2f-9b70-e7e742e85eed",
+    "environment": "production",
+    "url": "https://63c4c95f.virtura-website.pages.dev",
+    "created_on": "2026-11-07T10:39:30.193758Z",
+    "is_skipped": false,
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": "2026-11-07T10:39:42.825066Z",
+      "ended_on": "2026-11-07T10:39:49.14758Z",
+      "status": "success"
+    },
+    "stages": [
+      {
+        "name": "queued",
+        "started_on": "2026-11-07T10:39:30.326524Z",
+        "ended_on": "2026-11-07T10:39:30.330894Z",
+        "status": "success"
+      },
+      {
+        "name": "initialize",
+        "started_on": "2026-11-07T10:39:30.330894Z",
+        "ended_on": "2026-11-07T10:39:33.181767Z",
+        "status": "success"
+      },
+      {
+        "name": "clone_repo",
+        "started_on": "2026-11-07T10:39:33.181767Z",
+        "ended_on": "2026-11-07T10:39:36.985652Z",
+        "status": "success"
+      },
+      {
+        "name": "build",
+        "started_on": "2026-11-07T10:39:36.985652Z",
+        "ended_on": "2026-11-07T10:39:42.825066Z",
+        "status": "success"
+      },
+      {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:39:42.825066Z",
+        "ended_on": "2026-11-07T10:39:49.14758Z",
+        "status": "success"
+      }
+    ],
+    "branch": "main",
+    "commit_hash": "837d68c6ff15f37500c05ae7e2337721ea613463"
+  },
+  "latestDeployment": {
+    "id": "0247f840-0c7d-4b99-9dd5-0c84138ce9fb",
+    "environment": "preview",
+    "url": "https://0247f840.virtura-website.pages.dev",
+    "created_on": "2026-11-07T17:22:56.852291Z",
+    "is_skipped": false,
+    "latest_stage": {
+      "name": "deploy",
+      "started_on": "2026-11-07T17:23:07.039174Z",
+      "ended_on": "2026-11-07T17:23:15.451062Z",
+      "status": "success"
+    },
+    "stages": [
+      {
+        "name": "queued",
+        "started_on": "2026-11-07T17:22:56.982416Z",
+        "ended_on": "2026-11-07T17:22:56.988035Z",
+        "status": "success"
+      },
+      {
+        "name": "initialize",
+        "started_on": "2026-11-07T17:22:56.988035Z",
+        "ended_on": "2026-11-07T17:23:00.014495Z",
+        "status": "success"
+      },
+      {
+        "name": "clone_repo",
+        "started_on": "2026-11-07T17:23:00.014495Z",
+        "ended_on": "2026-11-07T17:23:04.454608Z",
+        "status": "success"
+      },
+      {
+        "name": "build",
+        "started_on": "2026-11-07T17:23:04.454608Z",
+        "ended_on": "2026-11-07T17:23:07.039174Z",
+        "status": "success"
+      },
+      {
+        "name": "deploy",
+        "started_on": "2026-11-07T17:23:07.039174Z",
+        "ended_on": "2026-11-07T17:23:15.451062Z",
+        "status": "success"
+      }
+    ],
+    "branch": "audit/vsp-r01-deploy-baseline",
+    "commit_hash": "79f2354012e13190c5403722a586470f63936d8f"
+  },
+  "domains": [
+    {
+      "name": "virtura.space",
+      "status": "active"
+    },
+    {
+      "name": "www.virtura.space",
+      "status": "active"
+    }
+  ],
+  "deployments": [
+    {
+      "id": "0247f840-0c7d-4b99-9dd5-0c84138ce9fb",
+      "environment": "preview",
+      "url": "https://0247f840.virtura-website.pages.dev",
+      "created_on": "2026-11-07T17:22:56.852291Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T17:23:07.039174Z",
+        "ended_on": "2026-11-07T17:23:15.451062Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T17:22:56.982416Z",
+          "ended_on": "2026-11-07T17:22:56.988035Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T17:22:56.988035Z",
+          "ended_on": "2026-11-07T17:23:00.014495Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T17:23:00.014495Z",
+          "ended_on": "2026-11-07T17:23:04.454608Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T17:23:04.454608Z",
+          "ended_on": "2026-11-07T17:23:07.039174Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T17:23:07.039174Z",
+          "ended_on": "2026-11-07T17:23:15.451062Z",
+          "status": "success"
+        }
+      ],
+      "branch": "audit/vsp-r01-deploy-baseline",
+      "commit_hash": "79f2354012e13190c5403722a586470f63936d8f"
+    },
+    {
+      "id": "f0ea6bb6-ce73-4d0f-b63b-49785991b605",
+      "environment": "preview",
+      "url": "https://f0ea6bb6.virtura-website.pages.dev",
+      "created_on": "2026-11-07T17:14:15.29612Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T17:14:28.447945Z",
+        "ended_on": "2026-11-07T17:14:33.074586Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T17:14:15.724662Z",
+          "ended_on": "2026-11-07T17:14:19.065757Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T17:14:19.065757Z",
+          "ended_on": "2026-11-07T17:14:22.014919Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T17:14:22.014919Z",
+          "ended_on": "2026-11-07T17:14:26.066858Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T17:14:26.066858Z",
+          "ended_on": "2026-11-07T17:14:28.447945Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T17:14:28.447945Z",
+          "ended_on": "2026-11-07T17:14:33.074586Z",
+          "status": "success"
+        }
+      ],
+      "branch": "research/vsp-r02-portfolio-transfer",
+      "commit_hash": "36dbcc87abd9ff4747a4e495195059c4ab726ec4"
+    },
+    {
+      "id": "e66f343e-6790-4ceb-a8f6-52c9c1f923bf",
+      "environment": "preview",
+      "url": "https://e66f343e.virtura-website.pages.dev",
+      "created_on": "2026-11-07T17:14:04.823404Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T17:14:14.156112Z",
+        "ended_on": "2026-11-07T17:14:20.6113Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T17:14:04.973203Z",
+          "ended_on": "2026-11-07T17:14:04.979618Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T17:14:04.979618Z",
+          "ended_on": "2026-11-07T17:14:06.845901Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T17:14:06.845901Z",
+          "ended_on": "2026-11-07T17:14:11.336032Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T17:14:11.336032Z",
+          "ended_on": "2026-11-07T17:14:14.156112Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T17:14:14.156112Z",
+          "ended_on": "2026-11-07T17:14:20.6113Z",
+          "status": "success"
+        }
+      ],
+      "branch": "audit/vsp-r01-deploy-baseline",
+      "commit_hash": "5b052b20031ce638a21d92588b4569a68a2945b9"
+    },
+    {
+      "id": "d666d5f3-a727-4851-a0e9-0b6ee08147d5",
+      "environment": "preview",
+      "url": "https://d666d5f3.virtura-website.pages.dev",
+      "created_on": "2026-11-07T16:50:04.494975Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T16:50:16.867003Z",
+        "ended_on": "2026-11-07T16:50:22.868431Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T16:50:05.36172Z",
+          "ended_on": "2026-11-07T16:50:05.366505Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T16:50:05.366505Z",
+          "ended_on": "2026-11-07T16:50:08.761253Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T16:50:08.761253Z",
+          "ended_on": "2026-11-07T16:50:13.737771Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T16:50:13.737771Z",
+          "ended_on": "2026-11-07T16:50:16.867003Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T16:50:16.867003Z",
+          "ended_on": "2026-11-07T16:50:22.868431Z",
+          "status": "success"
+        }
+      ],
+      "branch": "audit/vsp-r01-deploy-baseline",
+      "commit_hash": "429b5ed325b237f59641fbbee7df8ed3e84a123d"
+    },
+    {
+      "id": "343e8c87-31e4-4fd1-9050-acf813b9b4e4",
+      "environment": "preview",
+      "url": "https://343e8c87.virtura-website.pages.dev",
+      "created_on": "2026-11-07T16:49:19.572199Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T16:49:28.474479Z",
+        "ended_on": "2026-11-07T16:49:33.639666Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T16:49:19.769389Z",
+          "ended_on": "2026-11-07T16:49:19.774152Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T16:49:19.774152Z",
+          "ended_on": "2026-11-07T16:49:21.215698Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T16:49:21.215698Z",
+          "ended_on": "2026-11-07T16:49:26.019421Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T16:49:26.019421Z",
+          "ended_on": "2026-11-07T16:49:28.474479Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T16:49:28.474479Z",
+          "ended_on": "2026-11-07T16:49:33.639666Z",
+          "status": "success"
+        }
+      ],
+      "branch": "research/vsp-r02-portfolio-transfer",
+      "commit_hash": "147b552cebad58cd1985e22bfdff0ab0838c4d7b"
+    },
+    {
+      "id": "c19e7c81-015b-40e0-b689-e6ef02a3e707",
+      "environment": "preview",
+      "url": "https://c19e7c81.virtura-website.pages.dev",
+      "created_on": "2026-11-07T16:49:00.478445Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T16:49:12.713862Z",
+        "ended_on": "2026-11-07T16:49:18.74876Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T16:49:00.588163Z",
+          "ended_on": "2026-11-07T16:49:00.592913Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T16:49:00.592913Z",
+          "ended_on": "2026-11-07T16:49:03.561301Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T16:49:03.561301Z",
+          "ended_on": "2026-11-07T16:49:09.072672Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T16:49:09.072672Z",
+          "ended_on": "2026-11-07T16:49:12.713862Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T16:49:12.713862Z",
+          "ended_on": "2026-11-07T16:49:18.74876Z",
+          "status": "success"
+        }
+      ],
+      "branch": "research/vsp-r02-portfolio-transfer",
+      "commit_hash": "f15ae92e0554b1171c805d3ad3a3ebeb385238fc"
+    },
+    {
+      "id": "e378519a-20d3-4e62-bc3b-8d1d6426447b",
+      "environment": "preview",
+      "url": "https://e378519a.virtura-website.pages.dev",
+      "created_on": "2026-11-07T16:48:09.221107Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T16:48:18.66418Z",
+        "ended_on": "2026-11-07T16:48:23.382826Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T16:48:09.495042Z",
+          "ended_on": "2026-11-07T16:48:09.499425Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T16:48:09.499425Z",
+          "ended_on": "2026-11-07T16:48:10.908844Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T16:48:10.908844Z",
+          "ended_on": "2026-11-07T16:48:15.617085Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T16:48:15.617085Z",
+          "ended_on": "2026-11-07T16:48:18.66418Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T16:48:18.66418Z",
+          "ended_on": "2026-11-07T16:48:23.382826Z",
+          "status": "success"
+        }
+      ],
+      "branch": "audit/vsp-r01-deploy-baseline",
+      "commit_hash": "9e8bbdf01c1f7ac74bc4960c15232b36bb62e8af"
+    },
+    {
+      "id": "f68b48e8-00bd-45cd-b43f-f5e6c5b9a2d1",
+      "environment": "preview",
+      "url": "https://f68b48e8.virtura-website.pages.dev",
+      "created_on": "2026-11-07T16:47:52.422445Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T16:48:03.208706Z",
+        "ended_on": "2026-11-07T16:48:09.896306Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T16:47:52.532261Z",
+          "ended_on": "2026-11-07T16:47:52.536799Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T16:47:52.536799Z",
+          "ended_on": "2026-11-07T16:47:54.642243Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T16:47:54.642243Z",
+          "ended_on": "2026-11-07T16:47:59.548302Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T16:47:59.548302Z",
+          "ended_on": "2026-11-07T16:48:03.208706Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T16:48:03.208706Z",
+          "ended_on": "2026-11-07T16:48:09.896306Z",
+          "status": "success"
+        }
+      ],
+      "branch": "audit/vsp-r01-deploy-baseline",
+      "commit_hash": "e083801f67adbd2704d6f3ab4b5ef020f799024e"
+    },
+    {
+      "id": "63c4c95f-838a-4f2f-9b70-e7e742e85eed",
+      "environment": "production",
+      "url": "https://63c4c95f.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:39:30.193758Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:39:42.825066Z",
+        "ended_on": "2026-11-07T10:39:49.14758Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:39:30.326524Z",
+          "ended_on": "2026-11-07T10:39:30.330894Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:39:30.330894Z",
+          "ended_on": "2026-11-07T10:39:33.181767Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:39:33.181767Z",
+          "ended_on": "2026-11-07T10:39:36.985652Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:39:36.985652Z",
+          "ended_on": "2026-11-07T10:39:42.825066Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:39:42.825066Z",
+          "ended_on": "2026-11-07T10:39:49.14758Z",
+          "status": "success"
+        }
+      ],
+      "branch": "main",
+      "commit_hash": "837d68c6ff15f37500c05ae7e2337721ea613463"
+    },
+    {
+      "id": "56c0a9ad-1e46-4431-93b9-11207be426a7",
+      "environment": "preview",
+      "url": "https://56c0a9ad.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:38:10.534685Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:38:20.411441Z",
+        "ended_on": "2026-11-07T10:38:26.326411Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:38:10.667417Z",
+          "ended_on": "2026-11-07T10:38:10.668119Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:38:10.668119Z",
+          "ended_on": "2026-11-07T10:38:12.833672Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:38:12.833672Z",
+          "ended_on": "2026-11-07T10:38:17.046027Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:38:17.046027Z",
+          "ended_on": "2026-11-07T10:38:20.411441Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:38:20.411441Z",
+          "ended_on": "2026-11-07T10:38:26.326411Z",
+          "status": "success"
+        }
+      ],
+      "branch": "ops/virtura-space-program-20261107",
+      "commit_hash": "29e1202eaa6153dc22d651d84b0e1cc7ba01cdc2"
+    },
+    {
+      "id": "361425ad-4dd2-4ae3-b44c-ae491b1672ae",
+      "environment": "preview",
+      "url": "https://361425ad.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:37:46.939415Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:38:05.945884Z",
+        "ended_on": "2026-11-07T10:38:11.415765Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:37:47.078991Z",
+          "ended_on": "2026-11-07T10:37:58.25894Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:37:58.25894Z",
+          "ended_on": "2026-11-07T10:37:59.495312Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:37:59.495312Z",
+          "ended_on": "2026-11-07T10:38:03.308872Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:38:03.308872Z",
+          "ended_on": "2026-11-07T10:38:05.945884Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:38:05.945884Z",
+          "ended_on": "2026-11-07T10:38:11.415765Z",
+          "status": "success"
+        }
+      ],
+      "branch": "ops/virtura-space-program-20261107",
+      "commit_hash": "997342fcc68067349d96c2cedfdd41c091de0cc7"
+    },
+    {
+      "id": "1c3bf779-96c3-40f7-a75d-92cb47f646d0",
+      "environment": "preview",
+      "url": "https://1c3bf779.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:37:44.748757Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:37:53.772167Z",
+        "ended_on": "2026-11-07T10:37:59.376066Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:37:44.878574Z",
+          "ended_on": "2026-11-07T10:37:44.888796Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:37:44.888796Z",
+          "ended_on": "2026-11-07T10:37:47.057809Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:37:47.057809Z",
+          "ended_on": "2026-11-07T10:37:51.180633Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:37:51.180633Z",
+          "ended_on": "2026-11-07T10:37:53.772167Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:37:53.772167Z",
+          "ended_on": "2026-11-07T10:37:59.376066Z",
+          "status": "success"
+        }
+      ],
+      "branch": "ops/virtura-space-program-20261107",
+      "commit_hash": "c110b30b538e19b4ac487895b5bf95467adba1bc"
+    },
+    {
+      "id": "ba112f39-f7f7-47b8-90e5-5bb7c3c7a3c6",
+      "environment": "preview",
+      "url": "https://ba112f39.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:36:59.297253Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:37:27.959035Z",
+        "ended_on": "2026-11-07T10:37:32.659313Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:36:59.4227Z",
+          "ended_on": "2026-11-07T10:37:19.325716Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:37:19.325716Z",
+          "ended_on": "2026-11-07T10:37:21.617537Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:37:21.617537Z",
+          "ended_on": "2026-11-07T10:37:25.636802Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:37:25.636802Z",
+          "ended_on": "2026-11-07T10:37:27.959035Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:37:27.959035Z",
+          "ended_on": "2026-11-07T10:37:32.659313Z",
+          "status": "success"
+        }
+      ],
+      "branch": "ops/virtura-space-program-20261107",
+      "commit_hash": "fa9384009cedc48f5e65c5beaebd65bb0252acaa"
+    },
+    {
+      "id": "51c90a73-29a4-41fe-be16-fe820035f825",
+      "environment": "preview",
+      "url": "https://51c90a73.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:36:57.036899Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:37:15.376437Z",
+        "ended_on": "2026-11-07T10:37:20.745478Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:36:57.224422Z",
+          "ended_on": "2026-11-07T10:37:07.788994Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:37:07.788994Z",
+          "ended_on": "2026-11-07T10:37:09.153225Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:37:09.153225Z",
+          "ended_on": "2026-11-07T10:37:13.079935Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:37:13.079935Z",
+          "ended_on": "2026-11-07T10:37:15.376437Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:37:15.376437Z",
+          "ended_on": "2026-11-07T10:37:20.745478Z",
+          "status": "success"
+        }
+      ],
+      "branch": "ops/virtura-space-program-20261107",
+      "commit_hash": "732c457aa56044de49eb7fdeea960c1fd7f3f406"
+    },
+    {
+      "id": "20f7f3cb-87f1-4c55-8172-b22c2937bef1",
+      "environment": "preview",
+      "url": "https://20f7f3cb.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:36:54.87277Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:37:03.309783Z",
+        "ended_on": "2026-11-07T10:37:08.997387Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:36:55.292231Z",
+          "ended_on": "2026-11-07T10:36:55.296359Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:36:55.296359Z",
+          "ended_on": "2026-11-07T10:36:56.993787Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:36:56.993787Z",
+          "ended_on": "2026-11-07T10:37:00.842745Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:37:00.842745Z",
+          "ended_on": "2026-11-07T10:37:03.309783Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:37:03.309783Z",
+          "ended_on": "2026-11-07T10:37:08.997387Z",
+          "status": "success"
+        }
+      ],
+      "branch": "ops/virtura-space-program-20261107",
+      "commit_hash": "42e288c028e6e28166c66c11afac794f8041bef7"
+    },
+    {
+      "id": "377d998e-a7e3-464d-920a-b1acbb0068b3",
+      "environment": "preview",
+      "url": "https://377d998e.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:35:36.347333Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:35:44.975529Z",
+        "ended_on": "2026-11-07T10:35:50.009677Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:35:36.607221Z",
+          "ended_on": "2026-11-07T10:35:36.611263Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:35:36.611263Z",
+          "ended_on": "2026-11-07T10:35:38.404906Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:35:38.404906Z",
+          "ended_on": "2026-11-07T10:35:42.470612Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:35:42.470612Z",
+          "ended_on": "2026-11-07T10:35:44.975529Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:35:44.975529Z",
+          "ended_on": "2026-11-07T10:35:50.009677Z",
+          "status": "success"
+        }
+      ],
+      "branch": "ops/virtura-space-program-20261107",
+      "commit_hash": "a4d52a83809dfd0619497654fb761aab56b9f773"
+    },
+    {
+      "id": "a764c896-5c6f-4ce4-822f-41058e0b5c8b",
+      "environment": "preview",
+      "url": "https://a764c896.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:35:03.292415Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:35:14.061628Z",
+        "ended_on": "2026-11-07T10:35:20.542288Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:35:03.484098Z",
+          "ended_on": "2026-11-07T10:35:03.491887Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:35:03.491887Z",
+          "ended_on": "2026-11-07T10:35:05.723655Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:35:05.723655Z",
+          "ended_on": "2026-11-07T10:35:10.781168Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:35:10.781168Z",
+          "ended_on": "2026-11-07T10:35:14.061628Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:35:14.061628Z",
+          "ended_on": "2026-11-07T10:35:20.542288Z",
+          "status": "success"
+        }
+      ],
+      "branch": "ops/virtura-space-program-20261107",
+      "commit_hash": "efbc5a319f8342744dd7bfa200b2c6130172c760"
+    },
+    {
+      "id": "7ee99298-a48e-4eb6-a858-3c51ccfc1148",
+      "environment": "preview",
+      "url": "https://7ee99298.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:33:00.428551Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:33:09.76411Z",
+        "ended_on": "2026-11-07T10:33:14.709198Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:33:00.609104Z",
+          "ended_on": "2026-11-07T10:33:00.611869Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:33:00.611869Z",
+          "ended_on": "2026-11-07T10:33:03.15209Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:33:03.15209Z",
+          "ended_on": "2026-11-07T10:33:07.25073Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:33:07.25073Z",
+          "ended_on": "2026-11-07T10:33:09.76411Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:33:09.76411Z",
+          "ended_on": "2026-11-07T10:33:14.709198Z",
+          "status": "success"
+        }
+      ],
+      "branch": "ops/virtura-space-program-20261107",
+      "commit_hash": "ec1f691304f9a7d6c342bb4a22286d51aad89115"
+    },
+    {
+      "id": "08c21c94-67cb-4ef9-852a-539fdcfe5bf7",
+      "environment": "preview",
+      "url": "https://08c21c94.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:32:06.800243Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:32:15.93695Z",
+        "ended_on": "2026-11-07T10:32:20.620111Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:32:06.944447Z",
+          "ended_on": "2026-11-07T10:32:06.94957Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:32:06.94957Z",
+          "ended_on": "2026-11-07T10:32:09.215484Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:32:09.215484Z",
+          "ended_on": "2026-11-07T10:32:13.175359Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:32:13.175359Z",
+          "ended_on": "2026-11-07T10:32:15.93695Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:32:15.93695Z",
+          "ended_on": "2026-11-07T10:32:20.620111Z",
+          "status": "success"
+        }
+      ],
+      "branch": "ops/virtura-space-program-20261107",
+      "commit_hash": "15df3236cab97d59bbc8064c234f490d00720b3d"
+    },
+    {
+      "id": "4cdf06f2-45d7-4c82-8859-d588dfaaf04c",
+      "environment": "preview",
+      "url": "https://4cdf06f2.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:25:49.967677Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:25:58.372263Z",
+        "ended_on": "2026-11-07T10:26:03.655693Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:25:50.120473Z",
+          "ended_on": "2026-11-07T10:25:50.123861Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:25:50.123861Z",
+          "ended_on": "2026-11-07T10:25:51.608617Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:25:51.608617Z",
+          "ended_on": "2026-11-07T10:25:56.183799Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:25:56.183799Z",
+          "ended_on": "2026-11-07T10:25:58.372263Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:25:58.372263Z",
+          "ended_on": "2026-11-07T10:26:03.655693Z",
+          "status": "success"
+        }
+      ],
+      "branch": "redesign/spaces-unified-editorial-20261107",
+      "commit_hash": "d5632e7ebeaa309a88a9f66757b483e2393db176"
+    },
+    {
+      "id": "2a2a7bf3-3a64-46cb-887c-8099b7f1e1a4",
+      "environment": "preview",
+      "url": "https://2a2a7bf3.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:25:05.639258Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:25:15.466868Z",
+        "ended_on": "2026-11-07T10:25:20.648186Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:25:05.886254Z",
+          "ended_on": "2026-11-07T10:25:05.889831Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:25:05.889831Z",
+          "ended_on": "2026-11-07T10:25:07.725419Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:25:07.725419Z",
+          "ended_on": "2026-11-07T10:25:11.653034Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:25:11.653034Z",
+          "ended_on": "2026-11-07T10:25:15.466868Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:25:15.466868Z",
+          "ended_on": "2026-11-07T10:25:20.648186Z",
+          "status": "success"
+        }
+      ],
+      "branch": "redesign/spaces-unified-editorial-20261107",
+      "commit_hash": "15df3236cab97d59bbc8064c234f490d00720b3d"
+    },
+    {
+      "id": "2945efc6-9417-41c3-9d58-f4a9d68a834e",
+      "environment": "production",
+      "url": "https://2945efc6.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:19:03.544323Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:19:11.426627Z",
+        "ended_on": "2026-11-07T10:19:15.602918Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:19:03.654168Z",
+          "ended_on": "2026-11-07T10:19:03.657805Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:19:03.657805Z",
+          "ended_on": "2026-11-07T10:19:04.97987Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:19:04.97987Z",
+          "ended_on": "2026-11-07T10:19:08.99395Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:19:08.99395Z",
+          "ended_on": "2026-11-07T10:19:11.426627Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:19:11.426627Z",
+          "ended_on": "2026-11-07T10:19:15.602918Z",
+          "status": "success"
+        }
+      ],
+      "branch": "main",
+      "commit_hash": "15df3236cab97d59bbc8064c234f490d00720b3d"
+    },
+    {
+      "id": "0a3b2928-7c9d-476e-a285-6097fc229985",
+      "environment": "preview",
+      "url": "https://0a3b2928.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:18:13.435318Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:18:30.360961Z",
+        "ended_on": "2026-11-07T10:18:34.902895Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:18:13.565629Z",
+          "ended_on": "2026-11-07T10:18:23.423894Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:18:23.423894Z",
+          "ended_on": "2026-11-07T10:18:24.649742Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:18:24.649742Z",
+          "ended_on": "2026-11-07T10:18:28.354109Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:18:28.354109Z",
+          "ended_on": "2026-11-07T10:18:30.360961Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:18:30.360961Z",
+          "ended_on": "2026-11-07T10:18:34.902895Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/spaces-store-sceneforge-20261107",
+      "commit_hash": "98e0bd0973af9d496b14565b6b1115cccffb48a1"
+    },
+    {
+      "id": "bd90c8e6-8c02-4f8d-8d43-1abe34383f23",
+      "environment": "preview",
+      "url": "https://bd90c8e6.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:18:11.259541Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:18:19.897685Z",
+        "ended_on": "2026-11-07T10:18:24.649278Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:18:11.391966Z",
+          "ended_on": "2026-11-07T10:18:11.394531Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:18:11.394531Z",
+          "ended_on": "2026-11-07T10:18:12.919057Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:18:12.919057Z",
+          "ended_on": "2026-11-07T10:18:17.446208Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:18:17.446208Z",
+          "ended_on": "2026-11-07T10:18:19.897685Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:18:19.897685Z",
+          "ended_on": "2026-11-07T10:18:24.649278Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/spaces-store-sceneforge-20261107",
+      "commit_hash": "8a193e34d9fe67f4bd960d66e7ffb94641fd914a"
+    },
+    {
+      "id": "a6ee31a9-6b9e-4f76-b50f-86f8e3437ce0",
+      "environment": "preview",
+      "url": "https://a6ee31a9.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:17:50.748867Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:18:00.740738Z",
+        "ended_on": "2026-11-07T10:18:05.78905Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:17:50.863039Z",
+          "ended_on": "2026-11-07T10:17:50.866698Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:17:50.866698Z",
+          "ended_on": "2026-11-07T10:17:52.526471Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:17:52.526471Z",
+          "ended_on": "2026-11-07T10:17:58.185893Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:17:58.185893Z",
+          "ended_on": "2026-11-07T10:18:00.740738Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:18:00.740738Z",
+          "ended_on": "2026-11-07T10:18:05.78905Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/spaces-store-sceneforge-20261107",
+      "commit_hash": "8d4bdc7d3ef2764a7ec60a7fd5c508d9f5e17545"
+    },
+    {
+      "id": "56e24bdf-0c4b-4d1f-87d4-94b44b6eb8bd",
+      "environment": "preview",
+      "url": "https://56e24bdf.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:17:23.688691Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:17:31.682111Z",
+        "ended_on": "2026-11-07T10:17:36.160427Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:17:23.808152Z",
+          "ended_on": "2026-11-07T10:17:23.813085Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:17:23.813085Z",
+          "ended_on": "2026-11-07T10:17:25.581228Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:17:25.581228Z",
+          "ended_on": "2026-11-07T10:17:29.49491Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:17:29.49491Z",
+          "ended_on": "2026-11-07T10:17:31.682111Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:17:31.682111Z",
+          "ended_on": "2026-11-07T10:17:36.160427Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/spaces-store-sceneforge-20261107",
+      "commit_hash": "a310409de5c4d120e953a770e842026580d67ad1"
+    },
+    {
+      "id": "f6b961d5-5d61-4333-8909-d05d0e80ed50",
+      "environment": "preview",
+      "url": "https://f6b961d5.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:16:00.099924Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:16:08.55727Z",
+        "ended_on": "2026-11-07T10:16:14.540199Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:16:00.375947Z",
+          "ended_on": "2026-11-07T10:16:00.377019Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:16:00.377019Z",
+          "ended_on": "2026-11-07T10:16:02.655439Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:16:02.655439Z",
+          "ended_on": "2026-11-07T10:16:06.406477Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:16:06.406477Z",
+          "ended_on": "2026-11-07T10:16:08.55727Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:16:08.55727Z",
+          "ended_on": "2026-11-07T10:16:14.540199Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/spaces-store-sceneforge-20261107",
+      "commit_hash": "0d9d0f9b4e02006ae3fc1cf023a2aefef85efbd0"
+    },
+    {
+      "id": "7f31d41d-7e5c-4188-a6b2-48c07237f7da",
+      "environment": "preview",
+      "url": "https://7f31d41d.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:15:23.217817Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:15:36.669288Z",
+        "ended_on": "2026-11-07T10:15:41.283459Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:15:23.55469Z",
+          "ended_on": "2026-11-07T10:15:23.559691Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:15:23.559691Z",
+          "ended_on": "2026-11-07T10:15:30.861747Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:15:30.861747Z",
+          "ended_on": "2026-11-07T10:15:34.636546Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:15:34.636546Z",
+          "ended_on": "2026-11-07T10:15:36.669288Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:15:36.669288Z",
+          "ended_on": "2026-11-07T10:15:41.283459Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/spaces-store-sceneforge-20261107",
+      "commit_hash": "ca638aaea9ef7a9b08c72e777187bab4bf9c811b"
+    },
+    {
+      "id": "f8ff75a7-cfaf-4fce-ab79-0535faf6d1fa",
+      "environment": "preview",
+      "url": "https://f8ff75a7.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:14:42.439657Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:14:49.99899Z",
+        "ended_on": "2026-11-07T10:14:54.948569Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:14:42.650235Z",
+          "ended_on": "2026-11-07T10:14:42.65514Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:14:42.65514Z",
+          "ended_on": "2026-11-07T10:14:43.992585Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:14:43.992585Z",
+          "ended_on": "2026-11-07T10:14:48.005342Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:14:48.005342Z",
+          "ended_on": "2026-11-07T10:14:49.99899Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:14:49.99899Z",
+          "ended_on": "2026-11-07T10:14:54.948569Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/spaces-store-sceneforge-20261107",
+      "commit_hash": "8c3dcc67bae4bd415e0cf81fb3288e1ad637a981"
+    },
+    {
+      "id": "4206f764-128e-4284-bb20-617abf77b0e2",
+      "environment": "preview",
+      "url": "https://4206f764.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:13:48.500058Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:13:58.767907Z",
+        "ended_on": "2026-11-07T10:14:03.211572Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:13:48.619924Z",
+          "ended_on": "2026-11-07T10:13:48.624591Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:13:48.624591Z",
+          "ended_on": "2026-11-07T10:13:50.153989Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:13:50.153989Z",
+          "ended_on": "2026-11-07T10:13:54.085958Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:13:54.085958Z",
+          "ended_on": "2026-11-07T10:13:58.767907Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:13:58.767907Z",
+          "ended_on": "2026-11-07T10:14:03.211572Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/spaces-store-sceneforge-20261107",
+      "commit_hash": "12b38a496d6e0042a92fdb7d4112bef2db16c8f9"
+    },
+    {
+      "id": "3b646952-c5e3-46b0-bfd6-1bed220059cf",
+      "environment": "production",
+      "url": "https://3b646952.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:10:37.520619Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:10:46.294074Z",
+        "ended_on": "2026-11-07T10:10:51.532983Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:10:37.735427Z",
+          "ended_on": "2026-11-07T10:10:37.742063Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:10:37.742063Z",
+          "ended_on": "2026-11-07T10:10:39.34524Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:10:39.34524Z",
+          "ended_on": "2026-11-07T10:10:43.722058Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:10:43.722058Z",
+          "ended_on": "2026-11-07T10:10:46.294074Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:10:46.294074Z",
+          "ended_on": "2026-11-07T10:10:51.532983Z",
+          "status": "success"
+        }
+      ],
+      "branch": "main",
+      "commit_hash": "12b38a496d6e0042a92fdb7d4112bef2db16c8f9"
+    },
+    {
+      "id": "86acd48d-38f5-4283-abc1-3100c1a086ac",
+      "environment": "preview",
+      "url": "https://86acd48d.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:09:55.499927Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:10:05.251455Z",
+        "ended_on": "2026-11-07T10:10:11.308244Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:09:55.607515Z",
+          "ended_on": "2026-11-07T10:09:55.612588Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:09:55.612588Z",
+          "ended_on": "2026-11-07T10:09:57.600889Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:09:57.600889Z",
+          "ended_on": "2026-11-07T10:10:01.514777Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:10:01.514777Z",
+          "ended_on": "2026-11-07T10:10:05.251455Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:10:05.251455Z",
+          "ended_on": "2026-11-07T10:10:11.308244Z",
+          "status": "success"
+        }
+      ],
+      "branch": "audit/space-inventory-and-team-cv-20261107",
+      "commit_hash": "a04262450c768129e61199378bf2e7adcba4586e"
+    },
+    {
+      "id": "70b3aa6b-71e0-465b-9cc2-8c462ae10f17",
+      "environment": "preview",
+      "url": "https://70b3aa6b.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:07:33.705338Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:07:43.46786Z",
+        "ended_on": "2026-11-07T10:07:50.723094Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:07:33.828394Z",
+          "ended_on": "2026-11-07T10:07:33.832702Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:07:33.832702Z",
+          "ended_on": "2026-11-07T10:07:35.113391Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:07:35.113391Z",
+          "ended_on": "2026-11-07T10:07:38.84412Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:07:38.84412Z",
+          "ended_on": "2026-11-07T10:07:43.46786Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:07:43.46786Z",
+          "ended_on": "2026-11-07T10:07:50.723094Z",
+          "status": "success"
+        }
+      ],
+      "branch": "audit/space-inventory-and-team-cv-20261107",
+      "commit_hash": "f3a473eec742914f2fdff12fa77b005e069dc7d0"
+    },
+    {
+      "id": "4cdc5213-8430-4b73-b76b-8594c373bf60",
+      "environment": "preview",
+      "url": "https://4cdc5213.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:07:12.879743Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:07:22.8744Z",
+        "ended_on": "2026-11-07T10:07:28.828247Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:07:13.06129Z",
+          "ended_on": "2026-11-07T10:07:13.068474Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:07:13.068474Z",
+          "ended_on": "2026-11-07T10:07:15.703812Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:07:15.703812Z",
+          "ended_on": "2026-11-07T10:07:19.854235Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:07:19.854235Z",
+          "ended_on": "2026-11-07T10:07:22.8744Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:07:22.8744Z",
+          "ended_on": "2026-11-07T10:07:28.828247Z",
+          "status": "success"
+        }
+      ],
+      "branch": "audit/space-inventory-and-team-cv-20261107",
+      "commit_hash": "f35f79591d7a82652a04d53f182580583faeb371"
+    },
+    {
+      "id": "3c75ed6a-edf5-4468-8697-26a84d0a9d5d",
+      "environment": "preview",
+      "url": "https://3c75ed6a.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:06:18.805029Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:06:27.290065Z",
+        "ended_on": "2026-11-07T10:06:31.953658Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:06:18.940206Z",
+          "ended_on": "2026-11-07T10:06:18.942877Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:06:18.942877Z",
+          "ended_on": "2026-11-07T10:06:20.956221Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:06:20.956221Z",
+          "ended_on": "2026-11-07T10:06:24.921123Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:06:24.921123Z",
+          "ended_on": "2026-11-07T10:06:27.290065Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:06:27.290065Z",
+          "ended_on": "2026-11-07T10:06:31.953658Z",
+          "status": "success"
+        }
+      ],
+      "branch": "audit/space-inventory-and-team-cv-20261107",
+      "commit_hash": "2e3fbc4d92bad2075114aef1471441275120ef0f"
+    },
+    {
+      "id": "ad8c47af-eba1-4bc0-90c4-126732141ecf",
+      "environment": "preview",
+      "url": "https://ad8c47af.virtura-website.pages.dev",
+      "created_on": "2026-11-07T10:05:13.730463Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T10:05:22.438717Z",
+        "ended_on": "2026-11-07T10:05:26.627981Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T10:05:13.903917Z",
+          "ended_on": "2026-11-07T10:05:13.909778Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T10:05:13.909778Z",
+          "ended_on": "2026-11-07T10:05:15.785227Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T10:05:15.785227Z",
+          "ended_on": "2026-11-07T10:05:19.955382Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T10:05:19.955382Z",
+          "ended_on": "2026-11-07T10:05:22.438717Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T10:05:22.438717Z",
+          "ended_on": "2026-11-07T10:05:26.627981Z",
+          "status": "success"
+        }
+      ],
+      "branch": "audit/space-inventory-and-team-cv-20261107",
+      "commit_hash": "d7327545d8d59a7132c8b71adb2eb3f4c2b472a0"
+    },
+    {
+      "id": "22693bd6-b6a5-4c35-b9e6-28a769fa783f",
+      "environment": "production",
+      "url": "https://22693bd6.virtura-website.pages.dev",
+      "created_on": "2026-11-07T09:59:20.685327Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T09:59:28.004339Z",
+        "ended_on": "2026-11-07T09:59:32.317214Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T09:59:20.835411Z",
+          "ended_on": "2026-11-07T09:59:20.838113Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T09:59:20.838113Z",
+          "ended_on": "2026-11-07T09:59:22.21949Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T09:59:22.21949Z",
+          "ended_on": "2026-11-07T09:59:25.955466Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T09:59:25.955466Z",
+          "ended_on": "2026-11-07T09:59:28.004339Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T09:59:28.004339Z",
+          "ended_on": "2026-11-07T09:59:32.317214Z",
+          "status": "success"
+        }
+      ],
+      "branch": "main",
+      "commit_hash": "d7327545d8d59a7132c8b71adb2eb3f4c2b472a0"
+    },
+    {
+      "id": "a8bba603-d0e1-4592-9565-15e606ea41eb",
+      "environment": "preview",
+      "url": "https://a8bba603.virtura-website.pages.dev",
+      "created_on": "2026-11-07T09:58:24.353559Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T09:58:32.476003Z",
+        "ended_on": "2026-11-07T09:58:37.35902Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T09:58:24.465239Z",
+          "ended_on": "2026-11-07T09:58:24.46883Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T09:58:24.46883Z",
+          "ended_on": "2026-11-07T09:58:26.060457Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T09:58:26.060457Z",
+          "ended_on": "2026-11-07T09:58:29.887189Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T09:58:29.887189Z",
+          "ended_on": "2026-11-07T09:58:32.476003Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T09:58:32.476003Z",
+          "ended_on": "2026-11-07T09:58:37.35902Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/website-takeover-and-app-hub-20261107",
+      "commit_hash": "b4d1eb6399eb4400941b7c344166db557739c8b3"
+    },
+    {
+      "id": "ebaed2ad-6489-4a63-8057-82280bc7070c",
+      "environment": "preview",
+      "url": "https://ebaed2ad.virtura-website.pages.dev",
+      "created_on": "2026-11-07T09:57:58.597158Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T09:58:07.777179Z",
+        "ended_on": "2026-11-07T09:58:13.369644Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T09:57:58.731526Z",
+          "ended_on": "2026-11-07T09:57:58.73426Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T09:57:58.73426Z",
+          "ended_on": "2026-11-07T09:58:01.027482Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T09:58:01.027482Z",
+          "ended_on": "2026-11-07T09:58:05.093442Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T09:58:05.093442Z",
+          "ended_on": "2026-11-07T09:58:07.777179Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T09:58:07.777179Z",
+          "ended_on": "2026-11-07T09:58:13.369644Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/website-takeover-and-app-hub-20261107",
+      "commit_hash": "d0cbd41d1a248619d9ba68742f1a8eb9ca7dc363"
+    },
+    {
+      "id": "81f6b14d-ec29-45ea-b434-5ec43ba77d8f",
+      "environment": "preview",
+      "url": "https://81f6b14d.virtura-website.pages.dev",
+      "created_on": "2026-11-07T09:56:20.242349Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T09:56:32.922611Z",
+        "ended_on": "2026-11-07T09:56:37.657262Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T09:56:20.353773Z",
+          "ended_on": "2026-11-07T09:56:25.815575Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T09:56:25.815575Z",
+          "ended_on": "2026-11-07T09:56:27.000737Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T09:56:27.000737Z",
+          "ended_on": "2026-11-07T09:56:30.745421Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T09:56:30.745421Z",
+          "ended_on": "2026-11-07T09:56:32.922611Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T09:56:32.922611Z",
+          "ended_on": "2026-11-07T09:56:37.657262Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/website-takeover-and-app-hub-20261107",
+      "commit_hash": "009c20f6dfb0c2c9e4f04b2df3c6de697870b175"
+    },
+    {
+      "id": "e4f53fed-e15e-4a31-a173-1d8cebdfde5b",
+      "environment": "preview",
+      "url": "https://e4f53fed.virtura-website.pages.dev",
+      "created_on": "2026-11-07T09:56:10.547355Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T09:56:18.860261Z",
+        "ended_on": "2026-11-07T09:56:27.129426Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T09:56:10.851202Z",
+          "ended_on": "2026-11-07T09:56:10.852389Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T09:56:10.852389Z",
+          "ended_on": "2026-11-07T09:56:12.908014Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T09:56:12.908014Z",
+          "ended_on": "2026-11-07T09:56:16.771704Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T09:56:16.771704Z",
+          "ended_on": "2026-11-07T09:56:18.860261Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T09:56:18.860261Z",
+          "ended_on": "2026-11-07T09:56:27.129426Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/website-takeover-and-app-hub-20261107",
+      "commit_hash": "f8bd8c7bda998f4a9b69693c2731f8b0fbd138a6"
+    },
+    {
+      "id": "cf7c59b2-ca49-4e6e-93e5-f417f2251484",
+      "environment": "preview",
+      "url": "https://cf7c59b2.virtura-website.pages.dev",
+      "created_on": "2026-11-07T09:53:29.671984Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T09:53:38.154042Z",
+        "ended_on": "2026-11-07T09:53:47.289341Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T09:53:29.784761Z",
+          "ended_on": "2026-11-07T09:53:29.790647Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T09:53:29.790647Z",
+          "ended_on": "2026-11-07T09:53:31.709091Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T09:53:31.709091Z",
+          "ended_on": "2026-11-07T09:53:35.897835Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T09:53:35.897835Z",
+          "ended_on": "2026-11-07T09:53:38.154042Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T09:53:38.154042Z",
+          "ended_on": "2026-11-07T09:53:47.289341Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/website-takeover-and-app-hub-20261107",
+      "commit_hash": "4b654bd572ef4641700adab0b3d95692bab63630"
+    },
+    {
+      "id": "d105e368-f0ca-4770-9cf9-61c382471855",
+      "environment": "preview",
+      "url": "https://d105e368.virtura-website.pages.dev",
+      "created_on": "2026-11-07T09:52:58.082302Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T09:53:07.22068Z",
+        "ended_on": "2026-11-07T09:53:12.400729Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T09:52:58.212276Z",
+          "ended_on": "2026-11-07T09:52:58.219096Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T09:52:58.219096Z",
+          "ended_on": "2026-11-07T09:53:00.317968Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T09:53:00.317968Z",
+          "ended_on": "2026-11-07T09:53:04.336159Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T09:53:04.336159Z",
+          "ended_on": "2026-11-07T09:53:07.22068Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T09:53:07.22068Z",
+          "ended_on": "2026-11-07T09:53:12.400729Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/website-takeover-and-app-hub-20261107",
+      "commit_hash": "2e30a7702647205c8076064e3d5de75ad62cc547"
+    },
+    {
+      "id": "4789c55b-182c-4369-8aa5-3f32c42f1e70",
+      "environment": "preview",
+      "url": "https://4789c55b.virtura-website.pages.dev",
+      "created_on": "2026-11-07T09:52:20.494231Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T09:52:28.38513Z",
+        "ended_on": "2026-11-07T09:52:33.220333Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T09:52:20.636617Z",
+          "ended_on": "2026-11-07T09:52:20.645436Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T09:52:20.645436Z",
+          "ended_on": "2026-11-07T09:52:22.263894Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T09:52:22.263894Z",
+          "ended_on": "2026-11-07T09:52:26.026597Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T09:52:26.026597Z",
+          "ended_on": "2026-11-07T09:52:28.38513Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T09:52:28.38513Z",
+          "ended_on": "2026-11-07T09:52:33.220333Z",
+          "status": "success"
+        }
+      ],
+      "branch": "feature/website-takeover-and-app-hub-20261107",
+      "commit_hash": "40f2c58250e616f81330313b795eb7c3e593c52b"
+    },
+    {
+      "id": "cccbd1ae-2cca-410c-b718-3e1339dcc199",
+      "environment": "production",
+      "url": "https://cccbd1ae.virtura-website.pages.dev",
+      "created_on": "2026-11-07T09:36:35.182498Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T09:36:59.61161Z",
+        "ended_on": "2026-11-07T09:37:03.775289Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T09:36:35.298191Z",
+          "ended_on": "2026-11-07T09:36:51.738887Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T09:36:51.738887Z",
+          "ended_on": "2026-11-07T09:36:53.527966Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T09:36:53.527966Z",
+          "ended_on": "2026-11-07T09:36:57.347067Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T09:36:57.347067Z",
+          "ended_on": "2026-11-07T09:36:59.61161Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T09:36:59.61161Z",
+          "ended_on": "2026-11-07T09:37:03.775289Z",
+          "status": "success"
+        }
+      ],
+      "branch": "main",
+      "commit_hash": "40f2c58250e616f81330313b795eb7c3e593c52b"
+    },
+    {
+      "id": "5df29415-4992-4aec-859b-a325fcc0411b",
+      "environment": "production",
+      "url": "https://5df29415.virtura-website.pages.dev",
+      "created_on": "2026-11-07T09:36:34.302452Z",
+      "is_skipped": false,
+      "latest_stage": {
+        "name": "deploy",
+        "started_on": "2026-11-07T09:36:43.673938Z",
+        "ended_on": "2026-11-07T09:36:53.852027Z",
+        "status": "success"
+      },
+      "stages": [
+        {
+          "name": "queued",
+          "started_on": "2026-11-07T09:36:34.454602Z",
+          "ended_on": "2026-11-07T09:36:34.458615Z",
+          "status": "success"
+        },
+        {
+          "name": "initialize",
+          "started_on": "2026-11-07T09:36:34.458615Z",
+          "ended_on": "2026-11-07T09:36:36.274223Z",
+          "status": "success"
+        },
+        {
+          "name": "clone_repo",
+          "started_on": "2026-11-07T09:36:36.274223Z",
+          "ended_on": "2026-11-07T09:36:40.471016Z",
+          "status": "success"
+        },
+        {
+          "name": "build",
+          "started_on": "2026-11-07T09:36:40.471016Z",
+          "ended_on": "2026-11-07T09:36:43.673938Z",
+          "status": "success"
+        },
+        {
+          "name": "deploy",
+          "started_on": "2026-11-07T09:36:43.673938Z",
+          "ended_on": "2026-11-07T09:36:53.852027Z",
+          "status": "success"
+        }
+      ],
+      "branch": "main",
+      "commit_hash": "40f2c58250e616f81330313b795eb7c3e593c52b"
+    }
+  ],
+  "productionLogs": {
+    "deploymentId": "63c4c95f-838a-4f2f-9b70-e7e742e85eed",
+    "total": 22,
+    "entries": [
+      {
+        "ts": "2026-11-07T10:39:33.192796Z",
+        "line": "Cloning repository..."
+      },
+      {
+        "ts": "2026-11-07T10:39:36.318879Z",
+        "line": "From https://github.com/ewanqian/VIRTURA-Website"
+      },
+      {
+        "ts": "2026-11-07T10:39:36.319245Z",
+        "line": " * branch            837d68c6ff15f37500c05ae7e2337721ea613463 -> FETCH_HEAD"
+      },
+      {
+        "ts": "2026-11-07T10:39:36.319355Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-11-07T10:39:36.451329Z",
+        "line": "HEAD is now at 837d68c [VSP-PM] Takeover quality gate: top-10 research queue, HiKu handoff and protected homepage (#4)"
+      },
+      {
+        "ts": "2026-11-07T10:39:36.451797Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-11-07T10:39:36.504765Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-11-07T10:39:36.50582Z",
+        "line": "Using v2 root directory strategy"
+      },
+      {
+        "ts": "2026-11-07T10:39:36.52241Z",
+        "line": "Success: Finished cloning repository files"
+      },
+      {
+        "ts": "2026-11-07T10:39:41.077659Z",
+        "line": "Checking for configuration in a Wrangler configuration file (BETA)"
+      },
+      {
+        "ts": "2026-11-07T10:39:41.078287Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-11-07T10:39:41.210952Z",
+        "line": "No Wrangler configuration file found. Continuing."
+      },
+      {
+        "ts": "2026-11-07T10:39:41.211453Z",
+        "line": "No build command specified. Skipping build step."
+      },
+      {
+        "ts": "2026-11-07T10:39:41.21227Z",
+        "line": "Note: No functions dir at /functions found. Skipping."
+      },
+      {
+        "ts": "2026-11-07T10:39:41.212433Z",
+        "line": "Validating asset output directory"
+      },
+      {
+        "ts": "2026-11-07T10:39:42.813955Z",
+        "line": "Deploying your site to Cloudflare's global network..."
+      },
+      {
+        "ts": "2026-11-07T10:39:46.383271Z",
+        "line": "Uploading... (141/141)"
+      },
+      {
+        "ts": "2026-11-07T10:39:46.383719Z",
+        "line": "\u2728 Success! Uploaded 0 files (141 already uploaded) (0.26 sec)"
+      },
+      {
+        "ts": "2026-11-07T10:39:46.383813Z",
+        "line": ""
+      },
+      {
+        "ts": "2026-11-07T10:39:46.718788Z",
+        "line": "\u2728 Upload complete!"
+      },
+      {
+        "ts": "2026-11-07T10:39:48.331442Z",
+        "line": "Success: Assets published!"
+      },
+      {
+        "ts": "2026-11-07T10:39:49.14758Z",
+        "line": "Success: Your site was deployed!"
+      }
+    ]
+  }
+}
