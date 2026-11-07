@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://virtura.space/apps/sdk/virtura-app.schema.json",
+  "title": "VIRTURA Spaces App Manifest v0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "id",
+    "name",
+    "category",
+    "publisher",
+    "launchUrl",
+    "repository",
+    "runtime",
+    "releaseStatus",
+    "rights"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": "0.1"
+    },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"
+    },
+    "name": {
+      "type": "object",
+      "required": [
+        "zh",
+        "en"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "zh": {
+          "type": "string",
+          "minLength": 1
+        },
+        "en": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "category": {
+      "enum": [
+        "tool",
+        "workshop",
+        "experience",
+        "archive",
+        "developer"
+      ]
+    },
+    "publisher": {
+      "type": "string",
+      "minLength": 1
+    },
+    "launchUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "repository": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "runtime": {
+      "enum": [
+        "web",
+        "native",
+        "archive"
+      ]
+    },
+    "capabilities": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string"
+      }
+    },
+    "minDevice": {
+      "type": "string"
+    },
+    "requiresLogin": {
+      "type": "boolean",
+      "default": false
+    },
+    "commerce": {
+      "type": "object",
+      "required": [
+        "mode"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "free",
+            "external-purchase",
+            "quote",
+            "none"
+          ]
+        }
+      }
+    },
+    "creditPolicy": {
+      "type": "string"
+    },
+    "rights": {
+      "type": "object",
+      "required": [
+        "owner",
+        "publicationAllowed"
+      ],
+      "properties": {
+        "owner": {
+          "type": "string"
+        },
+        "publicationAllowed": {
+          "type": "boolean"
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    },
+    "releaseStatus": {
+      "enum": [
+        "source-present",
+        "published-source",
+        "qa-verified",
+        "archived",
+        "private"
+      ]
+    },
+    "lastVerified": {
+      "type": "string",
+      "format": "date"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}
