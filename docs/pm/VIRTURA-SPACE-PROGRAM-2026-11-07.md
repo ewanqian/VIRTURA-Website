@@ -85,7 +85,7 @@
 
 ## 管理规则
 
-`docs/pm/tasks.json` 是当前唯一状态源。合法状态：`READY`、`IN_PROGRESS`、`IN_REVIEW`、`BLOCKED`、`DONE`。每次 Agent 更新必须在 PR 中同步：状态变化、证据、blocker、对应 SHA、下一项门槛。没有证据不能改成 DONE。
+`docs/pm/tasks.json` 是当前唯一状态源。合法状态：`QUEUED`、`READY`、`IN_PROGRESS`、`IN_REVIEW`、`BLOCKED`、`DONE`。每次 Agent 更新必须在 PR 中同步：状态变化、证据、blocker、对应 SHA、下一项门槛。没有证据不能改成 DONE。
 
 目前 GitHub Issues 功能关闭，创建 Issue 返回 HTTP 410；不要反复发送 Issue 请求。使用 PR（代码交付）+ machine readable queue（状态）替代；未来启用 Issues 时按 ID 映射而非复制两份状态。
 
