@@ -1,0 +1,201 @@
+{
+  "schemaVersion": "1.0.0",
+  "updated": "2026-11-08",
+  "sourceOfTruth": {
+    "repository": "ewanqian/VIRTURA-SpacePort",
+    "stationManifest": "stations/frontstage-manifest.json",
+    "stationBible": "docs/world-bible/VIRTURA-SPACEPORT-STATION-BIBLE-v1.0.md"
+  },
+  "coordinateDisclaimer": "Station positions and lines are an editorial navigation diagram, not measured geography, CAD, transport network or an approved final city plan.",
+  "defaultWorld": "arrival",
+  "worlds": [
+    {
+      "id": "arrival",
+      "code": "A00",
+      "name": {
+        "zh": "轨道到达港",
+        "en": "Arrival Terminal"
+      },
+      "type": {
+        "zh": "公共导览与路线入口",
+        "en": "Port arrival & routes"
+      },
+      "mode": "prototype",
+      "x": 50,
+      "y": 50,
+      "size": "core",
+      "image": "../assets/spaces/gateway-spaceport.jpg",
+      "siteUrl": "https://spaceport.virtura.space/arrival-terminal-v0.1.html",
+      "siteLabel": {
+        "zh": "打开到达港灰盒",
+        "en": "Open arrival prototype"
+      },
+      "description": {
+        "zh": "从公共到达大厅选择展览、演出与研究目的地。",
+        "en": "Choose an exhibition, performance or research destination from the arrival hall."
+      },
+      "sourcePath": "stations/orbital-arrival-terminal/build-card-v0.1.md",
+      "related": [
+        "mova",
+        "balloon",
+        "teahouse",
+        "research"
+      ]
+    },
+    {
+      "id": "mova",
+      "code": "A01",
+      "name": {
+        "zh": "MOVA 美术馆",
+        "en": "MOVA Museum"
+      },
+      "type": {
+        "zh": "数字展览与观看空间",
+        "en": "Exhibitions & screening"
+      },
+      "mode": "web-archive",
+      "x": 25,
+      "y": 27,
+      "size": "standard",
+      "image": "../assets/spaces/station-mova.jpg",
+      "siteUrl": "https://spaceport.virtura.space/stations/mova/index.html",
+      "siteLabel": {
+        "zh": "打开美术馆网页",
+        "en": "Open museum site"
+      },
+      "description": {
+        "zh": "观看线上展览与作品档案，展厅三维版本继续建设。",
+        "en": "Explore online exhibitions and work archives. The immersive museum remains in development."
+      },
+      "sourcePath": "stations/mova/index.html",
+      "related": [
+        "arrival",
+        "research"
+      ]
+    },
+    {
+      "id": "balloon",
+      "code": "A02",
+      "name": {
+        "zh": "太空气球",
+        "en": "Balloon Live Space"
+      },
+      "type": {
+        "zh": "视听展演与节目空间",
+        "en": "Live audiovisual performance"
+      },
+      "mode": "web-archive",
+      "x": 76,
+      "y": 28,
+      "size": "standard",
+      "image": "../assets/spaces/station-balloon.jpg",
+      "siteUrl": "https://spaceport.virtura.space/stations/balloon-live-space/index.html",
+      "siteLabel": {
+        "zh": "打开演出空间网页",
+        "en": "Open performance station"
+      },
+      "description": {
+        "zh": "查看节目、Session 与演出回放索引；实时舞台仍在开发。",
+        "en": "Find programmes, sessions and replay archives. The live browser stage is still in development."
+      },
+      "sourcePath": "stations/balloon-live-space/index.html",
+      "related": [
+        "arrival",
+        "research"
+      ]
+    },
+    {
+      "id": "teahouse",
+      "code": "A03",
+      "name": {
+        "zh": "林中茶屋",
+        "en": "Forest Tea House"
+      },
+      "type": {
+        "zh": "环境声音与慢速空间体验",
+        "en": "Slow space & ambient sound"
+      },
+      "mode": "web-archive",
+      "x": 21,
+      "y": 74,
+      "size": "standard",
+      "image": "../assets/spaces/station-tea-house.jpg",
+      "siteUrl": "https://spaceport.virtura.space/stations/teahouse-forest-pavilion/index.html",
+      "siteLabel": {
+        "zh": "打开茶屋网页",
+        "en": "Open tea house"
+      },
+      "description": {
+        "zh": "进入茶屋站点与环境声音实验，完整三维空间仍在建设。",
+        "en": "Visit the tea-house site and ambient studies. The complete 3D space is still being built."
+      },
+      "sourcePath": "stations/teahouse-forest-pavilion/index.html",
+      "related": [
+        "arrival"
+      ]
+    },
+    {
+      "id": "research",
+      "code": "F01",
+      "name": {
+        "zh": "研究实验室",
+        "en": "Research Lab"
+      },
+      "type": {
+        "zh": "研究方法与实验设施",
+        "en": "Research & experiments"
+      },
+      "mode": "web-archive",
+      "x": 76,
+      "y": 73,
+      "size": "standard",
+      "image": "../assets/spaces/station-research-lab.jpg",
+      "siteUrl": "https://spaceport.virtura.space/stations/research-laboratory/index.html",
+      "siteLabel": {
+        "zh": "打开研究实验室",
+        "en": "Open research lab"
+      },
+      "description": {
+        "zh": "浏览空间计算、实时系统与公开研究线索。",
+        "en": "Explore spatial computing, realtime systems and published research paths."
+      },
+      "sourcePath": "stations/research-laboratory/index.html",
+      "related": [
+        "arrival",
+        "mova",
+        "balloon",
+        "knowledge"
+      ]
+    },
+    {
+      "id": "knowledge",
+      "code": "F02",
+      "name": {
+        "zh": "知识网络",
+        "en": "Knowledge Network"
+      },
+      "type": {
+        "zh": "档案、学习路径与创作工具",
+        "en": "Archives & learning paths"
+      },
+      "mode": "web-archive",
+      "x": 50,
+      "y": 84,
+      "size": "standard",
+      "image": "../assets/spaces/station-research-lab.jpg",
+      "siteUrl": "https://spaceport.virtura.space/knowledge-network/index.html",
+      "siteLabel": {
+        "zh": "打开知识网络",
+        "en": "Open knowledge network"
+      },
+      "description": {
+        "zh": "查阅学习路径、研究内容与可复用创作方法。",
+        "en": "Browse learning paths, research and reusable creative methods."
+      },
+      "sourcePath": "knowledge-network/index.html",
+      "related": [
+        "research"
+      ]
+    }
+  ]
+}
