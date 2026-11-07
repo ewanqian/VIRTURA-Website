@@ -32,7 +32,7 @@ Rollback: close this documentation-only PR before merge. If later merged and rol
 
 Next gate: review this matrix and choose automation owners. R03/R05 may be considered in a later authorized wave; no follow-on task started. R04 visual direction and R06 credit decisions require editor signoff.
 
-Task-file merge note: both independent PRs start from main. Resolve tasks.json field-by-field, preserving R01 BLOCKED/evidence/PR and R02 IN_REVIEW/evidence/PR; do not replace whole file with either branch. Source validation: `python3 docs/pm/evidence/r02/verify-sources.py`; saved output [verification.txt](r02/verification.txt). `git diff --check` passed; website-source comparison to main unchanged.
+Task-file merge note: both independent PRs start from main. Resolve tasks.json field-by-field, preserving R01 IN_REVIEW/evidence/PR and R02 IN_REVIEW/evidence/PR; do not replace whole file with either branch. Source validation: `python3 docs/pm/evidence/r02/verify-sources.py`; saved output [verification.txt](r02/verification.txt). `git diff --check` passed; website-source comparison to main unchanged.
 
 ## Continued source-mechanism execution — 2026-11-08
 
@@ -46,3 +46,5 @@ node docs/pm/evidence/r02/validator-probe.mjs /tmp/vsp-validator.mjs
 ```
 
 Automatic Codex review of f15ae92 completed without findings; human reviews remain empty. This does not approve editorial ownership or authorize merging. R02 stays IN_REVIEW.
+
+R01 access correction: existing local VIRTURA Cloudflare token allowed authenticated production settings/log/history audit; PR #5 now IN_REVIEW. Preserve its latest state and evidence when combining independent task-file changes. No credential is contained in this source-transfer PR.
