@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "0.1",
+  "id": "sceneforge",
+  "name": {
+    "zh": "场景铸造",
+    "en": "SceneForge"
+  },
+  "category": "tool",
+  "publisher": "Ewan Qian / VIRTURA",
+  "launchUrl": "https://ewanqian.github.io/SceneForge/",
+  "repository": "https://github.com/ewanqian/SceneForge",
+  "runtime": "web",
+  "capabilities": [
+    "mouse",
+    "keyboard",
+    "local-media",
+    "webxr-optional"
+  ],
+  "minDevice": "desktop-web",
+  "requiresLogin": false,
+  "commerce": {
+    "mode": "free"
+  },
+  "creditPolicy": "project-version-credits",
+  "rights": {
+    "owner": "Project creators and media owners",
+    "publicationAllowed": true,
+    "notes": "Only approved preview and demo assets"
+  },
+  "releaseStatus": "published-source",
+  "lastVerified": "2026-11-07"
+}
