@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "updatedAt": "2026-11-08",
+  "updatedAt": "2026-11-09",
   "sourceRepo": "ewanqian/VIRTURA-Website",
   "issueTracker": {
     "enabled": false,
@@ -164,7 +164,9 @@
         "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md",
         "docs/brand/VIRTURA-SPACE-VISUAL-DNA-2026-11-08.md",
         "docs/brand/spaceport-brand-registry.v01.json",
-        "docs/brand/SPRINT-01-IDENTITY-RECOVERY.md"
+        "docs/brand/SPRINT-01-IDENTITY-RECOVERY.md",
+        "assets/brand-candidates/balloon/README.md",
+        "assets/brand-candidates/balloon/balloon-design-tokens.candidate.json"
       ],
       "outputs": [
         "docs/pm/evidence/R04-visual-QA.md"
@@ -199,7 +201,9 @@
         "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md",
         "docs/brand/VIRTURA-SPACE-VISUAL-DNA-2026-11-08.md",
         "docs/brand/spaceport-brand-registry.v01.json",
-        "docs/brand/SPRINT-01-IDENTITY-RECOVERY.md"
+        "docs/brand/SPRINT-01-IDENTITY-RECOVERY.md",
+        "assets/brand-candidates/balloon/README.md",
+        "assets/brand-candidates/balloon/balloon-design-tokens.candidate.json"
       ],
       "outputs": [
         "docs/pm/evidence/R05-media-ledger.json"

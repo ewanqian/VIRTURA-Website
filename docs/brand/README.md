@@ -1,3 +1,5 @@
+> **Balloon 候选 01（2026-11-09）**：[原始视觉证据与可编辑 SVG 候选](../../assets/brand-candidates/balloon/README.md) · [浏览器预览](../../design/balloon-identity-review.html)。原始字体、精确几何和使用权未核实，不能当作正式 Logo。
+
 > **下一阶段执行入口：** [Sprint 01 — 品牌原稿恢复与 Ballroom/SpacePort 产品切片](./SPRINT-01-IDENTITY-RECOVERY.md)。四套首批品牌：Balloon、Virtual Airlines、MOVA、林中茶屋；先进行源稿审计，后进行候选矢量制作，不能把概念图当正式母版。
 
 # SpacePort 品牌视觉资料：本地接入规范

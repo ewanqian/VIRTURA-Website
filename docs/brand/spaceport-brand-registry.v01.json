@@ -124,6 +124,30 @@
         "1:1-launcher-icon",
         "map-glyph",
         "space-usage-example"
+      ],
+      "candidates": [
+        {
+          "version": "01",
+          "date": "2026-11-09",
+          "status": "candidate-not-approved",
+          "files": [
+            "assets/brand-candidates/balloon/balloon-colour-disc.candidate.svg",
+            "assets/brand-candidates/balloon/balloon-horizontal-lockup.candidate.svg",
+            "assets/brand-candidates/balloon/balloon-design-tokens.candidate.json",
+            "design/balloon-identity-review.html"
+          ],
+          "sourceHashValidation": [
+            "33ec32695fadc488ae3a6a3ce1f51acddb7b16f1e8ba6de9d22949decba59042",
+            "9477c497043a9eeb7ccf981bd2d4e086c93f765ec4dfbd22aa9cce893be000a1"
+          ],
+          "reviewPackageLibraryPath": "/VIRTURA/Brand-Archive/2026-11-08/Key-Visuals/Balloon-review-2026-11-09/BALLOON-review-package.zip",
+          "openGates": [
+            "find original editable font and logo master",
+            "confirm exact geometry and brand colors",
+            "design/rights approval",
+            "browser screenshots and publication permissions"
+          ]
+        }
       ]
     },
     {

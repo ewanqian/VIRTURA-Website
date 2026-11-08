@@ -1,0 +1,132 @@
+{
+  "schemaVersion": "0.1",
+  "id": "balloon-live-space",
+  "status": "candidate-not-approved",
+  "scope": "visual-reconstruction-from-pixel-source",
+  "basedOn": [
+    {
+      "asset": "bls(20261107-195850).png",
+      "sourceSha256": "33ec32695fadc488ae3a6a3ce1f51acddb7b16f1e8ba6de9d22949decba59042",
+      "dimensions": [
+        1500,
+        844
+      ],
+      "archive": "/VIRTURA/Brand-Archive/2026-11-08/VIRTURA_SOURCE_IMAGES.zip"
+    },
+    {
+      "asset": "va ep02 the nav system(20261107-195845).png",
+      "sourceSha256": "9477c497043a9eeb7ccf981bd2d4e086c93f765ec4dfbd22aa9cce893be000a1",
+      "dimensions": [
+        2048,
+        1024
+      ],
+      "archive": "/VIRTURA/Brand-Archive/2026-11-08/VIRTURA_SOURCE_IMAGES.zip"
+    }
+  ],
+  "colors": {
+    "observedRGBScreenSamples": {
+      "electricBlue": {
+        "hex": "#1711F8",
+        "approximate": true,
+        "samples": [
+          [
+            700,
+            425
+          ],
+          [
+            790,
+            430
+          ]
+        ]
+      },
+      "magenta": {
+        "hex": "#F66AF5",
+        "approximate": true,
+        "samples": [
+          [
+            940,
+            425
+          ],
+          [
+            982,
+            440
+          ]
+        ]
+      },
+      "yellow": {
+        "hex": "#F9F932",
+        "approximate": true,
+        "samples": [
+          [
+            1100,
+            425
+          ],
+          [
+            1130,
+            440
+          ]
+        ]
+      },
+      "white": {
+        "hex": "#F6F6F2",
+        "approximate": true,
+        "samples": [
+          [
+            1290,
+            425
+          ],
+          [
+            1320,
+            440
+          ]
+        ]
+      },
+      "black": {
+        "hex": "#050506",
+        "approximate": true
+      }
+    },
+    "approvedPalette": false
+  },
+  "mark": {
+    "form": "clipped 4-colour circular disc",
+    "sectorRatiosCandidate": [
+      0.554,
+      0.223,
+      0.125,
+      0.098
+    ],
+    "measurementsExact": false,
+    "sourceMasterMissing": true,
+    "forbid": [
+      "replace with purple gradient orb",
+      "generic club neon",
+      "unrelated modern logo",
+      "present candidate as historical vector"
+    ]
+  },
+  "typography": {
+    "zh": "太空气球",
+    "en": [
+      "BALLOON",
+      "LIVE",
+      "SPACE"
+    ],
+    "exactFontUnverified": true,
+    "editableSVGText": true
+  },
+  "applications": {
+    "first": [
+      "horizontal-lockup",
+      "colour-disc",
+      "performance-station-entry"
+    ],
+    "later": [
+      "programme-cover-3:2",
+      "map-glyph",
+      "mobile-compact-mark",
+      "loading-animation"
+    ]
+  },
+  "releaseGate": "source-master-or-human-art-director-approval-and-clearance"
+}
