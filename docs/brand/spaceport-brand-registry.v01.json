@@ -1,0 +1,372 @@
+{
+  "schemaVersion": "0.1",
+  "checkpointDate": "2026-11-08",
+  "brandFamily": "VIRTURA / SpacePort 2114",
+  "authority": "observation-from-user-supplied-images-not-approved-vector-master",
+  "archive": {
+    "libraryPath": "/VIRTURA/Brand-Archive/2026-11-08",
+    "sourceZip": "VIRTURA_SOURCE_IMAGES.zip",
+    "conceptZip": "VIRTURA_CONCEPT_STUDIES.zip",
+    "shaManifest": "ASSET_MANIFEST.json",
+    "bytesUnmodified": true,
+    "actualBinaryCommittedToGithub": false
+  },
+  "universalVisualLanguage": {
+    "mainFrame": [
+      "black",
+      "warm-white",
+      "silver"
+    ],
+    "spatialMotifs": [
+      "opposed white triangles",
+      "circular transit concourse",
+      "radial navigation routes",
+      "suspended individual station banners"
+    ],
+    "experiencePrinciple": "navigable spatial portal; no forced initial 3D entry",
+    "forbidden": [
+      "single green palette across all brands",
+      "generic neon cyberpunk",
+      "all-square cover mandate",
+      "AI-created logos presented as originals",
+      "fake dates/statistics/partners/rights"
+    ]
+  },
+  "brands": [
+    {
+      "id": "ccc",
+      "name": {
+        "zh": "代码对话者收藏中心",
+        "en": "Code Talker Collection Centre"
+      },
+      "type": "visual identity node",
+      "recognition": [
+        "linked CCC mark",
+        "monochrome fractured/scanned motion",
+        "dense image + restrained editorial label"
+      ],
+      "paletteObservation": [
+        "black",
+        "paper-white",
+        "neutral-grey"
+      ],
+      "exactColorApproval": false,
+      "vectorMasterAvailable": false,
+      "publicRightsVerified": false,
+      "status": "historical-reference-needs-master",
+      "sources": [
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "va ep02 the nav system(20261107-195845).png"
+        },
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "2024TBC_1.10.1中(1).jpeg"
+        }
+      ],
+      "deliverables": [
+        "approved-vector-logo",
+        "wordmark-zh-en",
+        "palette-master",
+        "16:9-keyart",
+        "3:2-programme",
+        "4:3-archive-cover",
+        "1:1-launcher-icon",
+        "map-glyph",
+        "space-usage-example"
+      ]
+    },
+    {
+      "id": "balloon-live-space",
+      "name": {
+        "zh": "太空气球",
+        "en": "Balloon Live Space"
+      },
+      "type": "视听展演与节目空间",
+      "recognition": [
+        "saturated segmented orb/globe",
+        "electric-blue,magenta,yellow,white stripe sequence",
+        "wire sphere/balloon geometry",
+        "white condensed stacked BALLOON LIVE SPACE label"
+      ],
+      "paletteObservation": [
+        "electric-blue",
+        "magenta",
+        "bright-yellow",
+        "white",
+        "black"
+      ],
+      "exactColorApproval": false,
+      "vectorMasterAvailable": false,
+      "publicRightsVerified": false,
+      "status": "source-identity-recognized-not-vectors",
+      "sources": [
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "va ep02 the nav system(20261107-195845).png"
+        },
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "bls(20261107-195850).png"
+        },
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "2024TBC_1.8.1中(1).jpeg"
+        }
+      ],
+      "deliverables": [
+        "approved-vector-logo",
+        "wordmark-zh-en",
+        "palette-master",
+        "16:9-keyart",
+        "3:2-programme",
+        "4:3-archive-cover",
+        "1:1-launcher-icon",
+        "map-glyph",
+        "space-usage-example"
+      ]
+    },
+    {
+      "id": "mova",
+      "name": {
+        "zh": "纬线数字艺术博物馆",
+        "en": "MOVA Museum of Virtura Art"
+      },
+      "type": "数字美术馆/展演",
+      "recognition": [
+        "thin spacious MOVA lettering",
+        "grey steel/scaffold architectural structure",
+        "black-white exhibition field"
+      ],
+      "paletteObservation": [
+        "black",
+        "white",
+        "grey"
+      ],
+      "exactColorApproval": false,
+      "vectorMasterAvailable": false,
+      "publicRightsVerified": false,
+      "status": "source-identity-recognized-not-vectors",
+      "sources": [
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "va ep02 the nav system(20261107-195845).png"
+        },
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "2024TBC_1.11.1中(1).jpeg"
+        }
+      ],
+      "deliverables": [
+        "approved-vector-logo",
+        "wordmark-zh-en",
+        "palette-master",
+        "16:9-keyart",
+        "3:2-programme",
+        "4:3-archive-cover",
+        "1:1-launcher-icon",
+        "map-glyph",
+        "space-usage-example"
+      ]
+    },
+    {
+      "id": "virtual-airlines",
+      "name": {
+        "zh": "虚拟航线",
+        "en": "Virtual Airlines"
+      },
+      "type": "空间交通与导览",
+      "recognition": [
+        "interlocking/overlapping abstract VA triangles",
+        "orbital line",
+        "series of narrow colored visual identity panels"
+      ],
+      "paletteObservation": [
+        "graphite",
+        "silver",
+        "warm-orange",
+        "cool-blue",
+        "off-white"
+      ],
+      "exactColorApproval": false,
+      "vectorMasterAvailable": false,
+      "publicRightsVerified": false,
+      "status": "historical-reference-needs-master",
+      "sources": [
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "va ep02 the nav system(20261107-195845).png"
+        },
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "2024TBC_1.9.1中(1).jpeg"
+        }
+      ],
+      "deliverables": [
+        "approved-vector-logo",
+        "wordmark-zh-en",
+        "palette-master",
+        "16:9-keyart",
+        "3:2-programme",
+        "4:3-archive-cover",
+        "1:1-launcher-icon",
+        "map-glyph",
+        "space-usage-example"
+      ]
+    },
+    {
+      "id": "digital-geographic",
+      "name": {
+        "zh": "数字地理",
+        "en": "Digital Geographic"
+      },
+      "type": "空间档案/地理研究",
+      "recognition": [
+        "bright orange technical cartography",
+        "geometric triangular line glyph",
+        "fine aerial drawing/drafting layer"
+      ],
+      "paletteObservation": [
+        "orange",
+        "pale-grey",
+        "white",
+        "map-grid"
+      ],
+      "exactColorApproval": false,
+      "vectorMasterAvailable": false,
+      "publicRightsVerified": false,
+      "status": "source-identity-recognized-not-vectors",
+      "sources": [
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "va ep02 the nav system(20261107-195845).png"
+        },
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "2024TBC_1.9.1中(1).jpeg"
+        }
+      ],
+      "deliverables": [
+        "approved-vector-logo",
+        "wordmark-zh-en",
+        "palette-master",
+        "16:9-keyart",
+        "3:2-programme",
+        "4:3-archive-cover",
+        "1:1-launcher-icon",
+        "map-glyph",
+        "space-usage-example"
+      ]
+    },
+    {
+      "id": "teahouse",
+      "name": {
+        "zh": "林中茶屋",
+        "en": "Tea House in the Woods"
+      },
+      "type": "公共茶屋/环境空间",
+      "recognition": [
+        "square nested roof/pavilion glyph",
+        "dark warm wood and luminous architectural lines",
+        "quiet forest approach"
+      ],
+      "paletteObservation": [
+        "warm-wood",
+        "soft-amber",
+        "deep-black",
+        "warm-white"
+      ],
+      "exactColorApproval": false,
+      "vectorMasterAvailable": false,
+      "publicRightsVerified": false,
+      "status": "source-identity-recognized-not-vectors",
+      "sources": [
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "va ep02 the nav system(20261107-195845).png"
+        },
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "2024TBC_1.4.1.png"
+        },
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "2024TBC_1.5.1.png"
+        }
+      ],
+      "deliverables": [
+        "approved-vector-logo",
+        "wordmark-zh-en",
+        "palette-master",
+        "16:9-keyart",
+        "3:2-programme",
+        "4:3-archive-cover",
+        "1:1-launcher-icon",
+        "map-glyph",
+        "space-usage-example"
+      ]
+    },
+    {
+      "id": "nature-retreat",
+      "name": {
+        "zh": "自然疗养中心（准确名称待核）",
+        "en": "Nature retreat (verify original wordmark)"
+      },
+      "type": "自然疗养与慢速空间（视觉概念，非医学效能）",
+      "recognition": [
+        "diamond-outline typography seal",
+        "misty forest",
+        "low-rise pavilion architecture"
+      ],
+      "paletteObservation": [
+        "forest-deep",
+        "mist-grey",
+        "warm-stone",
+        "off-white"
+      ],
+      "exactColorApproval": false,
+      "vectorMasterAvailable": false,
+      "publicRightsVerified": false,
+      "status": "naming-and-identity-unconfirmed",
+      "sources": [
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "va ep02 the nav system(20261107-195845).png"
+        },
+        {
+          "archive": "VIRTURA_SOURCE_IMAGES.zip",
+          "originalFilename": "VRChat_2023-07-25_01-01-23.965_3840x2160.png"
+        }
+      ],
+      "deliverables": [
+        "approved-vector-logo",
+        "wordmark-zh-en",
+        "palette-master",
+        "16:9-keyart",
+        "3:2-programme",
+        "4:3-archive-cover",
+        "1:1-launcher-icon",
+        "map-glyph",
+        "space-usage-example"
+      ]
+    }
+  ],
+  "associatedNotYetBrandMasters": [
+    "TIMER",
+    "Drop Flow",
+    "SceneForge",
+    "ENTROPY",
+    "Greenhouse in Transit",
+    "Senia Island",
+    "CNG Spatial Archive"
+  ],
+  "aiConcepts": {
+    "archive": "VIRTURA_CONCEPT_STUDIES.zip",
+    "positivelyReviewed": [
+      "virtura_2114品牌身份图谱.png",
+      "virtura_2114太空港_未来品牌中枢.png",
+      "virtura太空港_未来虚拟空间门户.png"
+    ],
+    "status": "selected-direction-exploration-not-final-brand-approval"
+  }
+}
