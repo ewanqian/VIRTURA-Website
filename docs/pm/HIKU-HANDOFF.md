@@ -1,3 +1,5 @@
+> **Visual reference is now archived:** Before any R04/R05 visual execution, read `docs/brand/VIRTURA-SPACE-VISUAL-DNA-2026-11-08.md`, `docs/brand/spaceport-brand-registry.v01.json`, and the exact image checksums in ChatGPT Library `/VIRTURA/Brand-Archive/2026-11-08/ASSET_MANIFEST.json`. Do not mistake the AI identity atlas's printed '2020/OFFICIAL' for verified history. Extract original brand glyphs from approved source files, never redraw them from speculative AI boards as final logos.
+
 > **New checkpoint:** `docs/design/VIRTURA-SPACE-DECISIONS-AND-RISKS-2026-11-08.md`, `VIRTURA-SPACE-ART-DIRECTION-v07.md`, and `VIRTURA-SPACE-PROMPT-PACK-v07.md` preserve rejected designs, missing risks and reproducible visual prompts. Read these before R03/R04/R05 implementation. Treat all generated imagery as conceptual, not authentic project assets. No production homepage changes until owner approves art direction.
 
 # HiKu / OpenCode / DeepSeek · Local Routing Packet v1
