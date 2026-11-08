@@ -18,8 +18,11 @@ for svgfile in ["balloon-colour-disc.candidate.svg","balloon-horizontal-lockup.c
     data=(loc/svgfile).read_text(encoding="utf-8")
     svg=ET.fromstring(data)
     assert svg.tag.endswith("svg") and "viewBox" in svg.attrib,svgfile
-    indices=[data.find(c) for c in expected]
-    assert all(i>=0 for i in indices) and indices==sorted(indices),(svgfile,indices)
+    # Inspect actual SVG rectangle elements rather than string position: white may
+    # appear earlier in non-colour background or metadata attributes.
+    layers=[e.attrib.get("fill") for e in svg.iter() if e.tag.endswith("rect") and e.attrib.get("fill") in expected]
+    assert layers and len(layers)%len(expected)==0,(svgfile,layers)
+    assert layers == expected * (len(layers)//len(expected)),(svgfile,layers)
     assert "Not an approved" in data or "not a certified" in data,svgfile
 lock=(loc/"balloon-horizontal-lockup.candidate.svg").read_text(encoding="utf-8")
 assert "太空" in lock and "气球" in lock and all(x in lock for x in ["BALLOON","LIVE","SPACE"])
