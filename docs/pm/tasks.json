@@ -149,7 +149,7 @@
         "R03"
       ],
       "effort": "L",
-      "brief": "Protect root homepage hero, 7 works cards, people, inquiry and existing routes. Propose image-driven layout system before any root rewrite. VI v05 draft replaces the legacy global green palette with monochrome studio-derived shell and distinctive project imagery. Prototype must be reviewed before production work.",
+      "brief": "Protect root homepage hero, 7 works cards, people, inquiry and existing routes. Propose image-driven layout system before any root rewrite. VI v05 draft replaces the legacy global green palette with monochrome studio-derived shell and distinctive project imagery. Prototype must be reviewed before production work. 2024 SpacePort/7 sub-brand visual identity references are now preserved separately from AI concepts in Library; check source hashes and naming before designing.",
       "inputs": [
         "index.html",
         "brand-spec.md",
@@ -161,7 +161,9 @@
         "design/space-v05-preview.html",
         "docs/design/VIRTURA-SPACE-DECISIONS-AND-RISKS-2026-11-08.md",
         "docs/design/VIRTURA-SPACE-ART-DIRECTION-v07.md",
-        "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md"
+        "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md",
+        "docs/brand/VIRTURA-SPACE-VISUAL-DNA-2026-11-08.md",
+        "docs/brand/spaceport-brand-registry.v01.json"
       ],
       "outputs": [
         "docs/pm/evidence/R04-visual-QA.md"
@@ -185,7 +187,7 @@
         "R02"
       ],
       "effort": "M",
-      "brief": "Audit cover assets and edition correctness for TIMER/Drop Flow/SpacePort/SceneForge. Never invent sources or crop originals destructively.",
+      "brief": "Audit cover assets and edition correctness for TIMER/Drop Flow/SpacePort/SceneForge. Never invent sources or crop originals destructively. 2024 SpacePort/7 sub-brand visual identity references are now preserved separately from AI concepts in Library; check source hashes and naming before designing.",
       "inputs": [
         "VIRTURA_WEBSITE_ASSETS",
         "assets",
@@ -193,7 +195,9 @@
         "https://github.com/ewanqian/VIRTURA-Collective",
         "docs/design/VIRTURA-SPACE-DECISIONS-AND-RISKS-2026-11-08.md",
         "docs/design/VIRTURA-SPACE-ART-DIRECTION-v07.md",
-        "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md"
+        "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md",
+        "docs/brand/VIRTURA-SPACE-VISUAL-DNA-2026-11-08.md",
+        "docs/brand/spaceport-brand-registry.v01.json"
       ],
       "outputs": [
         "docs/pm/evidence/R05-media-ledger.json"
@@ -276,12 +280,14 @@
         "R05"
       ],
       "effort": "L",
-      "brief": "Turn existing worlds and archives into a real navigable port/world itinerary; no invented playable IP; fictional banking distinct from financial services. Treat each verified world as a recurring media channel with distinct maps, art direction, releases and creator credits; avoid creating empty accounts.",
+      "brief": "Turn existing worlds and archives into a real navigable port/world itinerary; no invented playable IP; fictional banking distinct from financial services. Treat each verified world as a recurring media channel with distinct maps, art direction, releases and creator credits; avoid creating empty accounts. 2024 SpacePort/7 sub-brand visual identity references are now preserved separately from AI concepts in Library; check source hashes and naming before designing.",
       "inputs": [
         "https://github.com/ewanqian/VIRTURA-SpacePort",
         "https://github.com/ewanqian/VIRTURA2114",
         "https://github.com/ewanqian/Senia-Digital-Resort",
-        "docs/design/SPACE-CHANNEL-IP-OPERATING-MODEL.md"
+        "docs/design/SPACE-CHANNEL-IP-OPERATING-MODEL.md",
+        "docs/brand/VIRTURA-SPACE-VISUAL-DNA-2026-11-08.md",
+        "docs/brand/spaceport-brand-registry.v01.json"
       ],
       "outputs": [
         "docs/pm/evidence/R08-spaces-map.md"
