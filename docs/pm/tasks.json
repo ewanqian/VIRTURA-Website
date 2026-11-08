@@ -163,7 +163,8 @@
         "docs/design/VIRTURA-SPACE-ART-DIRECTION-v07.md",
         "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md",
         "docs/brand/VIRTURA-SPACE-VISUAL-DNA-2026-11-08.md",
-        "docs/brand/spaceport-brand-registry.v01.json"
+        "docs/brand/spaceport-brand-registry.v01.json",
+        "docs/brand/SPRINT-01-IDENTITY-RECOVERY.md"
       ],
       "outputs": [
         "docs/pm/evidence/R04-visual-QA.md"
@@ -197,7 +198,8 @@
         "docs/design/VIRTURA-SPACE-ART-DIRECTION-v07.md",
         "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md",
         "docs/brand/VIRTURA-SPACE-VISUAL-DNA-2026-11-08.md",
-        "docs/brand/spaceport-brand-registry.v01.json"
+        "docs/brand/spaceport-brand-registry.v01.json",
+        "docs/brand/SPRINT-01-IDENTITY-RECOVERY.md"
       ],
       "outputs": [
         "docs/pm/evidence/R05-media-ledger.json"
@@ -255,7 +257,8 @@
         "apps/store-registry.json",
         "data/space-asset-inventory-2026.json",
         "https://github.com/ewanqian/SceneForge",
-        "https://github.com/ewanqian/atmospheric-escape-liveset"
+        "https://github.com/ewanqian/atmospheric-escape-liveset",
+        "docs/brand/SPRINT-01-IDENTITY-RECOVERY.md"
       ],
       "outputs": [
         "docs/pm/evidence/R07-runtime-matrix.csv"
