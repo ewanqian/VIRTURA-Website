@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="360" viewBox="0 0 1600 360" role="img" aria-labelledby="title desc">
+<title id="title">BALLOON LIVE SPACE — 2024 reference-based horizontal lockup candidate</title>
+<desc id="desc">Experimental editable reconstruction, not a certified original logo or finalized typeface. Original visual reference: bls(20261107-195850).png</desc>
+<rect width="1600" height="360" fill="#050506"/>
+<g fill="#F6F6F2" font-family="Arial,'Noto Sans CJK SC','Microsoft Yahei',sans-serif" font-size="53" font-weight="400" letter-spacing="3">
+<text x="72" y="148">太空</text><text x="72" y="209">气球</text></g>
+<defs><clipPath id="disc"><circle cx="320" cy="162" r="73"/></clipPath></defs>
+<g clip-path="url(#disc)" shape-rendering="crispEdges"><rect x="247" y="89" width="81" height="146" fill="#1711F8"/><rect x="328" y="89" width="31" height="146" fill="#F66AF5"/><rect x="359" y="89" width="19" height="146" fill="#F9F932"/><rect x="378" y="89" width="15" height="146" fill="#F6F6F2"/></g>
+<g fill="#F6F6F2" font-family="Arial,Helvetica,sans-serif" font-size="50" font-weight="400" letter-spacing=".3">
+<text x="424" y="127">BALLOON</text><text x="424" y="182">LIVE</text><text x="424" y="237">SPACE</text>
+</g>
+<g shape-rendering="crispEdges"><rect x="778" y="101" width="360" height="106" fill="#1711F8"/><rect x="1138" y="101" width="172" height="106" fill="#F66AF5"/><rect x="1310" y="101" width="142" height="106" fill="#F9F932"/><rect x="1452" y="101" width="76" height="106" fill="#F6F6F2"/></g>
+<path d="M72 297H1528" stroke="#F6F6F2" stroke-opacity=".24" stroke-width="1"/>
+</svg>
