@@ -1,3 +1,5 @@
+> **下一阶段执行入口：** [Sprint 01 — 品牌原稿恢复与 Ballroom/SpacePort 产品切片](./SPRINT-01-IDENTITY-RECOVERY.md)。四套首批品牌：Balloon、Virtual Airlines、MOVA、林中茶屋；先进行源稿审计，后进行候选矢量制作，不能把概念图当正式母版。
+
 # SpacePort 品牌视觉资料：本地接入规范
 
 该目录是**官方 VIRTURA 网站的设计归档索引**，不是当前生产页面的运行时资源目录。
