@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow"><meta name="theme-color" content="#050506">
+<title>BALLOON — Brand Recovery Candidate / VIRTURA</title>
+<style>
+:root{color-scheme:dark;--blue:#1711F8;--magenta:#F66AF5;--yellow:#F9F932;--white:#F6F6F2;--dark:#050506}
+*{box-sizing:border-box}html,body{margin:0;min-height:100%;font-family:Arial,"Noto Sans CJK SC","PingFang SC",sans-serif;background:var(--dark);color:var(--white)}
+a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer;color:inherit}button:focus-visible,a:focus-visible{outline:2px solid var(--white);outline-offset:4px}
+.nav{height:75px;display:flex;justify-content:space-between;align-items:center;padding:0 clamp(20px,4vw,60px);border-bottom:1px solid #ffffff55;gap:20px}
+.brand{font-size:23px;font-weight:700;letter-spacing:-.08em}.nav-right{display:flex;gap:22px;font-size:11px;letter-spacing:.13em}.nav-right a{padding-block:12px}
+.recovery{font:10px ui-monospace,SFMono-Regular,Consolas,monospace;color:#c2c3c3;letter-spacing:.06em;margin-bottom:17px}
+.stage{position:relative;min-height:calc(100svh - 75px);display:flex;align-items:end;overflow:hidden;isolation:isolate;padding:clamp(25px,5vw,80px);background:var(--dark)}
+.stage:before{content:"";position:absolute;inset:0;z-index:-2;background:url('../assets/spaces/station-balloon.jpg') center center/cover no-repeat;filter:grayscale(1) contrast(1.45) brightness(.42)}
+.stage:after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(0deg,#050506f0 0%,transparent 45%,#050506c9 100%)}
+.stage-content{width:100%}.lockup{display:block;width:100%;max-width:1320px;height:auto;aspect-ratio:1600/360;object-fit:contain;margin:0 0 clamp(20px,3vw,45px);object-position:left}
+.bottom{display:flex;justify-content:space-between;align-items:end;gap:20px;border-top:1px solid #ffffff66;padding-top:25px}
+.bottom h1{font-size:clamp(20px,2.5vw,36px);font-weight:400;letter-spacing:-.02em;margin:0}.bottom p{font-size:13px;color:#b0afb0;margin:9px 0 0;line-height:1.55}
+.action{min-height:48px;min-width:200px;padding:13px 19px;border:1px solid white;background:#f6f6f2;color:#0a0b0d;font-size:12px;letter-spacing:.04em;display:flex;justify-content:space-between;gap:15px;align-items:center}
+.action:hover{background:white}
+.review-actions{position:absolute;z-index:4;top:24px;right:clamp(20px,4vw,60px);display:flex;gap:8px}
+.review-actions button{border:1px solid #ffffff88;background:#050506a8;padding:10px 13px;font-size:11px;min-height:41px}
+.review-actions button[aria-pressed=true]{background:#f6f6f2;color:#050506}
+body.focus-mark .lockup{max-width:850px}body.focus-mark .stage:before{opacity:.25}
+body.focus-mark .stage-content{max-width:1100px}
+body.focus-mark .bottom{padding-top:35px}
+.mark-wrap{display:none;gap:35px;align-items:center;margin-bottom:25px}
+.mark-wrap img{display:block;width:clamp(110px,21vw,260px);height:auto}
+.mark-wrap div{font-size:clamp(21px,4vw,64px);line-height:1.05;letter-spacing:-.04em}
+body.focus-mark .mark-wrap{display:flex}body.focus-mark .lockup{display:none}
+@media(max-width:650px){.nav{height:64px}.nav-right a:first-child{display:none}.stage{min-height:calc(100svh - 64px);padding:22px}.bottom{align-items:stretch;flex-direction:column}.stage:before{background-position:55% center}.review-actions{top:20px;right:20px}.lockup{width:130%;max-width:none;transform-origin:left bottom}.bottom h1{font-size:24px}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head>
+<body>
+<header class="nav"><a class="brand" href="../">VIRTURA</a><nav class="nav-right"><a href="../apps/">SPACE</a><a href="https://github.com/ewanqian/VIRTURA-Website" target="_blank" rel="noopener noreferrer">SOURCE / REVIEW ↗</a></nav></header>
+<main class="stage">
+<div class="review-actions" role="group" aria-label="候选展示切换"><button type="button" aria-pressed="true" id="lockupBtn">2024 LOCKUP</button><button type="button" aria-pressed="false" id="markBtn">COLOUR DISC</button></div>
+<div class="stage-content">
+<div class="recovery">2024 SOURCE-BASED VISUAL RECONSTRUCTION / CANDIDATE, NOT APPROVED</div>
+<img class="lockup" src="../assets/brand-candidates/balloon/balloon-horizontal-lockup.candidate.svg" alt="根据 2024 参考图重绘的太空气球中英字标、四色球与长条色带候选版">
+<div class="mark-wrap"><img src="../assets/brand-candidates/balloon/balloon-colour-disc.candidate.svg" alt="蓝、洋红、黄、白四色圆盘候选图标"><div>太空气球<br>BALLOON LIVE SPACE</div></div>
+<div class="bottom"><div><h1>视听展演与节目空间</h1><p>LIVE MUSIC / VISUAL PERFORMANCE<br>Identity reconstruction · original vector master not yet found</p></div>
+<a class="action" href="../space/station.html?id=balloon" title="打开已有原型站点，而非正式演出软件">既有站点与节目档案 <span aria-hidden="true">↗</span></a></div>
+</div>
+</main>
+<script>
+const a=document.getElementById('lockupBtn'),b=document.getElementById('markBtn');
+function show(mark){document.body.classList.toggle('focus-mark',mark);a.setAttribute('aria-pressed',String(!mark));b.setAttribute('aria-pressed',String(mark))}
+a.addEventListener('click',()=>show(false));b.addEventListener('click',()=>show(true));
+</script>
+</body></html>
