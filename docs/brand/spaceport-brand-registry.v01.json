@@ -134,14 +134,14 @@
       },
       "type": "数字美术馆/展演",
       "recognition": [
-        "thin spacious MOVA lettering",
-        "grey steel/scaffold architectural structure",
-        "black-white exhibition field"
+        "thin spacious MOVA wordmark",
+        "small stacked MUSEUM / OF / VIRTURA / ART letters",
+        "steel scaffold exhibition architecture in source scene"
       ],
       "paletteObservation": [
-        "black",
         "white",
-        "grey"
+        "black",
+        "steel-grey"
       ],
       "exactColorApproval": false,
       "vectorMasterAvailable": false,
@@ -167,7 +167,18 @@
         "1:1-launcher-icon",
         "map-glyph",
         "space-usage-example"
-      ]
+      ],
+      "sourceAttributionAudit": {
+        "date": "2026-11-09",
+        "sourceFilename": "va ep02 the nav system(20261107-195845).png",
+        "sourceSha256": "9477c497043a9eeb7ccf981bd2d4e086c93f765ec4dfbd22aa9cce893be000a1",
+        "sourceImageSize": [
+          2048,
+          1024
+        ],
+        "status": "review-required",
+        "finding": "MOVA lettering is a wordmark study only; no separate confirmed icon from this source."
+      }
     },
     {
       "id": "virtual-airlines",
@@ -177,16 +188,15 @@
       },
       "type": "空间交通与导览",
       "recognition": [
-        "interlocking/overlapping abstract VA triangles",
-        "orbital line",
-        "series of narrow colored visual identity panels"
+        "opposed dark triangles separated by narrow light split",
+        "thin elliptical orbit crossing lower mark",
+        "spaced VIRTUAL AIRLINES and Chinese 虚拟航线",
+        "upper colored motif panels are not verified as owned airline symbols"
       ],
       "paletteObservation": [
-        "graphite",
-        "silver",
-        "warm-orange",
-        "cool-blue",
-        "off-white"
+        "black",
+        "off-white",
+        "silver-grey"
       ],
       "exactColorApproval": false,
       "vectorMasterAvailable": false,
@@ -212,7 +222,18 @@
         "1:1-launcher-icon",
         "map-glyph",
         "space-usage-example"
-      ]
+      ],
+      "sourceAttributionAudit": {
+        "date": "2026-11-09",
+        "sourceFilename": "va ep02 the nav system(20261107-195845).png",
+        "sourceSha256": "9477c497043a9eeb7ccf981bd2d4e086c93f765ec4dfbd22aa9cce893be000a1",
+        "sourceImageSize": [
+          2048,
+          1024
+        ],
+        "status": "review-required",
+        "finding": "Mark visible in LOWER panel. Do not assign the four colored symbol panels above to VA without source proof."
+      }
     },
     {
       "id": "digital-geographic",
@@ -266,15 +287,15 @@
       },
       "type": "公共茶屋/环境空间",
       "recognition": [
-        "square nested roof/pavilion glyph",
-        "dark warm wood and luminous architectural lines",
-        "quiet forest approach"
+        "Chinese 林中茶屋 and English TEA HOUSE IN THE WOODS in white",
+        "misty forest and warm-lit architectural frontage",
+        "no unequivocally assigned standalone icon in 2024 collage"
       ],
       "paletteObservation": [
-        "warm-wood",
-        "soft-amber",
+        "mist-grey",
         "deep-black",
-        "warm-white"
+        "warm architectural brown",
+        "white"
       ],
       "exactColorApproval": false,
       "vectorMasterAvailable": false,
@@ -304,7 +325,18 @@
         "1:1-launcher-icon",
         "map-glyph",
         "space-usage-example"
-      ]
+      ],
+      "sourceAttributionAudit": {
+        "date": "2026-11-09",
+        "sourceFilename": "va ep02 the nav system(20261107-195845).png",
+        "sourceSha256": "9477c497043a9eeb7ccf981bd2d4e086c93f765ec4dfbd22aa9cce893be000a1",
+        "sourceImageSize": [
+          2048,
+          1024
+        ],
+        "status": "review-required",
+        "finding": "Do NOT assign the square roof glyph from lower panel to Tea House. Source places it by separate nature-retreat naming. Diamond-type seal higher in collage also lacks confirmed Tea House ownership."
+      }
     },
     {
       "id": "nature-retreat",
@@ -314,15 +346,15 @@
       },
       "type": "自然疗养与慢速空间（视觉概念，非医学效能）",
       "recognition": [
-        "diamond-outline typography seal",
-        "misty forest",
-        "low-rise pavilion architecture"
+        "framed layered-roof glyph appears near lower nature-retreat text",
+        "dark forest and low-rise pavilion",
+        "Chinese and English entity naming and glyph ownership require explicit confirmation"
       ],
       "paletteObservation": [
-        "forest-deep",
+        "forest-charcoal",
         "mist-grey",
-        "warm-stone",
-        "off-white"
+        "off-white",
+        "warm-brown"
       ],
       "exactColorApproval": false,
       "vectorMasterAvailable": false,
@@ -348,7 +380,18 @@
         "1:1-launcher-icon",
         "map-glyph",
         "space-usage-example"
-      ]
+      ],
+      "sourceAttributionAudit": {
+        "date": "2026-11-09",
+        "sourceFilename": "va ep02 the nav system(20261107-195845).png",
+        "sourceSha256": "9477c497043a9eeb7ccf981bd2d4e086c93f765ec4dfbd22aa9cce893be000a1",
+        "sourceImageSize": [
+          2048,
+          1024
+        ],
+        "status": "review-required",
+        "finding": "Roof icon is near nature-retreat text in shared right panel; association provisional, not a verified brand master. Diamond-type wordmark above is not automatically a retreat logo."
+      }
     }
   ],
   "associatedNotYetBrandMasters": [
@@ -368,5 +411,6 @@
       "virtura太空港_未来虚拟空间门户.png"
     ],
     "status": "selected-direction-exploration-not-final-brand-approval"
-  }
+  },
+  "lastAttributionReview": "2026-11-09"
 }
