@@ -1,0 +1,18 @@
+name: SpacePort R02 identity candidates
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  source-attribution:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify attribution, candidate SVGs, rights gates and preview assets
+        run: python scripts/brand/qa_identity_recovery_r02.py
