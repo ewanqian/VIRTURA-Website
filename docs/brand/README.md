@@ -1,3 +1,5 @@
+> **R02 / 2026-11-09 原稿归属修正：** [VA / MOVA / 林中茶屋辨认与候选](./RECOVERY-R02-SOURCE-ATTRIBUTION-2026-11-09.md) · [独立网页审阅](../../design/spaceport-identity-study-r02.html)。已撤销“茶屋拥有下方屋檐符号”的推断，也不把 VA 上方彩色符号视为其已证实的品牌系统。**均为候选，不是正式 Logo**。
+
 > **下一阶段执行入口：** [Sprint 01 — 品牌原稿恢复与 Ballroom/SpacePort 产品切片](./SPRINT-01-IDENTITY-RECOVERY.md)。四套首批品牌：Balloon、Virtual Airlines、MOVA、林中茶屋；先进行源稿审计，后进行候选矢量制作，不能把概念图当正式母版。
 
 # SpacePort 品牌视觉资料：本地接入规范
