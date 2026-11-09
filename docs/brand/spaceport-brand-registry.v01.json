@@ -178,7 +178,19 @@
         ],
         "status": "review-required",
         "finding": "MOVA lettering is a wordmark study only; no separate confirmed icon from this source."
-      }
+      },
+      "rejectedVisualStudies": [
+        {
+          "rejectedDate": "2026-11-09",
+          "source": "user-art-direction-review",
+          "pr": 14,
+          "merged": false,
+          "status": "rejected-source-fidelity-mismatch",
+          "reason": "Text/icon/font and mark details not faithful or not attributable to source; reconstruct only after original master and overlay QA",
+          "mustNotPublish": true,
+          "referenceDoc": "docs/brand/REJECTION-VA-R02-AND-SOURCE-FIDELITY-GATE-2026-11-09.md"
+        }
+      ]
     },
     {
       "id": "virtual-airlines",
@@ -233,7 +245,19 @@
         ],
         "status": "review-required",
         "finding": "Mark visible in LOWER panel. Do not assign the four colored symbol panels above to VA without source proof."
-      }
+      },
+      "rejectedVisualStudies": [
+        {
+          "rejectedDate": "2026-11-09",
+          "source": "user-art-direction-review",
+          "pr": 14,
+          "merged": false,
+          "status": "rejected-source-fidelity-mismatch",
+          "reason": "Wrong overall mark aspect, triangle contours, diagonal negative-space width, orbit shape/occlusion, gradient and spacing",
+          "mustNotPublish": true,
+          "referenceDoc": "docs/brand/REJECTION-VA-R02-AND-SOURCE-FIDELITY-GATE-2026-11-09.md"
+        }
+      ]
     },
     {
       "id": "digital-geographic",
@@ -336,7 +360,19 @@
         ],
         "status": "review-required",
         "finding": "Do NOT assign the square roof glyph from lower panel to Tea House. Source places it by separate nature-retreat naming. Diamond-type seal higher in collage also lacks confirmed Tea House ownership."
-      }
+      },
+      "rejectedVisualStudies": [
+        {
+          "rejectedDate": "2026-11-09",
+          "source": "user-art-direction-review",
+          "pr": 14,
+          "merged": false,
+          "status": "rejected-source-fidelity-mismatch",
+          "reason": "Text/icon/font and mark details not faithful or not attributable to source; reconstruct only after original master and overlay QA",
+          "mustNotPublish": true,
+          "referenceDoc": "docs/brand/REJECTION-VA-R02-AND-SOURCE-FIDELITY-GATE-2026-11-09.md"
+        }
+      ]
     },
     {
       "id": "nature-retreat",
@@ -391,7 +427,19 @@
         ],
         "status": "review-required",
         "finding": "Roof icon is near nature-retreat text in shared right panel; association provisional, not a verified brand master. Diamond-type wordmark above is not automatically a retreat logo."
-      }
+      },
+      "rejectedVisualStudies": [
+        {
+          "rejectedDate": "2026-11-09",
+          "source": "user-art-direction-review",
+          "pr": 14,
+          "merged": false,
+          "status": "rejected-source-fidelity-mismatch",
+          "reason": "Text/icon/font and mark details not faithful or not attributable to source; reconstruct only after original master and overlay QA",
+          "mustNotPublish": true,
+          "referenceDoc": "docs/brand/REJECTION-VA-R02-AND-SOURCE-FIDELITY-GATE-2026-11-09.md"
+        }
+      ]
     }
   ],
   "associatedNotYetBrandMasters": [
@@ -412,5 +460,6 @@
     ],
     "status": "selected-direction-exploration-not-final-brand-approval"
   },
-  "lastAttributionReview": "2026-11-09"
+  "lastAttributionReview": "2026-11-09",
+  "lastArtDirectionRejection": "2026-11-09"
 }
