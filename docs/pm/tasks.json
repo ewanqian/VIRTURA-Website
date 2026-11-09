@@ -143,7 +143,7 @@
       "title": "Unified visual direction and safe homepage redesign",
       "priority": "P0",
       "route": "ONLINE_GPT_ART_DIRECTOR_THEN_LOCAL_OPENCODE",
-      "status": "QUEUED",
+      "status": "BLOCKED",
       "dependencies": [
         "R01",
         "R03"
@@ -164,7 +164,8 @@
         "docs/design/VIRTURA-SPACE-PROMPT-PACK-v07.md",
         "docs/brand/VIRTURA-SPACE-VISUAL-DNA-2026-11-08.md",
         "docs/brand/spaceport-brand-registry.v01.json",
-        "docs/brand/SPRINT-01-IDENTITY-RECOVERY.md"
+        "docs/brand/SPRINT-01-IDENTITY-RECOVERY.md",
+        "docs/brand/REJECTION-VA-R02-AND-SOURCE-FIDELITY-GATE-2026-11-09.md"
       ],
       "outputs": [
         "docs/pm/evidence/R04-visual-QA.md"
@@ -176,7 +177,7 @@
       "evidenceLinks": [],
       "prUrl": null,
       "completedAt": null,
-      "blocker": null
+      "blocker": "2026-11-09 art-direction rejection: PR #14 VA/MOVA/Tea House reconstruction incorrect and closed without merge. Obtain source master or reproducible overlay trace + approved typography and human review; no production VI or home rewrite."
     },
     {
       "id": "R05",
