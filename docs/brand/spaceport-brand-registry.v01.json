@@ -184,7 +184,8 @@
           "date": "2026-11-09",
           "status": "candidate-not-approved",
           "files": [
-            "assets/brand-candidates/mova/mova-wordmark.candidate.svg"
+            "assets/brand-candidates/mova/mova-wordmark.candidate.svg",
+            "assets/brand-candidates/mova/mova-stroke-lettering.candidate.svg"
           ],
           "sourceOriginal": "2024 collage image; vector master not found",
           "approved": false
