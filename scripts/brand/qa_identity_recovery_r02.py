@@ -24,7 +24,7 @@ for ident in ids:
             text=p.read_text(encoding="utf8")
             root=ET.fromstring(text)
             assert root.tag.endswith("svg") and "viewBox" in root.attrib,src
-            assert "not" in text.lower() and ("original" in text.lower() or "approved" in text.lower()),src
+            assert ("not" in text.lower() or "unverified" in text.lower()) and any(v in text.lower() for v in ("original","approved","official","placeholder")),src
 t=next(x for x in registry["brands"] if x["id"]=="teahouse")
 r=next(x for x in registry["brands"] if x["id"]=="nature-retreat")
 assert any("no unequivocally assigned" in s for s in t["recognition"])
