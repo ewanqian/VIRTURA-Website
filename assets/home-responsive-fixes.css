@@ -1,0 +1,13 @@
+/* Small-screen Chinese headings must use normal CJK break opportunities.
+   Scoped to homepage sections; no global typography, card, image or brand changes. */
+@media(max-width:620px){
+  html[data-lang="zh"] #workflow .workflow-copy h2,
+  html[data-lang="zh"] #universes .section-title,
+  html[data-lang="zh"] #delivery .section-title,
+  html[data-lang="zh"] #people .team-title,
+  html[data-lang="zh"] #project-inquiry .inquiry-copy h2{
+    word-break:normal;
+    overflow-wrap:anywhere;
+    min-width:0;
+  }
+}
