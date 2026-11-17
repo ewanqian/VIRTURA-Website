@@ -1,0 +1,39 @@
+name: SpacePort map browser flow + screenshots
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  browser:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install Playwright Chromium for real layout testing
+        run: |
+          npm install --no-save playwright@1.56.1
+          npx playwright install --with-deps chromium
+      - name: Serve branch locally
+        run: |
+          python3 -m http.server 8844 >/tmp/vspace-http.log 2>&1 &
+          for i in $(seq 1 20); do
+            if curl -fsS http://127.0.0.1:8844/space/worlds.json >/dev/null; then exit 0; fi
+            sleep 1
+          done
+          cat /tmp/vspace-http.log
+          exit 1
+      - name: Run actual keyboard, locale, route and screenshot QA
+        run: node scripts/qa-space-visual.mjs
+      - name: Keep screenshots out of source commits
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: space-map-visual-evidence
+          path: artifacts/space-map/
+          if-no-files-found: warn
+          retention-days: 14
