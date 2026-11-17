@@ -8,23 +8,22 @@ import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const output = path.join(root, 'maintenance');
-const allowed = ['404.html', '_headers', '_redirects', 'index.html'].sort();
+const allowed = ['_headers', '_redirects', 'index.html'].sort();
 const marker = 'data-maintenance="2026-11-18"';
 const message = '本轮更新预计持续约一个月，重新开放时间将另行公布。';
 const report = (label) => console.log('PASS:', label);
 
 const entries = fs.readdirSync(output).sort();
-assert.deepEqual(entries, allowed, 'Maintenance output must contain only its four allowed files');
+assert.deepEqual(entries, allowed, 'Maintenance output must contain only its three allowed files');
 for (const entry of entries) {
   assert(fs.lstatSync(path.join(output, entry)).isFile(), `Output must not include directories or symlinks: ${entry}`);
 }
-report('Isolated output contains only index, 404, redirects and headers');
+report('Isolated output contains only index, redirects and headers; no top-level 404');
 
 const page = fs.readFileSync(path.join(output, 'index.html'), 'utf8');
-assert.equal(fs.readFileSync(path.join(output, '404.html'), 'utf8'), page, '404 must match the maintenance page');
 assert(page.includes(marker) && page.includes(message), 'Maintenance copy and release marker must be present');
 assert(page.includes('Under maintenance.') && page.includes('data-language="en"'), 'English copy and language control must be present');
-report('Index and 404 are identical, with the correct bilingual maintenance copy');
+report('Index contains the correct bilingual maintenance copy');
 
 assert(!/<(?:a|form|iframe|audio|video|source)\b/i.test(page), 'Maintenance page must not expose navigation, forms or embedded services');
 for (const match of page.matchAll(/\b(?:src|href|action)\s*=\s*["']([^"']*)["']/gi)) {
@@ -41,10 +40,10 @@ report('Original VIRTURA logo is embedded unchanged');
 const config = fs.readFileSync(path.join(root, 'wrangler.toml'), 'utf8');
 assert(/^name\s*=\s*"virtura-website"\s*$/m.test(config), 'Wrangler must target the existing Pages project name');
 assert(/^pages_build_output_dir\s*=\s*"\.\/maintenance"\s*$/m.test(config), 'Wrangler output must be ./maintenance');
-assert.equal(fs.readFileSync(path.join(output, '_redirects'), 'utf8').trim(), '/* /index.html 200', 'All legacy paths must rewrite to maintenance');
+assert.equal(fs.readFileSync(path.join(output, '_redirects'), 'utf8').trim(), '/* / 200', 'All legacy paths must rewrite to the current root asset, not /index.html');
 assert(/^\/\*\s*\n\s+Cache-Control:\s*no-store\s*$/i.test(fs.readFileSync(path.join(output, '_headers'), 'utf8').trim()), 'All maintenance responses must use no-store');
 assert(!fs.existsSync(path.join(root, '_worker.js')) && !fs.existsSync(path.join(output, '_worker.js')), 'Maintenance must not depend on a Worker or its request quota');
-report('Wrangler isolates deployment; all paths rewrite to maintenance with no-store');
+report('Wrangler declares isolated output; all paths explicitly rewrite to root with no-store');
 
 const origin = process.env.MAINTENANCE_ORIGIN;
 if (!origin) {

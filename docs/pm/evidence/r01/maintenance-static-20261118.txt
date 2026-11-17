@@ -1,7 +1,11 @@
-Whole-site maintenance source verification
+Whole-site maintenance routing correction — three-file output
 Date: 2026-11-18 (Asia/Shanghai)
 Baseline: 98ba8737767f257a9f1d59d0fd476fcd1a96634e
 Restored root index SHA256: 4d5824d2bcb7b902993a0fa9b656146f3d58db9b0d6764c041de2eda88b1d637
+
+Current output: index.html, _redirects, _headers.
+No maintenance/404.html. Redirect rule: /* / 200.
+The prior four-file preview failed /apps/ verification; this local rerun does not establish a new preview or production pass.
 
 $ node scripts/qa-site-static.mjs
 PASS: required file: CNAME
@@ -51,17 +55,12 @@ Static source gate: 0 errors; 0 media warnings.
 Browser visual QA, external app runtime, Cloudflare deployment and device XR checks are separate required release gates.
 Exit: 0
 
-$ python scripts/brand/qa_rejected_brand_candidates.py
-PASS: No rejected/unapproved candidate logos referenced by production routes; R02 rejection recorded.
-Design approval still requires original-source overlay and human signoff.
-Exit: 0
-
 $ node scripts/qa-maintenance.mjs
-PASS: Isolated output contains only index, 404, redirects and headers
-PASS: Index and 404 are identical, with the correct bilingual maintenance copy
+PASS: Isolated output contains only index, redirects and headers; no top-level 404
+PASS: Index contains the correct bilingual maintenance copy
 PASS: Maintenance page has no navigation, forms, external resources or network calls
 PASS: Original VIRTURA logo is embedded unchanged
-PASS: Wrangler isolates deployment; all paths rewrite to maintenance with no-store
+PASS: Wrangler declares isolated output; all paths explicitly rewrite to root with no-store
 NOT RUN: live Cloudflare routing. Set MAINTENANCE_ORIGIN to a preview or production origin.
 Maintenance artifact checks completed. Browser layout and production reopening remain separate gates.
 Exit: 0
@@ -70,4 +69,11 @@ $ git diff --check
 (no output)
 Exit: 0
 
-Live MAINTENANCE_ORIGIN checks, browser screenshots, production response and organization source handover were NOT verified by these local checks.
+Previous unchanged brand gate result (not rerun for this routing-only change):
+$ python scripts/brand/qa_rejected_brand_candidates.py
+PASS: No rejected/unapproved candidate logos referenced by production routes; R02 rejection recorded.
+Design approval still requires original-source overlay and human signoff.
+Exit: 0
+
+The thirteen live path checks still require HTTP 200, maintenance copy, text/html and no-store. HEAD still requires HTTP 200, an empty body and no-store. No online acceptance condition was relaxed.
+New preview/production routing, browser screenshots and organization source handover remain pending.

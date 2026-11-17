@@ -38,16 +38,17 @@ The account foundation remains on `feat/virtura-id-foundation-20261118`; source 
 
 ## Deployment artifact
 
-`wrangler.toml` targets the existing project name `virtura-website`, declares `pages_build_output_dir = "./maintenance"` and sets compatibility date `2026-11-01`. The production output contains exactly four files:
+`wrangler.toml` targets the existing project name `virtura-website`, declares `pages_build_output_dir = "./maintenance"` and sets compatibility date `2026-11-01`. The production output contains exactly three files:
 
 | File | Purpose |
 |---|---|
 | `maintenance/index.html` | Self-contained Chinese/English maintenance page with the original white logo embedded unchanged |
-| `maintenance/404.html` | Identical maintenance page for static fallback |
-| `maintenance/_redirects` | `/* /index.html 200`, rewriting legacy paths to maintenance |
+| `maintenance/_redirects` | `/* / 200`, explicitly proxying every legacy path to the current root maintenance asset |
 | `maintenance/_headers` | `Cache-Control: no-store` on all output routes |
 
 The root source, Apps, images and documentation are outside this output. No Worker, Functions quota, external dependency, navigation, Luma link, form, login or paid feature is added. No DNS or access policy is changed. No robots or noindex restriction is introduced.
+
+The earlier four-file preview failed legacy-path verification: `/apps/` returned 404, and Cloudflare's redirect parser rejected `/* /index.html 200` as an infinite-loop rule. The correction removes `maintenance/404.html` and changes the proxy destination to `/`. An explicit root proxy is retained so a missing legacy path resolves to the current root asset instead of relying on a not-found path that may consult preserved assets from older deployments. This is a routing fix awaiting a new preview; it is not a claim that preview or production has passed.
 
 Wrangler source configuration is not itself proof of the deployed output. The actual PR preview must establish that Cloudflare used `./maintenance`, and the live route checks below must confirm that former paths no longer return old content.
 
@@ -55,7 +56,7 @@ Wrangler source configuration is not itself proof of the deployed output. The ac
 
 - `node scripts/qa-site-static.mjs`: unchanged original source gate, **0 errors / 0 media warnings**. It validates the preserved source, not public maintenance routing.
 - `python scripts/brand/qa_rejected_brand_candidates.py`: unchanged brand gate, passed.
-- `node scripts/qa-maintenance.mjs`: isolated output allowlist, matching index/404, approved copy and marker, original embedded logo, no navigation/external requests, correct Wrangler directory and rewrite/header configuration, passed.
+- `node scripts/qa-maintenance.mjs`: three-file output allowlist with no top-level 404, approved copy and marker, original embedded logo, no navigation/external requests, correct Wrangler directory and root-proxy/header configuration, passed locally. The online thirteen-path and HEAD requirements are unchanged.
 - `git diff --check`: passed.
 - [Actual command output](../pm/evidence/r01/maintenance-static-20261118.txt).
 
@@ -86,4 +87,4 @@ The preservation baseline is `98ba8737767f257a9f1d59d0fd476fcd1a96634e` and the 
 3. Remove the maintenance rewrite/header output from the selected deployment.
 4. Verify real projects, Apps, images, languages and inquiry behavior on the public domain.
 
-For an incorrect maintenance release, restore the previously verified deployment or revert only the maintenance configuration commit through the existing review process. Retain the archive branch; do not delete or regenerate the historical source.
+Deleting `wrangler.toml` or applying a normal Git revert does not automatically restore the Pages build configuration. For an incorrect maintenance release, either restore a previously verified deployment, or retain an explicit Wrangler configuration and set `pages_build_output_dir` back to the approved website directory (for example, `.` when the repository root is the intended output). Verify the resulting preview and its routes before publishing, then verify the public domain. Retain the archive branch; do not delete or regenerate the historical source.
