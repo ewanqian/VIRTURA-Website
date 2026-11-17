@@ -1,75 +1,89 @@
-# Website maintenance announcement · 2026-11-18
+# Whole-site maintenance · 2026-11-18
 
-Task: R01 (deployment truth and rollback). Status: IN_REVIEW — local source prepared; preview and production confirmation remain separate gates.
+Task: R01 (deployment truth and rollback). Status: **IN_REVIEW** — isolated maintenance files are prepared; preview, production and the final organization handover remain separate gates.
 
-## Verified source
+## Current instruction supersedes the earlier announcement
 
-- Active source repository: https://github.com/ewanqian/VIRTURA-Website
+The owner changed the request before the previous small-banner PR was merged:
+
+- The public website should show only a maintenance page for approximately one month.
+- Old projects, Apps, people, contact forms and activity links should not remain public routes on this deployment.
+- The previous website source must be preserved for ongoing development and later reopening.
+- Do not promise a specific reopening date. The approved public sentence is: **本轮更新预计持续约一个月，重新开放时间将另行公布。**
+
+The earlier banner and `upgrade.html` are not the release target. `index.html` at the repository root has been restored exactly to baseline `98ba8737767f257a9f1d59d0fd476fcd1a96634e`; the unmerged upgrade page is removed. No old content is copied into a public archive route.
+
+## Verified website source and archive
+
+- Active newer source: https://github.com/ewanqian/VIRTURA-Website
 - Baseline main commit: `98ba8737767f257a9f1d59d0fd476fcd1a96634e`.
-- The baseline `index.html` and the HTTPS response from `https://virtura.space/` were byte-for-byte identical: **63,179 bytes**, SHA-256 `4d5824d2bcb7b902993a0fa9b656146f3d58db9b0d6764c041de2eda88b1d637`.
-- The domain response was HTTP 200 when requested with a browser User-Agent.
-- The transferred repository `VIRTURA-SPACEPORT/VIRTURA-Website` is a different, older copy at `069e61a3e047dd0335783e4ac9f980096d373237`. Its 59,111-byte homepage lacks the live Apps navigation, two later people entries and related-link changes. It must not be used to overwrite this production source.
-- Existing deployment documentation names Cloudflare Pages project `virtura-website` and production branch `main`. The baseline commit's GitHub check reports **Cloudflare Pages: success** for that project. This is evidence for the existing baseline, not for the new announcement; the deployment gates below must still be checked.
-- Remote branch `chore/upgrade-notice-20261118` was successfully created in this personal repository through the current connection, confirming actual branch-write access here.
-
-This release adds a small announcement to the verified source; it does not migrate ownership or change DNS.
+- Baseline homepage and the pre-maintenance public response were byte-for-byte identical: **63,179 bytes**, SHA-256 `4d5824d2bcb7b902993a0fa9b656146f3d58db9b0d6764c041de2eda88b1d637`.
+- The restored root `index.html` has that same hash. Apps, people, project pages, images and existing source checks remain in the repository.
+- Preservation branch: [`archive/pre-maintenance-20261118`](https://github.com/ewanqian/VIRTURA-Website/tree/archive/pre-maintenance-20261118).
+- Existing deployment documentation and the baseline GitHub check identify Cloudflare Pages project `virtura-website`. The baseline check succeeded; it does not prove this new maintenance version is deployed.
+- The current connection successfully created the maintenance branch in this personal repository. The user confirms they are the organization Owner; the current GitHub App installation is scoped to the personal account, and organization integration write attempts still returned 403. This is an integration-authorization blocker. The final organization source transition is **not complete**.
 
 ## Repository map and retained work
 
-| Repository | Verified role | Action for this release |
+| Repository | Verified role | Maintenance / handover action |
 |---|---|---|
-| [`ewanqian/VIRTURA-Website`](https://github.com/ewanqian/VIRTURA-Website) | Repository ID `1449186106`; active, newer website source matching the public homepage | Apply the small announcement here |
-| [`VIRTURA-SPACEPORT/VIRTURA-Website`](https://github.com/VIRTURA-SPACEPORT/VIRTURA-Website) | Repository ID `1314662775`; transferred older source with the same repository name | Retain as historical source; do not use it to overwrite the active website |
-| [`VIRTURA-SPACEPORT/VIRTURA-SpacePort`](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SpacePort) | Transferred SpacePort project; account/Apps/coordination plans and the foundation branch are retained here | Use existing work and issues; do not recreate the account work in the older website copy |
-| [`VIRTURA-SPACEPORT/VIRTURA-SPACE`](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SPACE) | New, currently empty platform repository | Future destination to decide; its empty state is not evidence that SpacePort files were lost |
+| [`ewanqian/VIRTURA-Website`](https://github.com/ewanqian/VIRTURA-Website) | ID `1449186106`; newer website source matching the existing public homepage | Prepare this preserved source and the isolated maintenance output |
+| [`VIRTURA-SPACEPORT/VIRTURA-Website`](https://github.com/VIRTURA-SPACEPORT/VIRTURA-Website) | ID `1314662775`; transferred older copy at `069e61a3e047dd0335783e4ac9f980096d373237`; owner-selected canonical destination | Reconcile the newer history and deployment after integration authorization; do not replace the newer source with this older homepage |
+| [`VIRTURA-SPACEPORT/VIRTURA-SpacePort`](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SpacePort) | Transferred SpacePort project with the account/Apps plans and foundation branch | Retain the existing execution issues and code |
+| [`VIRTURA-SPACEPORT/VIRTURA-SPACE`](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SPACE) | New, currently empty platform repository | Future repository role requires an explicit choice; empty does not mean work was lost |
 
-Retained execution issues in SpacePort:
+Retained SpacePort issues: [#21 Web System 1.0](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SpacePort/issues/21), [#22 authentication and personal records](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SpacePort/issues/22), [#23 Luma and activity resources](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SpacePort/issues/23), [#24 collaboration covenant and project ledgers](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SpacePort/issues/24).
 
-- [#21 — Web System 1.0 / VIRTURA ID and Collective Network](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SpacePort/issues/21)
-- [#22 — Email authentication, collections/progress and isolation](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SpacePort/issues/22)
-- [#23 — Luma, event resources and personal records](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SpacePort/issues/23)
-- [#24 — Collaboration covenant, proposal cards and project ledgers](https://github.com/VIRTURA-SPACEPORT/VIRTURA-SpacePort/issues/24)
+The account foundation remains on `feat/virtura-id-foundation-20261118`; source existence is not a released cloud account service.
 
-Account foundation source is on `feat/virtura-id-foundation-20261118`, including `docs/site-upgrade/2026-11-18-network/` and `updates/network-upgrade/index.html`. A feature branch and its public UI prototype do not establish a released cloud account service.
+## Deployment artifact
 
-## Scope
+`wrangler.toml` targets the existing project name `virtura-website`, declares `pages_build_output_dir = "./maintenance"` and sets compatibility date `2026-11-01`. The production output contains exactly four files:
 
-- `index.html`: an in-flow bilingual notice within the existing hero, a `data-release="2026-11-18"` marker, and a link to `upgrade.html`.
-- `upgrade.html`: a short bilingual public update explaining the next directions — try an experience, take part in an event, continue with resources.
-- Existing projects, people, Apps route, inquiry form, anchors, language preference, logo and image assets remain intact.
-- No new dependency, external homepage request, account registration, payment flow or membership claim.
-- The release explicitly states that VIRTURA ID, cloud collections and cross-device progress are in preparation.
+| File | Purpose |
+|---|---|
+| `maintenance/index.html` | Self-contained Chinese/English maintenance page with the original white logo embedded unchanged |
+| `maintenance/404.html` | Identical maintenance page for static fallback |
+| `maintenance/_redirects` | `/* /index.html 200`, rewriting legacy paths to maintenance |
+| `maintenance/_headers` | `Cache-Control: no-store` on all output routes |
 
-The user requested a maintenance announcement as a real deployment check. This is a small R01 maintenance change; it does not promote the rejected R04 homepage/SpacePort redesign.
+The root source, Apps, images and documentation are outside this output. No Worker, Functions quota, external dependency, navigation, Luma link, form, login or paid feature is added. No DNS or access policy is changed. No robots or noindex restriction is introduced.
 
-## Copy sources
+Wrangler source configuration is not itself proof of the deployed output. The actual PR preview must establish that Cloudflare used `./maintenance`, and the live route checks below must confirm that former paths no longer return old content.
 
-The account and participation wording follows the existing proposal at:
+## Local checks
 
-https://github.com/VIRTURA-SPACEPORT/VIRTURA-SpacePort/blob/feat/virtura-id-foundation-20261118/updates/network-upgrade/index.html
-
-That branch's preview is not presented as a released account service. The Luma destination `https://lu.ma/VIRTURA` is taken from its existing source, not an invented event ID. No event date or paid benefit is promised.
-
-## Validation completed locally
-
-- `node scripts/qa-site-static.mjs`: exit 0, **0 errors; 0 media warnings**.
-- `python scripts/brand/qa_rejected_brand_candidates.py`: exit 0, no rejected/unapproved logo references.
+- `node scripts/qa-site-static.mjs`: unchanged original source gate, **0 errors / 0 media warnings**. It validates the preserved source, not public maintenance routing.
+- `python scripts/brand/qa_rejected_brand_candidates.py`: unchanged brand gate, passed.
+- `node scripts/qa-maintenance.mjs`: isolated output allowlist, matching index/404, approved copy and marker, original embedded logo, no navigation/external requests, correct Wrangler directory and rewrite/header configuration, passed.
 - `git diff --check`: passed.
-- HTML parsing of the two changed pages: no duplicate IDs; all local file and fragment targets resolve.
-- Patch application was checked against both the older copy and the verified live baseline. Implementation uses the live baseline.
-- Evidence: [maintenance static checks](../pm/evidence/r01/maintenance-static-20261118.txt).
+- [Actual command output](../pm/evidence/r01/maintenance-static-20261118.txt).
 
-## Release gates still to record
+No original CI workflow, protected-homepage requirement or quality rule was relaxed to make this maintenance release pass. The root homepage remains intact and outside the deployment output.
 
-1. Browser comparison at 375 / 768 / 1440 px, Chinese and English; verify notice readability, language switching, keyboard focus and homepage → update → homepage route.
-2. PR commit build/check and Cloudflare preview response; record the exact commit SHA and preview URL.
-3. Merge the reviewed change under the existing repository workflow.
-4. Read `https://virtura.space/` and `https://virtura.space/upgrade.html` after deployment; confirm the exact `2026-11-18` marker and expected copy.
-5. Keep the release pending if the preview, build or public response is missing. A merged PR is not production proof.
+## Preview and production gates
 
-Screenshots, preview deployment and production verification are not claimed by the static checks above.
+1. Confirm the exact new commit's Cloudflare build succeeds and uses `./maintenance`.
+2. Open the preview at 375 / 768 / 1440 px, test Chinese/English, keyboard focus and logo proportions.
+3. Run `MAINTENANCE_ORIGIN=https://<observed-preview-host> node scripts/qa-maintenance.mjs`. This requests the root, legacy Apps and work URLs, both existing registry JSON paths, `docs/pm/tasks.json`, a former image URL, the removed upgrade URL and a missing route; each must show maintenance with `no-store`. It also checks HEAD.
+4. Merge only the reviewed change. Confirm the same route behavior on `https://virtura.space` and `https://www.virtura.space` after deployment.
+5. Keep R01 pending while any required preview, production or organization-handover evidence is missing. Do not claim the organization has become the active deployment source from repository metadata alone.
 
-## Rollback
+Earlier immutable deployment URLs, other repositories, independent subdomains and third-party copies are outside the main-domain route check. This release does not claim to erase historical public copies.
 
-Revert only this announcement PR/commit through a new reviewed change. This removes the small homepage notice and the new upgrade page without restoring the older repository or touching Apps, people, assets or DNS. Verify the rollback response on the production domain and retain the previous deployment SHA before release.
+## Organization handover gate
 
+The owner-selected canonical destination is `VIRTURA-SPACEPORT/VIRTURA-Website`. The immediate maintenance release uses the current working live deployment source while integration authorization is resolved. The organization source must retain the newer website history and the saved pre-maintenance baseline. Verify the exact repository ID and organization GitHub App permission, reconcile the newer history, then verify the Cloudflare repository/branch/build source and repeat preview and public-domain checks. The two same-named Website repositories must not be mistaken for one another.
+
+Do not merge the older organization source over the newer source, claim a transfer completed through a failed 403, or create another independent site without an agreed handover path.
+
+## Reopening / rollback
+
+The preservation baseline is `98ba8737767f257a9f1d59d0fd476fcd1a96634e` and the saved archive branch above. Reopening is a separate release:
+
+1. Finish and review the new website against the retained source.
+2. Intentionally change the Pages output back to the approved website build directory, with preview evidence.
+3. Remove the maintenance rewrite/header output from the selected deployment.
+4. Verify real projects, Apps, images, languages and inquiry behavior on the public domain.
+
+For an incorrect maintenance release, restore the previously verified deployment or revert only the maintenance configuration commit through the existing review process. Retain the archive branch; do not delete or regenerate the historical source.

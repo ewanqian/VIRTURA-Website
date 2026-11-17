@@ -101,15 +101,6 @@ html[data-lang="zh"] .person-name{line-height:1.08;letter-spacing:-.035em}
 .person-portrait a{display:block;width:100%;height:100%}.person-portrait a:focus-visible,.person-name a:focus-visible{outline:2px solid currentColor;outline-offset:4px}
 @media(max-width:620px){.ticker-inner{display:block;width:100%;max-width:100%;overflow:hidden;animation:none}.cap{grid-template-columns:34px minmax(0,1fr);gap:14px 16px}.cap-media{grid-column:2;width:min(160px,100%)}.cap-name,.cap-desc{grid-column:2;min-width:0}.cap-name{font-size:clamp(21px,7vw,32px)}.inquiry{padding-top:clamp(82px,23vw,96px)}html[data-lang="zh"] .hero-title{font-size:clamp(50px,15.5vw,72px);line-height:.98;max-width:7.2ch}html[data-lang="zh"] .section-title,html[data-lang="zh"] .team-title,html[data-lang="zh"] .workflow-copy h2,html[data-lang="zh"] .inquiry-copy h2{font-size:clamp(30px,9vw,42px);line-height:1.15}html[data-lang="zh"] .universe h3{font-size:clamp(32px,10vw,46px)}html[data-lang="zh"] .cap-name{word-break:normal;overflow-wrap:anywhere}html[data-lang="zh"] .contact{font-size:clamp(42px,14vw,66px);line-height:1.08;max-width:7ch}}
 
-/* Site update: a small, bilingual notice within the existing hero. */
-.hero{grid-template-rows:auto 1fr auto;row-gap:24px}
-.upgrade-notice{position:relative;z-index:2;display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:16px 28px;padding:16px 20px;border:1px solid var(--line);background:var(--panel);font-size:14px;line-height:1.6;letter-spacing:0}
-.upgrade-notice-title{display:block;margin:0 0 4px;font-size:12px;font-weight:500;letter-spacing:.04em}
-.upgrade-notice p{margin:0;max-width:76ch;color:#c2c2bc}
-.upgrade-notice-link{display:inline-flex;align-items:center;gap:16px;min-height:44px;padding:6px 0;border-bottom:1px solid var(--fg);font-size:13px;white-space:nowrap}
-.upgrade-notice-link:hover{color:var(--muted)}
-.upgrade-notice-link:focus-visible{outline:2px solid var(--fg);outline-offset:5px}
-@media(max-width:620px){.upgrade-notice{grid-template-columns:minmax(0,1fr);gap:8px;padding:14px 16px}.upgrade-notice-link{justify-self:start}.hero{row-gap:28px}}
 </style>
 <script>try{document.documentElement.dataset.lang=localStorage.getItem('virtura-language')||'zh'}catch(e){document.documentElement.dataset.lang='zh'}</script>
 </head>
@@ -136,10 +127,6 @@ html[data-lang="zh"] .person-name{line-height:1.08;letter-spacing:-.035em}
 </nav>
 <header class="hero" id="top">
 <canvas aria-hidden="true" class="hero-canvas"></canvas>
-<aside class="upgrade-notice" aria-labelledby="upgrade-notice-title" data-release="2026-11-18">
-<div><strong class="upgrade-notice-title" id="upgrade-notice-title"><span class="lang-zh">网站升级中</span><span class="lang-en">Site update in progress</span></strong><p><span class="lang-zh">VIRTURA 正在整理应用、活动与创作资料。现有项目与合作入口继续开放；VIRTURA ID、收藏与进度功能将分阶段推出。</span><span class="lang-en">We are bringing together apps, events and creative resources. Our projects and collaboration enquiries remain open; VIRTURA ID, collections and progress will follow in stages.</span></p></div>
-<a class="upgrade-notice-link" href="upgrade.html"><span class="lang-zh">查看更新</span><span class="lang-en">View the update</span><span aria-hidden="true">↗</span></a>
-</aside>
 <div class="hero-copy">
 <div class="eyebrow bilingual-label"><span class="lang-zh">体验设计与空间媒体工作室</span><span class="lang-en">Experience Design + Spatial Media Studio</span></div>
 <h1 class="hero-title"><span class="lang-zh"><span>让空间</span><span class="outline">被感知、</span><span>被参与。</span></span><span class="lang-en"><span>Spaces that</span><span class="outline">sense, speak</span><span>and evolve.</span></span></h1>
