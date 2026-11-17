@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "updatedAt": "2026-11-08",
+  "updatedAt": "2026-11-18",
   "sourceRepo": "ewanqian/VIRTURA-Website",
   "issueTracker": {
     "enabled": false,
@@ -68,7 +68,9 @@
         "docs/pm/evidence/r01/image-decode.json",
         "docs/pm/evidence/r01/layout-diagnostics.json",
         "docs/pm/evidence/r01/cloudflare-api-evidence.json",
-        "docs/pm/evidence/r01/production-rollback-target-http.json"
+        "docs/pm/evidence/r01/production-rollback-target-http.json",
+        "docs/site-upgrade/2026-11-18-maintenance-release.md",
+        "docs/pm/evidence/r01/maintenance-static-20261118.txt"
       ],
       "prUrl": "https://github.com/ewanqian/VIRTURA-Website/pull/5",
       "completedAt": null,

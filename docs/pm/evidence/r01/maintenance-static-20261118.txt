@@ -1,0 +1,65 @@
+Source branch: chore/upgrade-notice-20261118
+Baseline: 98ba8737767f257a9f1d59d0fd476fcd1a96634e
+Date: 2026-11-18 (Asia/Shanghai)
+
+$ node scripts/qa-site-static.mjs
+PASS: required file: CNAME
+PASS: required file: index.html
+PASS: required file: apps/index.html
+PASS: required file: apps/store.html
+PASS: required file: apps/my-space.html
+PASS: required file: apps/catalog.html
+PASS: required file: apps/store-registry.json
+PASS: required file: data/space-asset-inventory-2026.json
+PASS: required file: apps/sdk/virtura-app.schema.json
+PASS: required file: docs/pm/tasks.json
+PASS: required file: AGENTS.md
+PASS: canonical CNAME remains virtura.space
+PASS: preserve homepage anchor #top
+PASS: preserve homepage anchor #universes
+PASS: preserve homepage anchor #capabilities
+PASS: preserve homepage anchor #work
+PASS: preserve homepage anchor #delivery
+PASS: preserve homepage anchor #workflow
+PASS: preserve homepage anchor #studio
+PASS: preserve homepage anchor #people
+PASS: preserve homepage anchor #project-inquiry
+PASS: homepage retains Space route
+PASS: homepage keeps Sihui Xu entry
+PASS: asset inventory nonempty
+PASS: curated app registry nonempty
+PASS: asset inventory IDs unique
+PASS: curated app IDs unique
+PASS: all asset records have ID/title/HTTPS URL/repository
+PASS: all curated apps have ID/title/HTTPS URL/category/repository
+PASS: liveVerified requires evidence URI
+PASS: deviceVerified requires real evidence URI
+PASS: legacy Space entry still leads to curated store
+PASS: legacy Space entry still leads to Atlas
+PASS: store consumes curated registry
+PASS: My Space consumes curated registry
+PASS: local save key consistent across store and My Space
+PASS: task manifest contains 10 program research tracks
+PASS: task IDs unique
+PASS: all dependencies refer to known tasks
+PASS: task statuses from controlled vocabulary
+PASS: READY tasks have completed prerequisites
+PASS: DONE tasks link actual evidence
+
+Static source gate: 0 errors; 0 media warnings.
+Browser visual QA, external app runtime, Cloudflare deployment and device XR checks are separate required release gates.
+
+Exit: 0
+
+$ python scripts/brand/qa_rejected_brand_candidates.py
+PASS: No rejected/unapproved candidate logos referenced by production routes; R02 rejection recorded.
+Design approval still requires original-source overlay and human signoff.
+
+Exit: 0
+
+$ git diff --check
+Passed (no output).
+
+HTML parsing: index.html and upgrade.html — no duplicate IDs; no missing local file or fragment targets.
+Browser screenshots and Cloudflare preview/production are separate, pending evidence.
+
