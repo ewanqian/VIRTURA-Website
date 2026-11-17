@@ -88,3 +88,14 @@ The preservation baseline is `98ba8737767f257a9f1d59d0fd476fcd1a96634e` and the 
 4. Verify real projects, Apps, images, languages and inquiry behavior on the public domain.
 
 Deleting `wrangler.toml` or applying a normal Git revert does not automatically restore the Pages build configuration. For an incorrect maintenance release, either restore a previously verified deployment, or retain an explicit Wrangler configuration and set `pages_build_output_dir` back to the approved website directory (for example, `.` when the repository root is the intended output). Verify the resulting preview and its routes before publishing, then verify the public domain. Retain the archive branch; do not delete or regenerate the historical source.
+
+
+## Verified corrected preview · 2026-11-18
+
+Commit `2f8b81c3ea2ba6e1a57b52c16823508b5e3ce407` passed Cloudflare Pages, `verify`, and `candidate-production-gate`. Its exact preview is https://d5e71ee8.virtura-website.pages.dev. The corrected three-file artifact passed all thirteen GET routes and HEAD, with HTTP 200 and `Cache-Control: no-store`. Every GET returned HTML byte-for-byte equal to the current maintenance page (18,276 bytes; SHA-256 `07d3a2b89ff4952f689a8f0d6d2946ebf9c8ae703ac043d00815f0574bd9a8ca`). See [HTTP evidence](../pm/evidence/r01/maintenance-preview-20261118.json).
+
+The repository live QA also passed with `NODE_USE_ENV_PROXY=1 MAINTENANCE_ORIGIN=https://d5e71ee8.virtura-website.pages.dev node scripts/qa-maintenance.mjs`. The proxy setting uses the execution environment's existing network configuration; the first default Node fetch timed out before any route result. No routing assertion was relaxed.
+
+Browser review verified both languages, Tab/Enter language selection, visible keyboard focus, the original logo proportions, and no horizontal overflow at the observed desktop viewport 1363×936. Browser zoom additionally exercised CSS widths 681 and 340 with no horizontal overflow; these are recorded as zoom-based checks, not claimed as exact 375/768/1440 device emulation. Screenshots: [Chinese](../pm/evidence/r01/maintenance-preview-zh-20261118.jpg), [English](../pm/evidence/r01/maintenance-preview-en-20261118.jpg). The maintenance HTML was unchanged between the initial visual preview and corrected routing preview.
+
+This evidence authorizes assessment of the temporary maintenance artifact only. Production still requires a main merge and public-domain verification; organization source handover remains blocked by the current integration's organization access. R01 therefore remains IN_REVIEW.

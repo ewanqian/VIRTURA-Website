@@ -46,7 +46,7 @@
       "status": "IN_REVIEW",
       "dependencies": [],
       "effort": "S",
-      "brief": "Verify Cloudflare/GitHub deployment from accessible evidence; do not infer success from merge or CNAME. The owner-requested whole-site maintenance release uses ./maintenance with exactly index.html, _redirects and _headers; no top-level 404. Explicit /* / 200 proxying targets the current root asset. The earlier /index.html rewrite failed preview routing; the corrected thirteen-path and HEAD preview/production checks remain pending.",
+      "brief": "Verify Cloudflare/GitHub deployment from actual page responses. The owner-requested maintenance artifact uses ./maintenance with index.html, _redirects and _headers, and an explicit /* / 200 proxy to the current root. The corrected preview passed thirteen GET routes and HEAD with 200/no-store and identical maintenance HTML. Production and organization source handover still require separate verification.",
       "inputs": [
         "docs/site-upgrade/DEPLOYMENT-OWNERSHIP.md",
         "CNAME",
@@ -70,7 +70,11 @@
         "docs/pm/evidence/r01/cloudflare-api-evidence.json",
         "docs/pm/evidence/r01/production-rollback-target-http.json",
         "docs/site-upgrade/2026-11-18-maintenance-release.md",
-        "docs/pm/evidence/r01/maintenance-static-20261118.txt"
+        "docs/pm/evidence/r01/maintenance-static-20261118.txt",
+        "docs/pm/evidence/r01/maintenance-preview-20261118.json",
+        "docs/pm/evidence/r01/maintenance-preview-zh-20261118.jpg",
+        "docs/pm/evidence/r01/maintenance-preview-en-20261118.jpg",
+        "https://github.com/ewanqian/VIRTURA-Website/pull/19"
       ],
       "prUrl": "https://github.com/ewanqian/VIRTURA-Website/pull/5",
       "completedAt": null,
