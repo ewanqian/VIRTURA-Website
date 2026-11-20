@@ -1,0 +1,8 @@
+# Avoid accidental addition of local provider exports / private operator files.
+.env
+.env.*
+!.env.example
+/docs/pm/evidence/r01/cloudflare-api-evidence.json
+/docs/pm/evidence/r01/cloudflare-readonly.py
+/docs/pm/private/
+/private-ops/

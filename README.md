@@ -15,3 +15,7 @@ VIRTURA 对外业务官网。独立于 Collective 与 SpacePort。
 ## 内容边界
 
 案例只陈述 VIRTURA 实际承担的创意、媒体内容、互动、实时系统、空间采集、技术整合或现场执行职责；不将第三方 LED 硬件、搭建或完整展览策划归为团队独立交付。
+
+## Public / internal boundary
+
+This repository publishes the VIRTURA website source, cleared assets and public QA outcomes. Provider deployment exports, account-level deployment logs and credentialed audit tooling are stored in the private VIRTURA-Team workspace, not this public repository. See [public evidence policy](docs/pm/PUBLIC_EVIDENCE_POLICY.md).
